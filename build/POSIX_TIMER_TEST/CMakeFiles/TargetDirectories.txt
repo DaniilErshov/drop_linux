@@ -1,3 +1,0 @@
-/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/POSIX_TIMER_TEST/CMakeFiles/ltest.dir
-/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/POSIX_TIMER_TEST/CMakeFiles/edit_cache.dir
-/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/POSIX_TIMER_TEST/CMakeFiles/rebuild_cache.dir

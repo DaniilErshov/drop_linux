@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/idasHeat2D_bnd.dir/idasHeat2D_bnd.c.o -o idasHeat2D_bnd  -Wl,-rpath,/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/idas:/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/nvector/serial ../../../src/idas/libsundials_idas.so.5.5.1 ../../../src/nvector/serial/libsundials_nvecserial.so.6.5.1 -lm 

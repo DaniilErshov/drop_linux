@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/cvRocket_dns.dir/cvRocket_dns.c.o -o cvRocket_dns  -Wl,-rpath,/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/cvode:/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/nvector/serial ../../../src/cvode/libsundials_cvode.so.6.5.1 ../../../src/nvector/serial/libsundials_nvecserial.so.6.5.1 -lm 
