@@ -1,0 +1,22 @@
+{
+ 	task_name: "drop_ignition",
+	T_drop: 300,
+	T_gas: 900,
+	d_drop: 750, 													//диаметр капли [мкм]
+	P: 5,															//давление [атм]
+	p_inter: 1.5,													//местонахождение интерфейса от 1 до 2
+	Nx_in_drop: 50,													//кол-во ячеек в капле
+	Nx: 150,														//полное количество ячеек
+	num_threads: 12,													//number of threads OpenMP
+	fuel: "C7H16",													//название топлива(в разных кинетиках может быть еще C7H16"
+	max_num_steps: 1e6,												
+	tend: 0.1,														//конечное время расчета [c]
+	tout: 1e-5,														//внешний шаг IDA
+	dt_max: 1e-6,													//максимальный шаг IDA
+	n_out: 1,														//каждый n_out шаг будет выводиться файл с профилем
+	initial_dt: 1e-15,												//первый шаг IDA
+	second_start: 0,												//1-запуск не с начала
+	therm: "..\\data_files\\DKM_kinetics\\therm.dat",
+	tran: "..\\data_files\\DKM_kinetics\\tran.dat",
+	chem: "..\\data_files\\DKM_kinetics\\isp_dkm_heptane.inp"
+}

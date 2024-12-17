@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\7d346e89e5a9e47eb89b730b95784fb0\test_install_all_kinsol_serial.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\examples\kinsol\serial\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\CMakeFiles\test_install_all_kinsol_serial" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E22EB612-1A09-3865-9632-E2EAE42F8E43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

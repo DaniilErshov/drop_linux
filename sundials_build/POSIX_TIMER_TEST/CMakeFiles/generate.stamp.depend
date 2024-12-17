@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeCInformation.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/Windows.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/3.28.3/CMakeCCompiler.cmake
+D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/3.28.3/CMakeRCCompiler.cmake
+D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/3.28.3/CMakeSystem.cmake
+D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST/CMakeLists.txt

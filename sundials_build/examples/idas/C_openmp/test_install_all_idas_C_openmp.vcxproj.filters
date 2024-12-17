@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\20ca64c14824168618f6a5a35d7f2e49\test_install_all_idas_C_openmp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\examples\idas\C_openmp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\C_openmp\CMakeFiles\test_install_all_idas_C_openmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E22EB612-1A09-3865-9632-E2EAE42F8E43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

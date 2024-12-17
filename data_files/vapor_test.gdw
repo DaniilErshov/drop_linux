@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetDataWorkspace>
+  <version>2.26.0.20</version>
+  <WSversion>10</WSversion>
+  <File>
+    <Name>D:\Storage\Daniil\gorenie_try1\pictures\vapor_test.jpg</Name>
+    <Width>2304</Width>
+    <Height>1296</Height>
+  </File>
+  <Line>
+    <Caption>Line #1</Caption>
+    <LineColor>2,1,1</LineColor>
+    <BkColor>254,254,254</BkColor>
+    <PtColor>220,70,220</PtColor>
+    <LineType>0</LineType>
+    <Points MF="9">2902,1111,3244,1075,3568,1084,3865,1174,4162,1327,4432,1426,4774,1552,5026,1705,5368,1957,5683,2137</Points>
+    <Points MF="9">5953,2308,6322,2515,6574,2614,6844,2875,7195,3046,7483,3334,7789,3505,8059,3739,8374,3991,8653,4216</Points>
+    <Points MF="9">8977,4432,9265,4594,9589,4882,9868,5098,10183,5341,10453,5575,10759,5854,11056,6070,11344,6322,11686,6646</Points>
+    <Points MF="9">11911,6790,12271,7105,12568,7420</Points>
+  </Line>
+  <CurrentLine>0</CurrentLine>
+  <Xmin MF="9">2839,8419,0.000000e+000</Xmin>
+  <Xmax MF="9">15511,8410,3.430000e+000</Xmax>
+  <Ymin MF="9">2857,8410,2.000000e-001</Ymin>
+  <Ymax MF="9">2857,1102,1.000000e+000</Ymax>
+  <XScale>linear</XScale>
+  <YScale>linear</YScale>
+  <Position>2688,546</Position>
+  <Zoom>
+    <Scale>40.0</Scale>
+  </Zoom>
+  <Digitize>
+    <IgnorePixels>1</IgnorePixels>
+    <LineIDMethod>2</LineIDMethod>
+  </Digitize>
+  <AutoTrace>
+    <TraceDistance>8</TraceDistance>
+    <SmoothLines>1</SmoothLines>
+  </AutoTrace>
+  <DigitizeArea>
+    <LineOrArea>0</LineOrArea>
+    <RotateAngle>0.000000</RotateAngle>
+    <dx>8.000000</dx>
+  </DigitizeArea>
+  <GridSettings>
+    <ShowGrid>0</ShowGrid>
+    <AreaType>0</AreaType>
+    <dx>15.000000</dx>
+    <dy>15.000000</dy>
+  </GridSettings>
+</GetDataWorkspace>

@@ -1,0 +1,23 @@
+!Construction and derivation of a series of skeletal chemical mechanisms for n-alkanes with uniform and decoupling structure based on reaction rate rules
+!Yachao Chang, Ming Jia, Pengzhi Wang, Bo Niu, Jiayue Liu
+
+elements
+c h n o ar 
+he 
+end
+species
+n2 nc7h16
+end
+
+!
+reactions moles cal/mole
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!                                                                      !
+!                   nc7h16 submechanism begin                          !
+!                                                                      !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+n2+nc7h16=n2+nc7h16                     5.70E+06  2.400  4.471e+03 
+
+end

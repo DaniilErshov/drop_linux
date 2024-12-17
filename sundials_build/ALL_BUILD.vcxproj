@@ -1,0 +1,1098 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{79107048-B759-3DC4-BE46-5BC3F00720FF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\ZERO_CHECK.vcxproj">
+      <Project>{885BAD8C-99B4-383B-9FD9-E2498530B8BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_KrylovDemo_prec.vcxproj">
+      <Project>{4CF61531-4333-3AEA-83A1-72B69CC5478C}</Project>
+      <Name>ark_KrylovDemo_prec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_analytic.vcxproj">
+      <Project>{C093D150-3A6D-37C6-9668-2CF8061108E8}</Project>
+      <Name>ark_analytic</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_analytic_mels.vcxproj">
+      <Project>{0C29643E-5404-3ABE-AC9C-7DFAB02F268A}</Project>
+      <Name>ark_analytic_mels</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_analytic_nonlin.vcxproj">
+      <Project>{BA56AC7D-08D5-3F34-95D6-49F76AF49B24}</Project>
+      <Name>ark_analytic_nonlin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_brusselator.vcxproj">
+      <Project>{B4C71BC4-B186-374D-A6E6-542F50C30545}</Project>
+      <Name>ark_brusselator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_brusselator1D.vcxproj">
+      <Project>{BC02B581-992D-3278-A572-2C95B180BE23}</Project>
+      <Name>ark_brusselator1D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_brusselator1D_imexmri.vcxproj">
+      <Project>{5DA79E25-DB02-3D16-9017-60D73DEAC3AF}</Project>
+      <Name>ark_brusselator1D_imexmri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_manyvector\ark_brusselator1D_manyvec.vcxproj">
+      <Project>{0C8BC596-E43A-3A3F-AFFA-5D450109EB3E}</Project>
+      <Name>ark_brusselator1D_manyvec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_openmp\ark_brusselator1D_omp.vcxproj">
+      <Project>{AE0F1DE3-F597-3D26-8D4A-439B91991018}</Project>
+      <Name>ark_brusselator1D_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_brusselator_1D_mri.vcxproj">
+      <Project>{61AF5331-7E56-35AB-B71E-F95851D7D2DB}</Project>
+      <Name>ark_brusselator_1D_mri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_brusselator_fp.vcxproj">
+      <Project>{127D3D55-B8FB-3504-8FA4-3B94B99CA36A}</Project>
+      <Name>ark_brusselator_fp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_brusselator_mri.vcxproj">
+      <Project>{5CC307D1-3682-3F77-8E01-9DE0F03D7889}</Project>
+      <Name>ark_brusselator_mri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_heat1D.vcxproj">
+      <Project>{981C0440-5500-3A1B-88CD-6B855E0B1F1C}</Project>
+      <Name>ark_heat1D</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_heat1D_adapt.vcxproj">
+      <Project>{C5CD4654-C20C-3B58-BB83-D2A2EB6AFA39}</Project>
+      <Name>ark_heat1D_adapt</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_openmp\ark_heat1D_omp.vcxproj">
+      <Project>{EFAC7C31-EE66-39B9-83CB-4418AABD5B47}</Project>
+      <Name>ark_heat1D_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_kpr_mri.vcxproj">
+      <Project>{7A4AE011-BA74-3165-9D7D-68667850E906}</Project>
+      <Name>ark_kpr_mri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_onewaycouple_mri.vcxproj">
+      <Project>{AB0E8559-F709-36D1-B1D0-8670650F9990}</Project>
+      <Name>ark_onewaycouple_mri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_reaction_diffusion_mri.vcxproj">
+      <Project>{99E4092B-2843-3E9F-847D-1C998C3FCAE0}</Project>
+      <Name>ark_reaction_diffusion_mri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_robertson.vcxproj">
+      <Project>{4208D647-A635-3418-B857-3B019C7729D4}</Project>
+      <Name>ark_robertson</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_robertson_constraints.vcxproj">
+      <Project>{8356EB0F-93BF-3B08-AB5A-9C5F941425A5}</Project>
+      <Name>ark_robertson_constraints</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_robertson_root.vcxproj">
+      <Project>{C82B9CAF-379C-3984-975D-554C268ABC5D}</Project>
+      <Name>ark_robertson_root</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\ark_twowaycouple_mri.vcxproj">
+      <Project>{B9C825BB-5E1C-3569-9B44-6209952CDFD0}</Project>
+      <Name>ark_twowaycouple_mri</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvAdvDiff_bnd.vcxproj">
+      <Project>{E02AA39C-260F-325D-8E12-0BC34ADB413C}</Project>
+      <Name>cvAdvDiff_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\C_openmp\cvAdvDiff_bnd_omp.vcxproj">
+      <Project>{E77DD8FD-FC52-32C8-91A0-3EF81BD264B6}</Project>
+      <Name>cvAdvDiff_bnd_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvAnalytic_mels.vcxproj">
+      <Project>{C4366CC3-8AF1-3447-BE00-2D1ABBA427BE}</Project>
+      <Name>cvAnalytic_mels</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvDirectDemo_ls.vcxproj">
+      <Project>{0B0A434E-1E38-3E28-A8A4-5922A3858EFE}</Project>
+      <Name>cvDirectDemo_ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvDisc_dns.vcxproj">
+      <Project>{9754C52E-6C7A-3946-91D6-EF11F8F67FD1}</Project>
+      <Name>cvDisc_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvDiurnal_kry.vcxproj">
+      <Project>{CB725218-D2C3-37D4-B7DF-1941CECD5774}</Project>
+      <Name>cvDiurnal_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvDiurnal_kry_bp.vcxproj">
+      <Project>{9E3CCF06-32CE-379C-9F95-50BE3E11C148}</Project>
+      <Name>cvDiurnal_kry_bp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvKrylovDemo_ls.vcxproj">
+      <Project>{5DA153F6-9EB9-34E7-8852-02B144EC79A1}</Project>
+      <Name>cvKrylovDemo_ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvKrylovDemo_prec.vcxproj">
+      <Project>{8B5FC774-B06D-3EB7-AFD3-827092DF7407}</Project>
+      <Name>cvKrylovDemo_prec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvParticle_dns.vcxproj">
+      <Project>{4D353AEA-994C-3545-9B04-1DCDE75F25A0}</Project>
+      <Name>cvParticle_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvPendulum_dns.vcxproj">
+      <Project>{B78032F4-40CF-327A-A628-C145730D0787}</Project>
+      <Name>cvPendulum_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvRoberts_dns.vcxproj">
+      <Project>{5C08F59A-09B0-3ADE-A586-B219C5CB1F37}</Project>
+      <Name>cvRoberts_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvRoberts_dns_constraints.vcxproj">
+      <Project>{12FE3125-FFC2-3184-ABA8-EC1DF733DACB}</Project>
+      <Name>cvRoberts_dns_constraints</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvRoberts_dns_negsol.vcxproj">
+      <Project>{47F1FECE-8DF4-3BD8-BF9C-EE2C8CDBB24C}</Project>
+      <Name>cvRoberts_dns_negsol</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvRoberts_dns_uw.vcxproj">
+      <Project>{ADFD2F9E-22B6-3C7D-AECC-2E1EBDF7E456}</Project>
+      <Name>cvRoberts_dns_uw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\cvRocket_dns.vcxproj">
+      <Project>{FF55CAD4-8821-34E0-9051-E0A90C6A0D29}</Project>
+      <Name>cvRocket_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsAdvDiff_ASAi_bnd.vcxproj">
+      <Project>{052C6E79-9B31-3923-AB47-7ADF5B7ABFBD}</Project>
+      <Name>cvsAdvDiff_ASAi_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsAdvDiff_FSA_non.vcxproj">
+      <Project>{9DD4ABC6-7089-36E1-A6AB-704B485B715E}</Project>
+      <Name>cvsAdvDiff_FSA_non</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsAdvDiff_bnd.vcxproj">
+      <Project>{BC8F8AAA-31BE-39E1-9421-F8B5345FE395}</Project>
+      <Name>cvsAdvDiff_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\C_openmp\cvsAdvDiff_bnd_omp.vcxproj">
+      <Project>{142D93C8-E0F7-3D40-97E9-CE4E6B0D40A5}</Project>
+      <Name>cvsAdvDiff_bnd_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsAnalytic_mels.vcxproj">
+      <Project>{749774E4-45DA-3AA9-8619-879F98BCAB1B}</Project>
+      <Name>cvsAnalytic_mels</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsDirectDemo_ls.vcxproj">
+      <Project>{4798655C-D812-3FB3-9789-5BA9073E0778}</Project>
+      <Name>cvsDirectDemo_ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsDiurnal_FSA_kry.vcxproj">
+      <Project>{ED64871D-D525-30D1-9139-63CFA477656D}</Project>
+      <Name>cvsDiurnal_FSA_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsDiurnal_kry.vcxproj">
+      <Project>{0D3BD796-BCBD-33EF-9F4E-5E74D1E35323}</Project>
+      <Name>cvsDiurnal_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsDiurnal_kry_bp.vcxproj">
+      <Project>{88865492-B7A9-3BBA-957B-2ACFF2D5D594}</Project>
+      <Name>cvsDiurnal_kry_bp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsFoodWeb_ASAi_kry.vcxproj">
+      <Project>{852CDFC1-6E23-384D-AE5A-A267BA34854E}</Project>
+      <Name>cvsFoodWeb_ASAi_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsFoodWeb_ASAp_kry.vcxproj">
+      <Project>{D01562D5-D346-3AA5-8A41-5D1A3DD16346}</Project>
+      <Name>cvsFoodWeb_ASAp_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsHessian_ASA_FSA.vcxproj">
+      <Project>{A2BD003A-A978-3B8E-9D1C-963C2C5A05F5}</Project>
+      <Name>cvsHessian_ASA_FSA</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsKrylovDemo_ls.vcxproj">
+      <Project>{BA2E1B68-A87B-3EBD-AB7B-C7933C2BFBFA}</Project>
+      <Name>cvsKrylovDemo_ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsKrylovDemo_prec.vcxproj">
+      <Project>{F2908487-0922-3AC4-96BF-74A20704EDBC}</Project>
+      <Name>cvsKrylovDemo_prec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsParticle_dns.vcxproj">
+      <Project>{820097D2-F6D2-38F8-B597-11D5D49F41C5}</Project>
+      <Name>cvsParticle_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsPendulum_dns.vcxproj">
+      <Project>{A4825935-4D54-33C8-8F24-395939EFF6A9}</Project>
+      <Name>cvsPendulum_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_ASAi_dns.vcxproj">
+      <Project>{6B62A18D-A38E-3DF5-B158-A02AF7601B98}</Project>
+      <Name>cvsRoberts_ASAi_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_ASAi_dns_constraints.vcxproj">
+      <Project>{3F0FE643-9F72-36D3-A96A-7C1C152F741C}</Project>
+      <Name>cvsRoberts_ASAi_dns_constraints</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_FSA_dns.vcxproj">
+      <Project>{8BAD8BA4-BBCB-3EF5-AA01-2882901B41BB}</Project>
+      <Name>cvsRoberts_FSA_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_FSA_dns_Switch.vcxproj">
+      <Project>{DFCEA569-7AA0-3AF2-849B-85E15EA42B7D}</Project>
+      <Name>cvsRoberts_FSA_dns_Switch</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_FSA_dns_constraints.vcxproj">
+      <Project>{61DEDB53-8FDF-31A0-86EE-DAEFDEE8654F}</Project>
+      <Name>cvsRoberts_FSA_dns_constraints</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_dns.vcxproj">
+      <Project>{17D570B0-4311-3C11-A53C-73FAF1F51AB2}</Project>
+      <Name>cvsRoberts_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_dns_constraints.vcxproj">
+      <Project>{B25FB1AF-D9E6-394B-A032-66C3DC871BBB}</Project>
+      <Name>cvsRoberts_dns_constraints</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\cvsRoberts_dns_uw.vcxproj">
+      <Project>{3FEACDF0-3B11-3C34-B432-203B6633F3C5}</Project>
+      <Name>cvsRoberts_dns_uw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaAnalytic_mels.vcxproj">
+      <Project>{0321369C-F9BB-3576-8A96-7DD1023BBCC6}</Project>
+      <Name>idaAnalytic_mels</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaFoodWeb_bnd.vcxproj">
+      <Project>{8157F1C8-09C0-31F1-A043-03B3EF7A4489}</Project>
+      <Name>idaFoodWeb_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\C_openmp\idaFoodWeb_bnd_omp.vcxproj">
+      <Project>{C2CACF33-02A7-3C6D-8E1F-51665B10660E}</Project>
+      <Name>idaFoodWeb_bnd_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaFoodWeb_kry.vcxproj">
+      <Project>{3ACA8743-0FAF-33B5-A25F-D5A0F52C0985}</Project>
+      <Name>idaFoodWeb_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\C_openmp\idaFoodWeb_kry_omp.vcxproj">
+      <Project>{265FEBCD-8062-3C90-9F2F-2A6638D428E9}</Project>
+      <Name>idaFoodWeb_kry_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaHeat2D_bnd.vcxproj">
+      <Project>{CEFEDCAC-4675-32FB-A669-5A634E156B01}</Project>
+      <Name>idaHeat2D_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaHeat2D_kry.vcxproj">
+      <Project>{085584A5-67CE-3BF9-B8F6-15809204A85B}</Project>
+      <Name>idaHeat2D_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaKrylovDemo_ls.vcxproj">
+      <Project>{931B0E28-3F78-370B-BCF6-4A9CC70F7F3C}</Project>
+      <Name>idaKrylovDemo_ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaRoberts_dns.vcxproj">
+      <Project>{1A20D41E-2928-3534-B03F-B843E2D43BDB}</Project>
+      <Name>idaRoberts_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\idaSlCrank_dns.vcxproj">
+      <Project>{3A1FB430-E1E6-398D-BCC7-1901ACB2C6BC}</Project>
+      <Name>idaSlCrank_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasAkzoNob_ASAi_dns.vcxproj">
+      <Project>{4FB7E742-A418-302C-B3E3-AFC818AA5ED6}</Project>
+      <Name>idasAkzoNob_ASAi_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasAkzoNob_dns.vcxproj">
+      <Project>{6104F10E-69E7-3F22-967C-DB4151A02187}</Project>
+      <Name>idasAkzoNob_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasAnalytic_mels.vcxproj">
+      <Project>{663618BC-FB49-31C3-9096-B875205ED3D4}</Project>
+      <Name>idasAnalytic_mels</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasFoodWeb_bnd.vcxproj">
+      <Project>{89845432-895C-30CC-A91C-7EA2FB1CA14C}</Project>
+      <Name>idasFoodWeb_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\C_openmp\idasFoodWeb_bnd_omp.vcxproj">
+      <Project>{B013614B-C6E2-3278-AAA3-6F6064057AAC}</Project>
+      <Name>idasFoodWeb_bnd_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\C_openmp\idasFoodWeb_kry_omp.vcxproj">
+      <Project>{8EFCF92F-2BEF-3014-82AC-CFB93ED17748}</Project>
+      <Name>idasFoodWeb_kry_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasHeat2D_bnd.vcxproj">
+      <Project>{04944C75-6583-3802-A1E4-A5A4FA8A8F5F}</Project>
+      <Name>idasHeat2D_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasHeat2D_kry.vcxproj">
+      <Project>{32FCF23D-CFAC-3D0D-9CB4-CE939479A0F8}</Project>
+      <Name>idasHeat2D_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasHessian_ASA_FSA.vcxproj">
+      <Project>{F60CA013-1BC4-30FF-AB18-5CFB101A9BEE}</Project>
+      <Name>idasHessian_ASA_FSA</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasKrylovDemo_ls.vcxproj">
+      <Project>{1BC11FF8-BB6D-340E-BFE8-C00225D3D89B}</Project>
+      <Name>idasKrylovDemo_ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasRoberts_ASAi_dns.vcxproj">
+      <Project>{3AB16092-D104-3E6C-9550-004D83F8BF04}</Project>
+      <Name>idasRoberts_ASAi_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasRoberts_FSA_dns.vcxproj">
+      <Project>{2735C500-AC87-34EA-988D-83EDA5250D6A}</Project>
+      <Name>idasRoberts_FSA_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasRoberts_dns.vcxproj">
+      <Project>{D41D55F0-0DE2-3C50-A69D-1C3581607D68}</Project>
+      <Name>idasRoberts_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasSlCrank_FSA_dns.vcxproj">
+      <Project>{18C0CCD2-0AFC-3FEC-9599-94D892779CB9}</Project>
+      <Name>idasSlCrank_FSA_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\idasSlCrank_dns.vcxproj">
+      <Project>{5EBAA1C1-125F-3B89-B494-C62358F649E2}</Project>
+      <Name>idasSlCrank_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinAnalytic_fp.vcxproj">
+      <Project>{104A6647-4C72-3E5F-A0CD-0CC23990E290}</Project>
+      <Name>kinAnalytic_fp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinFerTron_dns.vcxproj">
+      <Project>{579B9892-432E-3614-B14F-9E15C5DBFB67}</Project>
+      <Name>kinFerTron_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinFoodWeb_kry.vcxproj">
+      <Project>{B75D9154-1BE7-3B13-AA9F-8ED824453EC9}</Project>
+      <Name>kinFoodWeb_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\C_openmp\kinFoodWeb_kry_omp.vcxproj">
+      <Project>{4B5169D0-03AB-3C91-9E04-88D0B23022D2}</Project>
+      <Name>kinFoodWeb_kry_omp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinKrylovDemo_ls.vcxproj">
+      <Project>{3614077D-A569-3CA2-8DB1-2FC05D198D01}</Project>
+      <Name>kinKrylovDemo_ls</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinLaplace_bnd.vcxproj">
+      <Project>{B17A35C0-C7B9-3E85-BAE4-782798DA14E2}</Project>
+      <Name>kinLaplace_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinLaplace_picard_bnd.vcxproj">
+      <Project>{747D8236-9341-3757-8682-1CD562372459}</Project>
+      <Name>kinLaplace_picard_bnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinLaplace_picard_kry.vcxproj">
+      <Project>{B4352BE4-D78A-3378-8C58-2E2EB374A0C3}</Project>
+      <Name>kinLaplace_picard_kry</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinRoberts_fp.vcxproj">
+      <Project>{7DFCBBD6-B911-33B0-937C-9D0D8B841C9E}</Project>
+      <Name>kinRoberts_fp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\kinRoboKin_dns.vcxproj">
+      <Project>{BDAE6C23-FBD9-3FE3-8FF2-50F4EA2ED3E4}</Project>
+      <Name>kinRoboKin_dns</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\arkode\sundials_arkode_obj_shared.vcxproj">
+      <Project>{CACDF49E-DB0E-30EA-A1DD-E7276ACEFADB}</Project>
+      <Name>sundials_arkode_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\arkode\sundials_arkode_obj_static.vcxproj">
+      <Project>{B703500F-1C52-3971-A68D-BA32C16CB27F}</Project>
+      <Name>sundials_arkode_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\arkode\sundials_arkode_shared.vcxproj">
+      <Project>{5E960D2C-FDC1-3106-A0EC-A2DC19C07F3E}</Project>
+      <Name>sundials_arkode_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\arkode\sundials_arkode_static.vcxproj">
+      <Project>{B9390A1B-E49D-3156-AC3A-4904C5B5CBFC}</Project>
+      <Name>sundials_arkode_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvode\sundials_cvode_obj_shared.vcxproj">
+      <Project>{ACC2A5C6-FD63-34B1-895A-4CE143BDD8FE}</Project>
+      <Name>sundials_cvode_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvode\sundials_cvode_obj_static.vcxproj">
+      <Project>{B59A265C-46E1-3DDD-88CD-6C47B351119B}</Project>
+      <Name>sundials_cvode_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvode\sundials_cvode_shared.vcxproj">
+      <Project>{A57630EB-36F1-34EA-9F0E-DDC6989D1C23}</Project>
+      <Name>sundials_cvode_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvode\sundials_cvode_static.vcxproj">
+      <Project>{FEA69E66-8612-3E59-8E0B-49EABAAD0EB8}</Project>
+      <Name>sundials_cvode_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvodes\sundials_cvodes_obj_shared.vcxproj">
+      <Project>{A9467C46-DB68-30F4-81D7-EA7613594DA7}</Project>
+      <Name>sundials_cvodes_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvodes\sundials_cvodes_obj_static.vcxproj">
+      <Project>{5C86D555-7C0A-3686-BA2F-A1FF43D4F708}</Project>
+      <Name>sundials_cvodes_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvodes\sundials_cvodes_shared.vcxproj">
+      <Project>{2A9A2C03-5FA5-323D-A2B1-44D6755EC23D}</Project>
+      <Name>sundials_cvodes_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\cvodes\sundials_cvodes_static.vcxproj">
+      <Project>{EAF27F8A-1E09-3C52-83F7-921974666BDE}</Project>
+      <Name>sundials_cvodes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.vcxproj">
+      <Project>{4307EDBF-0D0C-3F2A-9B05-64BE9136B3EE}</Project>
+      <Name>sundials_generic_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_static.vcxproj">
+      <Project>{76EB0017-EAED-3FEB-809E-E5696EB1D9DB}</Project>
+      <Name>sundials_generic_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_shared.vcxproj">
+      <Project>{12E4E937-9C53-3FDF-814D-18F44EA5F9D7}</Project>
+      <Name>sundials_generic_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_static.vcxproj">
+      <Project>{D6281521-443B-3DCC-B71F-972A13437BB2}</Project>
+      <Name>sundials_generic_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\ida\sundials_ida_obj_shared.vcxproj">
+      <Project>{6103E5CE-C758-3C04-A454-16DCE07457B2}</Project>
+      <Name>sundials_ida_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\ida\sundials_ida_obj_static.vcxproj">
+      <Project>{7231D7E9-CFB6-3992-9307-485F87FB8D5D}</Project>
+      <Name>sundials_ida_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\ida\sundials_ida_shared.vcxproj">
+      <Project>{CCA127B5-195D-31FC-B3B0-B49FDA1F9DB0}</Project>
+      <Name>sundials_ida_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\ida\sundials_ida_static.vcxproj">
+      <Project>{8131C51B-4423-3C94-882C-FE0A4484A4E4}</Project>
+      <Name>sundials_ida_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\idas\sundials_idas_obj_shared.vcxproj">
+      <Project>{6EB13D64-68F5-3A52-A223-CBE4C2E293C4}</Project>
+      <Name>sundials_idas_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\idas\sundials_idas_obj_static.vcxproj">
+      <Project>{E02E2101-FC0C-3CEB-9A55-601F5F8BE155}</Project>
+      <Name>sundials_idas_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\idas\sundials_idas_shared.vcxproj">
+      <Project>{0F7BED0E-4544-393F-8970-F09373DB49D6}</Project>
+      <Name>sundials_idas_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\idas\sundials_idas_static.vcxproj">
+      <Project>{1D8D103C-7E7C-3BD3-AA15-0F8196B63267}</Project>
+      <Name>sundials_idas_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.vcxproj">
+      <Project>{92F9F936-2FB7-3FE7-B33D-DE9699012B83}</Project>
+      <Name>sundials_kinsol_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_static.vcxproj">
+      <Project>{BD0E279A-1C4F-3384-BE71-C5EBA9699929}</Project>
+      <Name>sundials_kinsol_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_shared.vcxproj">
+      <Project>{DC5C9D91-5CF6-371D-85CB-C29C10DACA1F}</Project>
+      <Name>sundials_kinsol_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_static.vcxproj">
+      <Project>{9A54FF50-C55A-3718-B744-BF003A7A407B}</Project>
+      <Name>sundials_kinsol_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\manyvector\sundials_nvecmanyvector_obj_shared.vcxproj">
+      <Project>{2FD8A65E-C006-3382-9F43-1DAC3434F692}</Project>
+      <Name>sundials_nvecmanyvector_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\manyvector\sundials_nvecmanyvector_obj_static.vcxproj">
+      <Project>{3C9A3161-A5CF-3921-BADF-0D37DA39DEEB}</Project>
+      <Name>sundials_nvecmanyvector_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\manyvector\sundials_nvecmanyvector_shared.vcxproj">
+      <Project>{5AFFEF44-3202-3AC5-B985-2D9107F06E89}</Project>
+      <Name>sundials_nvecmanyvector_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\manyvector\sundials_nvecmanyvector_static.vcxproj">
+      <Project>{EEF018ED-183F-35C3-B214-07CE650C6988}</Project>
+      <Name>sundials_nvecmanyvector_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\openmp\sundials_nvecopenmp_obj_shared.vcxproj">
+      <Project>{8ADC8CDA-D80C-3D82-94FE-7AA12C233A58}</Project>
+      <Name>sundials_nvecopenmp_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\openmp\sundials_nvecopenmp_obj_static.vcxproj">
+      <Project>{0DB94102-C764-3944-ADD7-4AE68B7E717F}</Project>
+      <Name>sundials_nvecopenmp_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\openmp\sundials_nvecopenmp_shared.vcxproj">
+      <Project>{13FF11E9-5F5F-3FEF-ADB6-D0451710362D}</Project>
+      <Name>sundials_nvecopenmp_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\openmp\sundials_nvecopenmp_static.vcxproj">
+      <Project>{03A38C76-B699-352A-9E43-0CDA0875CCCB}</Project>
+      <Name>sundials_nvecopenmp_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\serial\sundials_nvecserial_obj_shared.vcxproj">
+      <Project>{7ED409E6-ED29-39A1-B624-C61E766961E8}</Project>
+      <Name>sundials_nvecserial_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\serial\sundials_nvecserial_obj_static.vcxproj">
+      <Project>{B78FD118-247B-3F58-B202-80BCE4833D95}</Project>
+      <Name>sundials_nvecserial_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\serial\sundials_nvecserial_shared.vcxproj">
+      <Project>{286FBD98-27E0-3B94-9192-E2C2A75D0195}</Project>
+      <Name>sundials_nvecserial_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\serial\sundials_nvecserial_static.vcxproj">
+      <Project>{46C4819C-D700-3384-BA4D-55EBDEF34A8A}</Project>
+      <Name>sundials_nvecserial_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\band\sundials_sunlinsolband_obj_shared.vcxproj">
+      <Project>{9D0A90F8-1F64-3F11-9112-D47FC4973741}</Project>
+      <Name>sundials_sunlinsolband_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\band\sundials_sunlinsolband_obj_static.vcxproj">
+      <Project>{F04B4B8D-3E49-3E8C-8441-23FC89414DF3}</Project>
+      <Name>sundials_sunlinsolband_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\band\sundials_sunlinsolband_shared.vcxproj">
+      <Project>{0DB601C5-86D7-30AF-A07E-8EE6C5AC8B98}</Project>
+      <Name>sundials_sunlinsolband_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\band\sundials_sunlinsolband_static.vcxproj">
+      <Project>{9D721C2C-B901-3DED-89C9-83D9DFBC8053}</Project>
+      <Name>sundials_sunlinsolband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\dense\sundials_sunlinsoldense_obj_shared.vcxproj">
+      <Project>{230C994E-C4BB-358B-B744-1854C5EAEA4E}</Project>
+      <Name>sundials_sunlinsoldense_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\dense\sundials_sunlinsoldense_obj_static.vcxproj">
+      <Project>{0A977A7A-402E-304F-AC26-71CF1C7D4FEF}</Project>
+      <Name>sundials_sunlinsoldense_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\dense\sundials_sunlinsoldense_shared.vcxproj">
+      <Project>{0058E005-3C28-31BC-9A2B-5D9978FB08E3}</Project>
+      <Name>sundials_sunlinsoldense_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\dense\sundials_sunlinsoldense_static.vcxproj">
+      <Project>{266A12A0-B0B1-32FA-A649-16EF93517C83}</Project>
+      <Name>sundials_sunlinsoldense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\pcg\sundials_sunlinsolpcg_obj_shared.vcxproj">
+      <Project>{9A231828-BD42-311F-8667-911D36FE6DAF}</Project>
+      <Name>sundials_sunlinsolpcg_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\pcg\sundials_sunlinsolpcg_obj_static.vcxproj">
+      <Project>{17182770-CBCB-3D44-A3E3-A32A08B6F07B}</Project>
+      <Name>sundials_sunlinsolpcg_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\pcg\sundials_sunlinsolpcg_shared.vcxproj">
+      <Project>{AA1DD00E-A376-31D4-8880-CE61196A556C}</Project>
+      <Name>sundials_sunlinsolpcg_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\pcg\sundials_sunlinsolpcg_static.vcxproj">
+      <Project>{2918FC81-7ECB-3EA2-B98E-0D96AAA90F85}</Project>
+      <Name>sundials_sunlinsolpcg_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_obj_shared.vcxproj">
+      <Project>{EC432769-71FB-3329-89AB-F37C0E9C6F45}</Project>
+      <Name>sundials_sunlinsolspbcgs_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_obj_static.vcxproj">
+      <Project>{2E701133-FD22-3AA8-8886-0B7CD78F31C4}</Project>
+      <Name>sundials_sunlinsolspbcgs_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_shared.vcxproj">
+      <Project>{8EC6C8C8-9C86-341B-B235-96BBF7E3EAD7}</Project>
+      <Name>sundials_sunlinsolspbcgs_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_static.vcxproj">
+      <Project>{E8554234-155A-3C56-92B2-24209B5124AD}</Project>
+      <Name>sundials_sunlinsolspbcgs_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_obj_shared.vcxproj">
+      <Project>{E6D72079-58EF-3AC8-9781-A03F43D3C616}</Project>
+      <Name>sundials_sunlinsolspfgmr_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_obj_static.vcxproj">
+      <Project>{DA1BA480-B664-39E5-AEE2-95DC23CFF058}</Project>
+      <Name>sundials_sunlinsolspfgmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_shared.vcxproj">
+      <Project>{385756E0-4D42-3F00-AEA6-B8E0313D0781}</Project>
+      <Name>sundials_sunlinsolspfgmr_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_static.vcxproj">
+      <Project>{A8340015-3062-33D3-AD2B-BC184E7E9310}</Project>
+      <Name>sundials_sunlinsolspfgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_obj_shared.vcxproj">
+      <Project>{47A6D9DB-5D28-3940-8CEE-884B7D3E778F}</Project>
+      <Name>sundials_sunlinsolspgmr_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_obj_static.vcxproj">
+      <Project>{DBAFD162-C8A4-37A0-95E4-A43DB86490CA}</Project>
+      <Name>sundials_sunlinsolspgmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_shared.vcxproj">
+      <Project>{FEE92747-E752-3D9C-A0BB-33AA306E9D70}</Project>
+      <Name>sundials_sunlinsolspgmr_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_static.vcxproj">
+      <Project>{B6A7976D-5A86-3D7E-A375-D0D65C590007}</Project>
+      <Name>sundials_sunlinsolspgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_obj_shared.vcxproj">
+      <Project>{A44448FC-5499-38A1-98DF-EE6649032750}</Project>
+      <Name>sundials_sunlinsolsptfqmr_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_obj_static.vcxproj">
+      <Project>{C193DAF9-0543-3100-A53F-FDD99861C7D6}</Project>
+      <Name>sundials_sunlinsolsptfqmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_shared.vcxproj">
+      <Project>{BFA489FA-9AD3-33CB-8E4A-6EFD0B92E2E8}</Project>
+      <Name>sundials_sunlinsolsptfqmr_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_static.vcxproj">
+      <Project>{E7D41431-751C-36B7-A097-782663BEB59A}</Project>
+      <Name>sundials_sunlinsolsptfqmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\band\sundials_sunmatrixband_obj_shared.vcxproj">
+      <Project>{059FCA94-9126-35DA-8132-CACBA9E0CE5E}</Project>
+      <Name>sundials_sunmatrixband_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\band\sundials_sunmatrixband_obj_static.vcxproj">
+      <Project>{1DB824D3-1A6D-3CD1-B640-93E200EEE970}</Project>
+      <Name>sundials_sunmatrixband_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\band\sundials_sunmatrixband_shared.vcxproj">
+      <Project>{0B043B48-7275-3A5C-9EAA-FF8C275CB220}</Project>
+      <Name>sundials_sunmatrixband_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\band\sundials_sunmatrixband_static.vcxproj">
+      <Project>{A08F0C59-4EA0-3A61-BF25-4D1228A1C923}</Project>
+      <Name>sundials_sunmatrixband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\dense\sundials_sunmatrixdense_obj_shared.vcxproj">
+      <Project>{F7524373-64EB-3107-BFC2-5879B51835BE}</Project>
+      <Name>sundials_sunmatrixdense_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\dense\sundials_sunmatrixdense_obj_static.vcxproj">
+      <Project>{98FC6F4B-E8E7-39B3-A7AA-0FC1ABCCFC82}</Project>
+      <Name>sundials_sunmatrixdense_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\dense\sundials_sunmatrixdense_shared.vcxproj">
+      <Project>{F71D29C2-72B8-3601-9113-4F5698E5010D}</Project>
+      <Name>sundials_sunmatrixdense_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\dense\sundials_sunmatrixdense_static.vcxproj">
+      <Project>{B852E807-7B4B-3C8F-9C46-86059EDD7118}</Project>
+      <Name>sundials_sunmatrixdense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\sparse\sundials_sunmatrixsparse_obj_shared.vcxproj">
+      <Project>{B6D65340-0B2C-3E26-A482-A4611BA6B4FE}</Project>
+      <Name>sundials_sunmatrixsparse_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\sparse\sundials_sunmatrixsparse_obj_static.vcxproj">
+      <Project>{8EAA9C3F-10A8-3832-97E1-F894A6C173C8}</Project>
+      <Name>sundials_sunmatrixsparse_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\sparse\sundials_sunmatrixsparse_shared.vcxproj">
+      <Project>{8896F931-1E37-359B-BA54-98F8B64083B7}</Project>
+      <Name>sundials_sunmatrixsparse_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\sparse\sundials_sunmatrixsparse_static.vcxproj">
+      <Project>{D58EB1A1-3E1E-3F07-8285-4D894C6D296C}</Project>
+      <Name>sundials_sunmatrixsparse_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmemory\system\sundials_sunmemsys_obj_shared.vcxproj">
+      <Project>{CCDDEEDC-D717-35F2-8690-CFEAC1D107BC}</Project>
+      <Name>sundials_sunmemsys_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmemory\system\sundials_sunmemsys_obj_static.vcxproj">
+      <Project>{59C0B88B-965E-3E45-AF86-F82BB8720018}</Project>
+      <Name>sundials_sunmemsys_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_obj_shared.vcxproj">
+      <Project>{FC23CC0F-DE3C-330A-8D13-26EB3C4166C2}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_obj_static.vcxproj">
+      <Project>{9C6EF9A9-ABBD-3DE2-938F-18EA7ED84441}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_shared.vcxproj">
+      <Project>{C577C68B-A66C-3BE5-875B-1C3850233942}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_static.vcxproj">
+      <Project>{91D0A3FA-8FB3-33F6-9627-D1915B43B769}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_obj_shared.vcxproj">
+      <Project>{66EFFD4A-E16E-3154-A7C9-69234B25948D}</Project>
+      <Name>sundials_sunnonlinsolnewton_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_obj_static.vcxproj">
+      <Project>{D534E2B8-FD82-3A42-BB31-7AA3830DA755}</Project>
+      <Name>sundials_sunnonlinsolnewton_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_shared.vcxproj">
+      <Project>{27ACA95F-97E1-37EF-B80A-B7FE510F47DB}</Project>
+      <Name>sundials_sunnonlinsolnewton_shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.vcxproj">
+      <Project>{F7443581-FEAA-3DF9-ADEC-112284C1F08A}</Project>
+      <Name>sundials_sunnonlinsolnewton_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\nvector\manyvector\test_nvector_manyvector.vcxproj">
+      <Project>{5CFA7E68-E561-3797-85E4-0C85FB7964D6}</Project>
+      <Name>test_nvector_manyvector</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\nvector\test_nvector_obj.vcxproj">
+      <Project>{6D4F1A1C-333E-3074-8920-7040C2C049D9}</Project>
+      <Name>test_nvector_obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\nvector\C_openmp\test_nvector_openmp.vcxproj">
+      <Project>{E31DB2AE-63F0-38BA-9E3E-96206955607D}</Project>
+      <Name>test_nvector_openmp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\nvector\serial\test_nvector_serial.vcxproj">
+      <Project>{1B50C953-BE33-315A-9785-B1356A828B19}</Project>
+      <Name>test_nvector_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\band\test_sunlinsol_band.vcxproj">
+      <Project>{536DFC0C-95A3-3436-B3B9-B859D39D6C22}</Project>
+      <Name>test_sunlinsol_band</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\dense\test_sunlinsol_dense.vcxproj">
+      <Project>{B2ABF7FB-2349-3A09-89A5-F640C5BB9D4E}</Project>
+      <Name>test_sunlinsol_dense</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\test_sunlinsol_obj.vcxproj">
+      <Project>{B8A9E4BC-51CE-35BF-AFD4-016E4D31362E}</Project>
+      <Name>test_sunlinsol_obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\pcg\serial\test_sunlinsol_pcg_serial.vcxproj">
+      <Project>{1A0E5776-66E8-31DF-8DD8-8DA1DC0B3566}</Project>
+      <Name>test_sunlinsol_pcg_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\spbcgs\serial\test_sunlinsol_spbcgs_serial.vcxproj">
+      <Project>{89D418B3-BDBE-3484-A9C1-6077D81F6EA5}</Project>
+      <Name>test_sunlinsol_spbcgs_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\spfgmr\serial\test_sunlinsol_spfgmr_serial.vcxproj">
+      <Project>{39726F35-5DC4-3AA3-9991-EAE89B8D211B}</Project>
+      <Name>test_sunlinsol_spfgmr_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\spgmr\serial\test_sunlinsol_spgmr_serial.vcxproj">
+      <Project>{7D8BD7C3-D0D4-37AA-954F-E3823FB201B5}</Project>
+      <Name>test_sunlinsol_spgmr_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunlinsol\sptfqmr\serial\test_sunlinsol_sptfqmr_serial.vcxproj">
+      <Project>{E81CC5AB-F142-3D20-988D-DECD0E6E427F}</Project>
+      <Name>test_sunlinsol_sptfqmr_serial</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunmatrix\band\test_sunmatrix_band.vcxproj">
+      <Project>{0A651C09-DD4E-3F13-B953-0D4DD5B7077F}</Project>
+      <Name>test_sunmatrix_band</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunmatrix\dense\test_sunmatrix_dense.vcxproj">
+      <Project>{1A4B77E6-7589-3132-8999-C65EA2E03E57}</Project>
+      <Name>test_sunmatrix_dense</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunmatrix\test_sunmatrix_obj.vcxproj">
+      <Project>{E2EA66AE-817F-3CC2-BD4D-AFE1C4629844}</Project>
+      <Name>test_sunmatrix_obj</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunmatrix\sparse\test_sunmatrix_sparse.vcxproj">
+      <Project>{30F1D235-033D-35B6-8C79-FB9F1AD19016}</Project>
+      <Name>test_sunmatrix_sparse</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunnonlinsol\fixedpoint\test_sunnonlinsol_fixedpoint.vcxproj">
+      <Project>{98769433-B30D-3D5D-94B2-1E8E9FDB9AAB}</Project>
+      <Name>test_sunnonlinsol_fixedpoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\sunnonlinsol\newton\test_sunnonlinsol_newton.vcxproj">
+      <Project>{4C69D6C2-F535-32D8-BDAD-4F5EAEECCF4B}</Project>
+      <Name>test_sunnonlinsol_newton</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

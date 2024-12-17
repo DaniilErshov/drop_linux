@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC5C9D91-5CF6-371D-85CB-C29C10DACA1F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sundials_kinsol_shared</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sundials_kinsol_shared.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sundials_kinsol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_kinsol_shared.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_kinsol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_kinsol_shared.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_kinsol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_kinsol_shared.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_kinsol</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/Debug/sundials_kinsol.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/Debug/sundials_kinsol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/Release/sundials_kinsol.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/Release/sundials_kinsol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/MinSizeRel/sundials_kinsol.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/MinSizeRel/sundials_kinsol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";sundials_kinsol_shared_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\include;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/RelWithDebInfo/sundials_kinsol.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/bin/RelWithDebInfo/sundials_kinsol.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\src\kinsol\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/src/kinsol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/src/kinsol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/src/kinsol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/src/kinsol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/src/kinsol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/src/kinsol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/src/kinsol/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/src/kinsol/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.dir\$(Configuration)\kinsol.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.dir\$(Configuration)\kinsol_bbdpre.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.dir\$(Configuration)\kinsol_direct.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.dir\$(Configuration)\kinsol_io.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.dir\$(Configuration)\kinsol_ls.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.dir\$(Configuration)\kinsol_spils.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_band.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_context.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_dense.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_direct.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_iterative.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_linearsolver.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_logger.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_math.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_matrix.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_memory.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_nonlinearsolver.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_nvector.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_nvector_senswrapper.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.dir\$(Configuration)\sundials_version.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmemory\system\sundials_sunmemsys_obj_shared.dir\$(Configuration)\sundials_system_memory.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\serial\sundials_nvecserial_obj_shared.dir\$(Configuration)\nvector_serial.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\band\sundials_sunmatrixband_obj_shared.dir\$(Configuration)\sunmatrix_band.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\dense\sundials_sunmatrixdense_obj_shared.dir\$(Configuration)\sunmatrix_dense.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\sparse\sundials_sunmatrixsparse_obj_shared.dir\$(Configuration)\sunmatrix_sparse.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\band\sundials_sunlinsolband_obj_shared.dir\$(Configuration)\sunlinsol_band.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\dense\sundials_sunlinsoldense_obj_shared.dir\$(Configuration)\sunlinsol_dense.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_obj_shared.dir\$(Configuration)\sunlinsol_spbcgs.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_obj_shared.dir\$(Configuration)\sunlinsol_spfgmr.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_obj_shared.dir\$(Configuration)\sunlinsol_spgmr.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_obj_shared.dir\$(Configuration)\sunlinsol_sptfqmr.obj" />
+    <Object Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\pcg\sundials_sunlinsolpcg_obj_shared.dir\$(Configuration)\sunlinsol_pcg.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\ZERO_CHECK.vcxproj">
+      <Project>{885BAD8C-99B4-383B-9FD9-E2498530B8BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sundials\sundials_generic_obj_shared.vcxproj">
+      <Project>{4307EDBF-0D0C-3F2A-9B05-64BE9136B3EE}</Project>
+      <Name>sundials_generic_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\kinsol\sundials_kinsol_obj_shared.vcxproj">
+      <Project>{92F9F936-2FB7-3FE7-B33D-DE9699012B83}</Project>
+      <Name>sundials_kinsol_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\nvector\serial\sundials_nvecserial_obj_shared.vcxproj">
+      <Project>{7ED409E6-ED29-39A1-B624-C61E766961E8}</Project>
+      <Name>sundials_nvecserial_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\band\sundials_sunlinsolband_obj_shared.vcxproj">
+      <Project>{9D0A90F8-1F64-3F11-9112-D47FC4973741}</Project>
+      <Name>sundials_sunlinsolband_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\dense\sundials_sunlinsoldense_obj_shared.vcxproj">
+      <Project>{230C994E-C4BB-358B-B744-1854C5EAEA4E}</Project>
+      <Name>sundials_sunlinsoldense_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\pcg\sundials_sunlinsolpcg_obj_shared.vcxproj">
+      <Project>{9A231828-BD42-311F-8667-911D36FE6DAF}</Project>
+      <Name>sundials_sunlinsolpcg_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_obj_shared.vcxproj">
+      <Project>{EC432769-71FB-3329-89AB-F37C0E9C6F45}</Project>
+      <Name>sundials_sunlinsolspbcgs_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_obj_shared.vcxproj">
+      <Project>{E6D72079-58EF-3AC8-9781-A03F43D3C616}</Project>
+      <Name>sundials_sunlinsolspfgmr_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_obj_shared.vcxproj">
+      <Project>{47A6D9DB-5D28-3940-8CEE-884B7D3E778F}</Project>
+      <Name>sundials_sunlinsolspgmr_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_obj_shared.vcxproj">
+      <Project>{A44448FC-5499-38A1-98DF-EE6649032750}</Project>
+      <Name>sundials_sunlinsolsptfqmr_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\band\sundials_sunmatrixband_obj_shared.vcxproj">
+      <Project>{059FCA94-9126-35DA-8132-CACBA9E0CE5E}</Project>
+      <Name>sundials_sunmatrixband_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\dense\sundials_sunmatrixdense_obj_shared.vcxproj">
+      <Project>{F7524373-64EB-3107-BFC2-5879B51835BE}</Project>
+      <Name>sundials_sunmatrixdense_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmatrix\sparse\sundials_sunmatrixsparse_obj_shared.vcxproj">
+      <Project>{B6D65340-0B2C-3E26-A482-A4611BA6B4FE}</Project>
+      <Name>sundials_sunmatrixsparse_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\src\sunmemory\system\sundials_sunmemsys_obj_shared.vcxproj">
+      <Project>{CCDDEEDC-D717-35F2-8690-CFEAC1D107BC}</Project>
+      <Name>sundials_sunmemsys_obj_shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

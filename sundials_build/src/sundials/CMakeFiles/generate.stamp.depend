@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCompilerFlag.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckSourceCompiles.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
+D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/exportheader.cmake.in
+D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/src/sundials/CMakeLists.txt

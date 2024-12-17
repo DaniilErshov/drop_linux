@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EF83D166-D915-38FE-B071-E52EA4170715}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>test_install_all</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\442ad0187d100c9546ced07bc2792f24\test_install_all.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -E cmake_echo_color --cyan "All installation tests complete."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\test_install_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -E cmake_echo_color --cyan "All installation tests complete."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\test_install_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -E cmake_echo_color --cyan "All installation tests complete."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\test_install_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -E cmake_echo_color --cyan "All installation tests complete."
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\test_install_all</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\bin\cmake.exe -SD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1 -BD:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build --check-stamp-file D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeParseImplicitLinkInfo.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakePrintHelpers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeRCInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTest.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestTargets.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CTestUseLaunchers.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckCSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFile.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\CheckTypeSize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Compiler\MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\DartConfiguration.tcl.in;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindGit.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindOpenMP.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\FindPackageMessage.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\GNUInstallDirs.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Internal\CheckSourceCompiles.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\Windows.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;D:\Storage\Daniil\cmake\cmake-3.28.3-windows-x86_64\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsSetupTesting.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials\sundials-6.5.1\include\sundials\sundials_config.in;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeRCCompiler.cmake;D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\3.28.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\CMakeFiles\test_install_all">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\ZERO_CHECK.vcxproj">
+      <Project>{885BAD8C-99B4-383B-9FD9-E2498530B8BD}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_manyvector\test_install_all_arkode_C_manyvector.vcxproj">
+      <Project>{12E2DDEC-7BC2-37B7-B1F8-A865ED25DF5C}</Project>
+      <Name>test_install_all_arkode_C_manyvector</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_openmp\test_install_all_arkode_C_openmp.vcxproj">
+      <Project>{230BEFFA-156B-3966-9316-25E9BD7604C3}</Project>
+      <Name>test_install_all_arkode_C_openmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\arkode\C_serial\test_install_all_arkode_C_serial.vcxproj">
+      <Project>{8C30E828-CFD8-3CA1-B2E2-1737B1F245C6}</Project>
+      <Name>test_install_all_arkode_C_serial</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\C_openmp\test_install_all_cvode_C_openmp.vcxproj">
+      <Project>{2327EF04-50DC-334C-B12E-04183BFB9EAB}</Project>
+      <Name>test_install_all_cvode_C_openmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvode\serial\test_install_all_cvode_serial.vcxproj">
+      <Project>{1E2C25A2-7CEF-3DE2-9102-702133F9EB91}</Project>
+      <Name>test_install_all_cvode_serial</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\C_openmp\test_install_all_cvodes_C_openmp.vcxproj">
+      <Project>{BA7C659C-3BA4-3773-8886-FED23AF0500F}</Project>
+      <Name>test_install_all_cvodes_C_openmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\cvodes\serial\test_install_all_cvodes_serial.vcxproj">
+      <Project>{0907305D-8B0F-3903-BDED-F5518C5A3DDC}</Project>
+      <Name>test_install_all_cvodes_serial</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\C_openmp\test_install_all_ida_C_openmp.vcxproj">
+      <Project>{F0C12A83-5A36-383E-87AB-DEE0C63693EC}</Project>
+      <Name>test_install_all_ida_C_openmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\ida\serial\test_install_all_ida_serial.vcxproj">
+      <Project>{035D6B27-1487-31FA-BE90-832BCF3EF66E}</Project>
+      <Name>test_install_all_ida_serial</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\C_openmp\test_install_all_idas_C_openmp.vcxproj">
+      <Project>{898F556D-736E-3B30-B562-F08C60B17B71}</Project>
+      <Name>test_install_all_idas_C_openmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\idas\serial\test_install_all_idas_serial.vcxproj">
+      <Project>{6443A07F-ED6B-3119-B21C-DF52A5EF8554}</Project>
+      <Name>test_install_all_idas_serial</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\C_openmp\test_install_all_kinsol_C_openmp.vcxproj">
+      <Project>{D3B6CA2C-083E-349F-A714-B90E37CA9819}</Project>
+      <Name>test_install_all_kinsol_C_openmp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Daniil\gorenie_version\gorenie_try1_10\sundials_build\examples\kinsol\serial\test_install_all_kinsol_serial.vcxproj">
+      <Project>{67FEEFB7-524E-36E0-88BC-282A406F0D6D}</Project>
+      <Name>test_install_all_kinsol_serial</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

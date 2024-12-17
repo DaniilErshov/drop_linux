@@ -1,0 +1,1168 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+      РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:07.
+      
+      РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      PrepareForBuild:
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\".
+        РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        РЎРѕР·РґР°РЅРёРµ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Р¤Р°Р№Р» "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+        РћР±СЂР°С‰РµРЅРёРµ Рє "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+      
+      РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+          РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+          РћС€РёР±РѕРє: 0
+      
+      РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.86
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/3.28.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-nq9vl2"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-nq9vl2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-nq9vl2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ece48.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:08.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-nq9vl2\\cmTC_ece48.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_ece48.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-nq9vl2\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_ece48.dir\\Debug\\cmTC_ece48.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_ece48.dir\\Debug\\cmTC_ece48.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_ece48.dir\\Debug\\cmTC_ece48.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ece48.dir\\Debug\\\\" /Fd"cmTC_ece48.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\cmake\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ece48.dir\\Debug\\\\" /Fd"cmTC_ece48.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\cmake\\cmake-3.28.3-windows-x86_64\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-nq9vl2\\Debug\\cmTC_ece48.exe" /INCREMENTAL /ILK:"cmTC_ece48.dir\\Debug\\cmTC_ece48.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-nq9vl2/Debug/cmTC_ece48.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-nq9vl2/Debug/cmTC_ece48.lib" /MACHINE:X64  /machine:x64 cmTC_ece48.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ece48.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-nq9vl2\\Debug\\cmTC_ece48.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_ece48.dir\\Debug\\cmTC_ece48.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_ece48.dir\\Debug\\cmTC_ece48.tlog\\cmTC_ece48.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-nq9vl2\\cmTC_ece48.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.95
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:250 (check_include_file)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1xjapx"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1xjapx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1xjapx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2be07.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:10.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1xjapx\\cmTC_2be07.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_2be07.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1xjapx\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_2be07.dir\\Debug\\cmTC_2be07.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_2be07.dir\\Debug\\cmTC_2be07.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_2be07.dir\\Debug\\cmTC_2be07.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2be07.dir\\Debug\\\\" /Fd"cmTC_2be07.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1xjapx\\CheckIncludeFile.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2be07.dir\\Debug\\\\" /Fd"cmTC_2be07.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1xjapx\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1xjapx\\Debug\\cmTC_2be07.exe" /INCREMENTAL /ILK:"cmTC_2be07.dir\\Debug\\cmTC_2be07.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1xjapx/Debug/cmTC_2be07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1xjapx/Debug/cmTC_2be07.lib" /MACHINE:X64  /machine:x64 cmTC_2be07.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_2be07.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1xjapx\\Debug\\cmTC_2be07.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_2be07.dir\\Debug\\cmTC_2be07.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_2be07.dir\\Debug\\cmTC_2be07.tlog\\cmTC_2be07.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1xjapx\\cmTC_2be07.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.89
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:251 (check_include_file)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-dmu1yt"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-dmu1yt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-dmu1yt'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d51f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:12.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-dmu1yt\\cmTC_d51f9.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_d51f9.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-dmu1yt\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_d51f9.dir\\Debug\\cmTC_d51f9.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_d51f9.dir\\Debug\\cmTC_d51f9.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_d51f9.dir\\Debug\\cmTC_d51f9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d51f9.dir\\Debug\\\\" /Fd"cmTC_d51f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-dmu1yt\\CheckIncludeFile.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d51f9.dir\\Debug\\\\" /Fd"cmTC_d51f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-dmu1yt\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-dmu1yt\\Debug\\cmTC_d51f9.exe" /INCREMENTAL /ILK:"cmTC_d51f9.dir\\Debug\\cmTC_d51f9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-dmu1yt/Debug/cmTC_d51f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-dmu1yt/Debug/cmTC_d51f9.lib" /MACHINE:X64  /machine:x64 cmTC_d51f9.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_d51f9.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-dmu1yt\\Debug\\cmTC_d51f9.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_d51f9.dir\\Debug\\cmTC_d51f9.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_d51f9.dir\\Debug\\cmTC_d51f9.tlog\\cmTC_d51f9.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-dmu1yt\\cmTC_d51f9.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.95
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-2aeatp"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-2aeatp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-2aeatp'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a7f24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:13.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-2aeatp\\cmTC_a7f24.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_a7f24.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-2aeatp\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_a7f24.dir\\Debug\\cmTC_a7f24.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_a7f24.dir\\Debug\\cmTC_a7f24.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_a7f24.dir\\Debug\\cmTC_a7f24.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7f24.dir\\Debug\\\\" /Fd"cmTC_a7f24.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-2aeatp\\CheckIncludeFile.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7f24.dir\\Debug\\\\" /Fd"cmTC_a7f24.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-2aeatp\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-2aeatp\\Debug\\cmTC_a7f24.exe" /INCREMENTAL /ILK:"cmTC_a7f24.dir\\Debug\\cmTC_a7f24.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-2aeatp/Debug/cmTC_a7f24.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-2aeatp/Debug/cmTC_a7f24.lib" /MACHINE:X64  /machine:x64 cmTC_a7f24.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a7f24.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-2aeatp\\Debug\\cmTC_a7f24.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_a7f24.dir\\Debug\\cmTC_a7f24.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_a7f24.dir\\Debug\\cmTC_a7f24.tlog\\cmTC_a7f24.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-2aeatp\\cmTC_a7f24.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:146 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckTypeSize.cmake:271 (__check_type_size_impl)"
+      - "cmake/SundialsIndexSize.cmake:36 (check_type_size)"
+      - "cmake/SundialsSetupCompilers.cmake:21 (include)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1szh6k"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1szh6k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "HAVE_HAS_int64_t"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1szh6k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e9e6c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:14.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1szh6k\\cmTC_e9e6c.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_e9e6c.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1szh6k\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_e9e6c.dir\\Debug\\cmTC_e9e6c.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_e9e6c.dir\\Debug\\cmTC_e9e6c.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_e9e6c.dir\\Debug\\cmTC_e9e6c.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9e6c.dir\\Debug\\\\" /Fd"cmTC_e9e6c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1szh6k\\HAS_int64_t.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9e6c.dir\\Debug\\\\" /Fd"cmTC_e9e6c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1szh6k\\HAS_int64_t.c"
+          HAS_int64_t.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1szh6k\\Debug\\cmTC_e9e6c.exe" /INCREMENTAL /ILK:"cmTC_e9e6c.dir\\Debug\\cmTC_e9e6c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1szh6k/Debug/cmTC_e9e6c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-1szh6k/Debug/cmTC_e9e6c.lib" /MACHINE:X64  /machine:x64 cmTC_e9e6c.dir\\Debug\\HAS_int64_t.obj
+          cmTC_e9e6c.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1szh6k\\Debug\\cmTC_e9e6c.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_e9e6c.dir\\Debug\\cmTC_e9e6c.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_e9e6c.dir\\Debug\\cmTC_e9e6c.tlog\\cmTC_e9e6c.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-1szh6k\\cmTC_e9e6c.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:01.04
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:136 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-6jggjs"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-6jggjs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-6jggjs'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_34512.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:15.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\cmTC_34512.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_34512.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_34512.dir\\Debug\\cmTC_34512.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_34512.dir\\Debug\\cmTC_34512.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_34512.dir\\Debug\\cmTC_34512.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34512.dir\\Debug\\\\" /Fd"cmTC_34512.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34512.dir\\Debug\\\\" /Fd"cmTC_34512.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\src.c(8,1): warning C4700: РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РЅРµРёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅРЅР°СЏ Р»РѕРєР°Р»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ "args" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\cmTC_34512.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\Debug\\cmTC_34512.exe" /INCREMENTAL /ILK:"cmTC_34512.dir\\Debug\\cmTC_34512.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-6jggjs/Debug/cmTC_34512.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-6jggjs/Debug/cmTC_34512.lib" /MACHINE:X64  /machine:x64 cmTC_34512.dir\\Debug\\src.obj
+          cmTC_34512.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\Debug\\cmTC_34512.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_34512.dir\\Debug\\cmTC_34512.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_34512.dir\\Debug\\cmTC_34512.tlog\\cmTC_34512.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\cmTC_34512.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\cmTC_34512.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\src.c(8,1): warning C4700: РёСЃРїРѕР»СЊР·РѕРІР°РЅР° РЅРµРёРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅРЅР°СЏ Р»РѕРєР°Р»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ "args" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-6jggjs\\cmTC_34512.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 1
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.91
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:158 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-355d1k"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-355d1k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-355d1k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1b822.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:17.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-355d1k\\cmTC_1b822.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_1b822.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-355d1k\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_1b822.dir\\Debug\\cmTC_1b822.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_1b822.dir\\Debug\\cmTC_1b822.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_1b822.dir\\Debug\\cmTC_1b822.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b822.dir\\Debug\\\\" /Fd"cmTC_1b822.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-355d1k\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1b822.dir\\Debug\\\\" /Fd"cmTC_1b822.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-355d1k\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-355d1k\\Debug\\cmTC_1b822.exe" /INCREMENTAL /ILK:"cmTC_1b822.dir\\Debug\\cmTC_1b822.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-355d1k/Debug/cmTC_1b822.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-355d1k/Debug/cmTC_1b822.lib" /MACHINE:X64  /machine:x64 cmTC_1b822.dir\\Debug\\src.obj
+          cmTC_1b822.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-355d1k\\Debug\\cmTC_1b822.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_1b822.dir\\Debug\\cmTC_1b822.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_1b822.dir\\Debug\\cmTC_1b822.tlog\\cmTC_1b822.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-355d1k\\cmTC_1b822.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.99
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:187 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-kir8xf"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-kir8xf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-kir8xf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0a5f2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:18.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-kir8xf\\cmTC_0a5f2.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_0a5f2.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-kir8xf\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_0a5f2.dir\\Debug\\cmTC_0a5f2.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_0a5f2.dir\\Debug\\cmTC_0a5f2.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_0a5f2.dir\\Debug\\cmTC_0a5f2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a5f2.dir\\Debug\\\\" /Fd"cmTC_0a5f2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-kir8xf\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0a5f2.dir\\Debug\\\\" /Fd"cmTC_0a5f2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-kir8xf\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-kir8xf\\Debug\\cmTC_0a5f2.exe" /INCREMENTAL /ILK:"cmTC_0a5f2.dir\\Debug\\cmTC_0a5f2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-kir8xf/Debug/cmTC_0a5f2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-kir8xf/Debug/cmTC_0a5f2.lib" /MACHINE:X64  /machine:x64 cmTC_0a5f2.dir\\Debug\\src.obj
+          cmTC_0a5f2.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-kir8xf\\Debug\\cmTC_0a5f2.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_0a5f2.dir\\Debug\\cmTC_0a5f2.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_0a5f2.dir\\Debug\\cmTC_0a5f2.tlog\\cmTC_0a5f2.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-kir8xf\\cmTC_0a5f2.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:201 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test SUNDIALS_C_COMPILER_HAS_INLINE"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p4tcy7"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p4tcy7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "SUNDIALS_C_COMPILER_HAS_INLINE"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p4tcy7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2726f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:19.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p4tcy7\\cmTC_2726f.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_2726f.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p4tcy7\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_2726f.dir\\Debug\\cmTC_2726f.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_2726f.dir\\Debug\\cmTC_2726f.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_2726f.dir\\Debug\\cmTC_2726f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_INLINE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2726f.dir\\Debug\\\\" /Fd"cmTC_2726f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p4tcy7\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUNDIALS_C_COMPILER_HAS_INLINE /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2726f.dir\\Debug\\\\" /Fd"cmTC_2726f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p4tcy7\\src.c"
+          src.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p4tcy7\\Debug\\cmTC_2726f.exe" /INCREMENTAL /ILK:"cmTC_2726f.dir\\Debug\\cmTC_2726f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p4tcy7/Debug/cmTC_2726f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p4tcy7/Debug/cmTC_2726f.lib" /MACHINE:X64  /machine:x64 cmTC_2726f.dir\\Debug\\src.obj
+          cmTC_2726f.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p4tcy7\\Debug\\cmTC_2726f.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_2726f.dir\\Debug\\cmTC_2726f.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_2726f.dir\\Debug\\cmTC_2726f.tlog\\cmTC_2726f.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p4tcy7\\cmTC_2726f.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.88
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:20.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "x64\\Debug\\ZERO_CHECK\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          1>Checking Build System
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "ltest.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "ltest.dir\\Debug\\ltest.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Building Custom Rule D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST/CMakeLists.txt
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (3) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:01.07
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:22.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Р”Р»СЏ РІСЃРµС… РІС‹С…РѕРґРЅС‹С… РґР°РЅРЅС‹С… РѕР±РЅРѕРІР»РµРЅРёСЏ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ.
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          РћР±СЂР°С‰РµРЅРёРµ Рє "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Р”Р»СЏ РІСЃРµС… РІС‹С…РѕРґРЅС‹С… РґР°РЅРЅС‹С… РѕР±РЅРѕРІР»РµРЅРёСЏ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (3) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.71
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "cmake/SundialsSetupCompilers.cmake:242 (check_c_source_compiles)"
+      - "CMakeLists.txt:164 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_MSG"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-5tq781"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-5tq781"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_MSG"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-5tq781'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a2048.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:23.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\cmTC_a2048.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_a2048.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_a2048.dir\\Debug\\cmTC_a2048.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_a2048.dir\\Debug\\cmTC_a2048.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_a2048.dir\\Debug\\cmTC_a2048.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_MSG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2048.dir\\Debug\\\\" /Fd"cmTC_a2048.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_MSG /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2048.dir\\Debug\\\\" /Fd"cmTC_a2048.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\src.c(4,23): warning C4996: 'somefunc': test [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\cmTC_a2048.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\Debug\\cmTC_a2048.exe" /INCREMENTAL /ILK:"cmTC_a2048.dir\\Debug\\cmTC_a2048.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-5tq781/Debug/cmTC_a2048.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-5tq781/Debug/cmTC_a2048.lib" /MACHINE:X64  /machine:x64 cmTC_a2048.dir\\Debug\\src.obj
+          cmTC_a2048.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\Debug\\cmTC_a2048.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_a2048.dir\\Debug\\cmTC_a2048.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_a2048.dir\\Debug\\cmTC_a2048.tlog\\cmTC_a2048.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\cmTC_a2048.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\cmTC_a2048.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\src.c(4,23): warning C4996: 'somefunc': test [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-5tq781\\cmTC_a2048.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 1
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:213 (check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:273 (_check_c_compiler_attribute)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "src/sundials/CMakeLists.txt:143 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED_ATTR"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8n33oj"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8n33oj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED_ATTR"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-8n33oj'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5ef18.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:24.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_5ef18.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_5ef18.dir\\Debug\\cmTC_5ef18.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_5ef18.dir\\Debug\\cmTC_5ef18.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_5ef18.dir\\Debug\\cmTC_5ef18.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ef18.dir\\Debug\\\\" /Fd"cmTC_5ef18.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED_ATTR /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ef18.dir\\Debug\\\\" /Fd"cmTC_5ef18.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,15): error C2143: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: РѕС‚СЃСѓС‚СЃС‚РІРёРµ ")" РїРµСЂРµРґ "(" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,30): error C2059: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: ) [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,31): error C2059: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: ) [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,33): error C2143: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: РѕС‚СЃСѓС‚СЃС‚РІРёРµ ")" РїРµСЂРµРґ "С‚РёРї" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,1): error C2091: С„СѓРЅРєС†РёСЏ РІРѕР·РІСЂР°С‰Р°РµС‚ С„СѓРЅРєС†РёСЋ [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,37): error C2085: somefunc: РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РІ СЃРїРёСЃРєРµ С„РѕСЂРјР°Р»СЊРЅС‹С… РїР°СЂР°РјРµС‚СЂРѕРІ [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,48): error C2143: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: РѕС‚СЃСѓС‚СЃС‚РІРёРµ ";" РїРµСЂРµРґ "{" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(2,25): warning C4013: somefunc: РЅРµС‚ РѕРїСЂРµРґРµР»РµРЅРёСЏ; РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ "extern" СЃ РІРѕР·РІСЂР°С‚РѕРј С‚РёРїР° "int" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(2,25): warning C4013: somefunc: РЅРµС‚ РѕРїСЂРµРґРµР»РµРЅРёСЏ; РїСЂРµРґРїРѕР»Р°РіР°РµС‚СЃСЏ "extern" СЃ РІРѕР·РІСЂР°С‚РѕРј С‚РёРїР° "int" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,15): error C2143: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: РѕС‚СЃСѓС‚СЃС‚РІРёРµ ")" РїРµСЂРµРґ "(" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,30): error C2059: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: ) [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,31): error C2059: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: ) [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,33): error C2143: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: РѕС‚СЃСѓС‚СЃС‚РІРёРµ ")" РїРµСЂРµРґ "С‚РёРї" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,1): error C2091: С„СѓРЅРєС†РёСЏ РІРѕР·РІСЂР°С‰Р°РµС‚ С„СѓРЅРєС†РёСЋ [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,37): error C2085: somefunc: РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚ РІ СЃРїРёСЃРєРµ С„РѕСЂРјР°Р»СЊРЅС‹С… РїР°СЂР°РјРµС‚СЂРѕРІ [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\src.c(1,48): error C2143: СЃРёРЅС‚Р°РєСЃРёС‡РµСЃРєР°СЏ РѕС€РёР±РєР°: РѕС‚СЃСѓС‚СЃС‚РІРёРµ ";" РїРµСЂРµРґ "{" [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-8n33oj\\cmTC_5ef18.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 1
+            РћС€РёР±РѕРє: 7
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:213 (check_source_compiles)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:279 (_check_c_compiler_attribute)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/GenerateExportHeader.cmake:420 (_test_compiler_has_deprecated)"
+      - "src/sundials/CMakeLists.txt:143 (generate_export_header)"
+    checks:
+      - "Performing Test COMPILER_HAS_DEPRECATED"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-10wbvv"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-10wbvv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "COMPILER_HAS_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-10wbvv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_068f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:25.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\cmTC_068f9.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_068f9.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_068f9.dir\\Debug\\cmTC_068f9.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_068f9.dir\\Debug\\cmTC_068f9.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_068f9.dir\\Debug\\cmTC_068f9.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_068f9.dir\\Debug\\\\" /Fd"cmTC_068f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\src.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_DEPRECATED /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_068f9.dir\\Debug\\\\" /Fd"cmTC_068f9.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\src.c"
+          src.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\src.c(2,25): warning C4996: 'somefunc': РѕР±СЉСЏРІР»РµРЅ deprecate [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\cmTC_068f9.vcxproj]
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\Debug\\cmTC_068f9.exe" /INCREMENTAL /ILK:"cmTC_068f9.dir\\Debug\\cmTC_068f9.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-10wbvv/Debug/cmTC_068f9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-10wbvv/Debug/cmTC_068f9.lib" /MACHINE:X64  /machine:x64 cmTC_068f9.dir\\Debug\\src.obj
+          cmTC_068f9.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\Debug\\cmTC_068f9.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_068f9.dir\\Debug\\cmTC_068f9.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_068f9.dir\\Debug\\cmTC_068f9.tlog\\cmTC_068f9.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\cmTC_068f9.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\cmTC_068f9.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\src.c(2,25): warning C4996: 'somefunc': РѕР±СЉСЏРІР»РµРЅ deprecate [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-10wbvv\\cmTC_068f9.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 1
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.90
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:78 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:56.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Р”Р»СЏ РІСЃРµС… РІС‹С…РѕРґРЅС‹С… РґР°РЅРЅС‹С… РѕР±РЅРѕРІР»РµРЅРёСЏ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ.
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          РћР±СЂР°С‰РµРЅРёРµ Рє "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Р”Р»СЏ РІСЃРµС… РІС‹С…РѕРґРЅС‹С… РґР°РЅРЅС‹С… РѕР±РЅРѕРІР»РµРЅРёСЏ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (3) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:69 (try_compile)"
+      - "cmake/tpl/SundialsPOSIXTimers.cmake:85 (posix_timers_test)"
+      - "cmake/SundialsSetupCompilers.cmake:217 (include)"
+      - "CMakeLists.txt:164 (include)"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST"
+    buildResult:
+      variable: "COMPILE_OK"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/POSIX_TIMER_TEST'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" ALL_BUILD.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:56.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" (2) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Р”Р»СЏ РІСЃРµС… РІС‹С…РѕРґРЅС‹С… РґР°РЅРЅС‹С… РѕР±РЅРѕРІР»РµРЅРёСЏ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ.
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "x64\\Debug\\ZERO_CHECK\\ZERO_CHECK.tlog\\ZERO_CHECK.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ZERO_CHECK.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (1) РІС‹РїРѕР»РЅСЏРµС‚ СЃР±РѕСЂРєСѓ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (3) РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+        InitializeBuildStatus:
+          РћР±СЂР°С‰РµРЅРёРµ Рє "ltest.dir\\Debug\\ltest.tlog\\unsuccessfulbuild".
+        CustomBuild:
+          Р”Р»СЏ РІСЃРµС… РІС‹С…РѕРґРЅС‹С… РґР°РЅРЅС‹С… РѕР±РЅРѕРІР»РµРЅРёСЏ РЅРµ С‚СЂРµР±СѓРµС‚СЃСЏ.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _POSIX_C_SOURCE=199309L /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"ltest.dir\\Debug\\\\" /Fd"ltest.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c
+          ltest.c
+        D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) СЃ РѕС€РёР±РєРѕР№.
+        
+        РћС€РёР±РєР° СЃР±РѕСЂРєРё.
+        
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ALL_BUILD.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (1) ->
+        "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj" (С†РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ) (3) ->
+        (Р¦РµР»РµРІРѕР№ РѕР±СЉРµРєС‚ ClCompile) -> 
+          D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.c(2,10): error C1083: РќРµ СѓРґР°РµС‚СЃСЏ РѕС‚РєСЂС‹С‚СЊ С„Р°Р№Р» РІРєР»СЋС‡РµРЅРёРµ: unistd.h: No such file or directory, [D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\POSIX_TIMER_TEST\\ltest.vcxproj]
+        
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 1
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.66
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "cmake/tpl/SundialsOpenMP.cmake:50 (find_package)"
+      - "cmake/SundialsSetupTPLs.cmake:36 (include)"
+      - "CMakeLists.txt:170 (include)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p6m59s"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p6m59s"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_openmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p6m59s'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3a328.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:57.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p6m59s\\cmTC_3a328.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_3a328.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p6m59s\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_3a328.dir\\Debug\\cmTC_3a328.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_3a328.dir\\Debug\\cmTC_3a328.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_3a328.dir\\Debug\\cmTC_3a328.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_3a328.dir\\Debug\\\\" /Fd"cmTC_3a328.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p6m59s\\OpenMPTryFlag.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_3a328.dir\\Debug\\\\" /Fd"cmTC_3a328.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p6m59s\\OpenMPTryFlag.c"
+          OpenMPTryFlag.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p6m59s\\Debug\\cmTC_3a328.exe" /INCREMENTAL /ILK:"cmTC_3a328.dir\\Debug\\cmTC_3a328.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p6m59s/Debug/cmTC_3a328.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-p6m59s/Debug/cmTC_3a328.lib" /MACHINE:X64  /machine:x64 cmTC_3a328.dir\\Debug\\OpenMPTryFlag.obj
+          cmTC_3a328.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p6m59s\\Debug\\cmTC_3a328.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_3a328.dir\\Debug\\cmTC_3a328.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_3a328.dir\\Debug\\cmTC_3a328.tlog\\cmTC_3a328.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-p6m59s\\cmTC_3a328.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "D:/Storage/Daniil/cmake/cmake-3.28.3-windows-x86_64/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "cmake/tpl/SundialsOpenMP.cmake:50 (find_package)"
+      - "cmake/SundialsSetupTPLs.cmake:36 (include)"
+      - "CMakeLists.txt:170 (include)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-fcor4k"
+      binary: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-fcor4k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/macros;D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials/sundials-6.5.1/cmake/tpl"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-fcor4k'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_72153.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Р’РµСЂСЃРёСЏ MSBuild 17.10.4+10fbfbf2e РґР»СЏ .NET Framework
+        РЎР±РѕСЂРєР° РЅР°С‡Р°С‚Р° 10.12.2024 14:06:59.
+        
+        РџСЂРѕРµРєС‚ "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-fcor4k\\cmTC_72153.vcxproj" РІ СѓР·Р»Рµ 1 (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        PrepareForBuild:
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_72153.dir\\Debug\\".
+          РЎС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРЅС‹Р№ РІС‹РІРѕРґ РІРєР»СЋС‡РµРЅ. Р¤РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ РґРёР°РіРЅРѕСЃС‚РёРєРё РєРѕРјРїРёР»СЏС‚РѕСЂР° Р±СѓРґРµС‚ РѕС‚СЂР°Р¶Р°С‚СЊ РёРµСЂР°СЂС…РёСЋ РѕС€РёР±РѕРє. РџРѕРґСЂРѕР±РЅРµРµ СЃРј. https://aka.ms/cpp/structured-output.
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-fcor4k\\Debug\\".
+          РЎРѕР·РґР°РЅРёРµ РєР°С‚Р°Р»РѕРіР° "cmTC_72153.dir\\Debug\\cmTC_72153.tlog\\".
+        InitializeBuildStatus:
+          РЎРѕР·РґР°РЅРёРµ "cmTC_72153.dir\\Debug\\cmTC_72153.tlog\\unsuccessfulbuild", С‚Р°Рє РєР°Рє Р±С‹Р»Рѕ Р·Р°РґР°РЅРѕ "AlwaysCreate".
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_72153.dir\\Debug\\cmTC_72153.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_72153.dir\\Debug\\\\" /Fd"cmTC_72153.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-fcor4k\\OpenMPCheckVersion.c"
+          РћРїС‚РёРјРёР·РёСЂСѓСЋС‰РёР№ РєРѕРјРїРёР»СЏС‚РѕСЂ Microsoft (R) C/C++ РІРµСЂСЃРёРё 19.40.33808 РґР»СЏ x64
+          (C) РљРѕСЂРїРѕСЂР°С†РёСЏ РњР°Р№РєСЂРѕСЃРѕС„С‚ (Microsoft Corporation).  Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Zc:inline /openmp /Fo"cmTC_72153.dir\\Debug\\\\" /Fd"cmTC_72153.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-fcor4k\\OpenMPCheckVersion.c"
+          OpenMPCheckVersion.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-fcor4k\\Debug\\cmTC_72153.exe" /INCREMENTAL /ILK:"cmTC_72153.dir\\Debug\\cmTC_72153.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-fcor4k/Debug/cmTC_72153.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Storage/Daniil/gorenie_version/gorenie_try1_10/sundials_build/CMakeFiles/CMakeScratch/TryCompile-fcor4k/Debug/cmTC_72153.lib" /MACHINE:X64  /machine:x64 cmTC_72153.dir\\Debug\\OpenMPCheckVersion.obj
+          cmTC_72153.vcxproj -> D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-fcor4k\\Debug\\cmTC_72153.exe
+        FinalizeBuildStatus:
+          Р¤Р°Р№Р» "cmTC_72153.dir\\Debug\\cmTC_72153.tlog\\unsuccessfulbuild" СѓРґР°Р»СЏРµС‚СЃСЏ.
+          РћР±СЂР°С‰РµРЅРёРµ Рє "cmTC_72153.dir\\Debug\\cmTC_72153.tlog\\cmTC_72153.lastbuildstate".
+        РЎР±РѕСЂРєР° РїСЂРѕРµРєС‚Р° "D:\\Storage\\Daniil\\gorenie_version\\gorenie_try1_10\\sundials_build\\CMakeFiles\\CMakeScratch\\TryCompile-fcor4k\\cmTC_72153.vcxproj" Р·Р°РІРµСЂС€РµРЅР° (С†РµР»РµРІС‹Рµ РѕР±СЉРµРєС‚С‹ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ).
+        
+        РЎР±РѕСЂРєР° СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.
+            РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№: 0
+            РћС€РёР±РѕРє: 0
+        
+        РџСЂРѕС€Р»Рѕ РІСЂРµРјРµРЅРё 00:00:00.86
+        
+      exitCode: 0
+...
