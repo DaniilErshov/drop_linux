@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/idaKrylovDemo_ls.dir/idaKrylovDemo_ls.c.o -o idaKrylovDemo_ls  -Wl,-rpath,/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/ida:/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/nvector/serial ../../../src/ida/libsundials_ida.so.6.5.1 ../../../src/nvector/serial/libsundials_nvecserial.so.6.5.1 -lm 

@@ -15,7 +15,7 @@
 	dt_max: 1e-6,													//максимальный шаг IDA
 	n_out: 1,														//каждый n_out шаг будет выводиться файл с профилем
 	initial_dt: 1e-15,												//первый шаг IDA
-	second_start: 0,												//1-запуск не с начала
+	second_start: 1,												//1-запуск не с начала
 	therm: "..\\data_files\\DKM_kinetics\\therm.dat",
 	tran: "..\\data_files\\DKM_kinetics\\tran.dat",
 	chem: "..\\data_files\\DKM_kinetics\\isp_dkm_heptane.inp"

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/POSIX_TIMER_TEST/ltest.c
+time.h
+-
+unistd.h
+-
+

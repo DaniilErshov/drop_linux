@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ark_kpr_mri.dir/ark_kpr_mri.c.o -o ark_kpr_mri  -Wl,-rpath,/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/arkode:/home/daniilershov/autoignition/auto_ignition/auto_ignition/sundials/build/src/nvector/serial ../../../src/arkode/libsundials_arkode.so.5.5.1 ../../../src/nvector/serial/libsundials_nvecserial.so.6.5.1 -lm 

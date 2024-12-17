@@ -73,10 +73,10 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\sundials_build\bin\Debug</OutDir>
+    <OutDir>..\sundials\build\bin\Debug</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\sundials_build\bin\Release</OutDir>
+    <OutDir>..\sundials\build\bin\Release</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -112,14 +112,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>..\sundials\sundials-6.5.1\include;..\sundials_build\include;..\sundials\sundials-6.5.1\src\sundials;..\sundials_build\bin\Debug\;..\Json_reader;..\ChemKinreader\src\;..\ChemKinreader\include;..\Boost_regex\include;..\Boost_regex\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\sundials\sundials-6.5.1\include;..\sundials\build\include;..\sundials\sundials-6.5.1\src\sundials;..\sundials_build\bin\Debug\;..\Json_reader;..\ChemKinreader\src\;..\ChemKinreader\include;..\Boost_regex\include;..\Boost_regex\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
       <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>..\sundials_build\bin\Debug\sundials_kinsol.lib;..\sundials_build\bin\Debug\sundials_ida.lib;..\sundials_build\bin\Debug\sundials_nvecserial.lib;..\sundials_build\bin\Debug\sundials_nvecopenmp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\sundials\build\bin\Debug\sundials_kinsol.lib;..\sundials\build\bin\Debug\sundials_ida.lib;..\sundials\build\bin\Debug\sundials_nvecserial.lib;..\sundials\build\bin\Debug\sundials_nvecopenmp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
     </Link>
@@ -133,7 +133,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>..\sundials\sundials-6.5.1\include;..\sundials_build\include;..\sundials\sundials-6.5.1\src\sundials;..\sundials_build\bin\Release\;..\Json_reader;..\ChemKinreader\src\;..\ChemKinreader\include\;..\Boost_regex\include\;..\Boost_regex\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\sundials\sundials-6.5.1\include;..\sundials\build\include;..\sundials\sundials-6.5.1\src\sundials;..\sundials_build\bin\Release\;..\Json_reader;..\ChemKinreader\src\;..\ChemKinreader\include\;..\Boost_regex\include\;..\Boost_regex\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
@@ -141,7 +141,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>..\sundials_build\bin\Release\sundials_kinsol.lib;..\sundials_build\bin\Release\sundials_ida.lib;..\sundials_build\bin\Release\sundials_nvecserial.lib;..\sundials_build\bin\Release\sundials_nvecopenmp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>..\sundials\build\bin\Release\sundials_kinsol.lib;..\sundials\build\bin\Release\sundials_ida.lib;..\sundials\build\bin\Release\sundials_nvecserial.lib;..\sundials\build\bin\Release\sundials_nvecopenmp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>
       </AdditionalLibraryDirectories>
     </Link>
