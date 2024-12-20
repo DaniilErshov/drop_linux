@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/sunmatrix/sparse/CMakeLists.txt
+  sunmatrix_sparse.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sunmatrix\sparse\sunmatrix_sparse.c(1025,12): warning C4244: =: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sunmatrix\sparse\sunmatrix_sparse.c(1026,28): warning C4244: =: преобразование "sunindextype" в "long", возможна потеря данных
+  sundials_sunmatrixsparse_obj_static.vcxproj -> D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\sparse\sundials_sunmatrixsparse_obj_static.dir\Debug\sundials_sunmatrixsparse_obj_static.lib

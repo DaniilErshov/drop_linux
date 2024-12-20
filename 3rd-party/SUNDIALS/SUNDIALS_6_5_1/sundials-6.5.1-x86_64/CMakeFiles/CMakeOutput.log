@@ -1,0 +1,788 @@
+The system is: Linux - 6.1.0-27-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/intel/oneapi/mpi/latest/bin/mpiicx 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is IntelLLVM, found in "/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dffcd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dffcd.dir/build.make CMakeFiles/cmTC_dffcd.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb'
+Building C object CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx   -v -MD -MT CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+mpiicx for the Intel(R) MPI Library 2021.14 for Linux*
+Copyright Intel Corporation.
+Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler
+Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/netopt/intel/oneapi/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb -v -fcoverage-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb -fclang-abi-compat=17 -resource-dir /netopt/intel/oneapi/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -sys-header-deps -I /netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/umf/0.9/include -I/netopt/intel/oneapi/tbb/2022.0/env/../include -I/netopt/intel/oneapi/pti/0.10/include -I/netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/mkl/2025.0/include -I/netopt/intel/oneapi/ippcp/2025.0/include -I/netopt/intel/oneapi/ipp/2022.0/include -I/netopt/intel/oneapi/dpl/2022.7/include -I/netopt/intel/oneapi/dpcpp-ct/2025.0/include -I/netopt/intel/oneapi/dnnl/2025.0/include -I/netopt/intel/oneapi/dev-utilities/2025.0/include -I/netopt/intel/oneapi/dal/2025.0/include -I/netopt/intel/oneapi/ccl/2021.14/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/netopt/intel/oneapi/mpi/2021.14/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /netopt/intel/oneapi/mpi/2021.14/include
+ /netopt/intel/oneapi/umf/0.9/include
+ /netopt/intel/oneapi/tbb/2022.0/env/../include
+ /netopt/intel/oneapi/pti/0.10/include
+ /netopt/intel/oneapi/mkl/2025.0/include
+ /netopt/intel/oneapi/ippcp/2025.0/include
+ /netopt/intel/oneapi/ipp/2022.0/include
+ /netopt/intel/oneapi/dpl/2022.7/include
+ /netopt/intel/oneapi/dpcpp-ct/2025.0/include
+ /netopt/intel/oneapi/dnnl/2025.0/include
+ /netopt/intel/oneapi/dev-utilities/2025.0/include
+ /netopt/intel/oneapi/dal/2025.0/include
+ /netopt/intel/oneapi/ccl/2021.14/include
+ /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include
+ /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking C executable cmTC_dffcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dffcd.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx  -v CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -o cmTC_dffcd 
+mpiicx for the Intel(R) MPI Library 2021.14 for Linux*
+Copyright Intel Corporation.
+Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler
+Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dffcd /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/netopt/intel/oneapi/tcm/1.2/lib -L/netopt/intel/oneapi/umf/0.9/lib -L/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/netopt/intel/oneapi/pti/0.10/lib -L/netopt/intel/oneapi/mpi/2021.14/lib -L/netopt/intel/oneapi/mkl/2025.0/lib -L/netopt/intel/oneapi/ippcp/2025.0/lib/ -L/netopt/intel/oneapi/ipp/2022.0/lib -L/netopt/intel/oneapi/dnnl/2025.0/lib -L/netopt/intel/oneapi/dal/2025.0/lib -L/netopt/intel/oneapi/compiler/2025.0/lib -L/netopt/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -Bstatic -limf -Bdynamic -lm -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -Bdynamic -ldl -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/netopt/intel/oneapi/mpi/2021.14/include]
+    add: [/netopt/intel/oneapi/umf/0.9/include]
+    add: [/netopt/intel/oneapi/tbb/2022.0/env/../include]
+    add: [/netopt/intel/oneapi/pti/0.10/include]
+    add: [/netopt/intel/oneapi/mkl/2025.0/include]
+    add: [/netopt/intel/oneapi/ippcp/2025.0/include]
+    add: [/netopt/intel/oneapi/ipp/2022.0/include]
+    add: [/netopt/intel/oneapi/dpl/2022.7/include]
+    add: [/netopt/intel/oneapi/dpcpp-ct/2025.0/include]
+    add: [/netopt/intel/oneapi/dnnl/2025.0/include]
+    add: [/netopt/intel/oneapi/dev-utilities/2025.0/include]
+    add: [/netopt/intel/oneapi/dal/2025.0/include]
+    add: [/netopt/intel/oneapi/ccl/2021.14/include]
+    add: [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include]
+    add: [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/netopt/intel/oneapi/mpi/2021.14/include] ==> [/netopt/intel/oneapi/mpi/2021.14/include]
+  collapse include dir [/netopt/intel/oneapi/umf/0.9/include] ==> [/netopt/intel/oneapi/umf/0.9/include]
+  collapse include dir [/netopt/intel/oneapi/tbb/2022.0/env/../include] ==> [/netopt/intel/oneapi/tbb/2022.0/include]
+  collapse include dir [/netopt/intel/oneapi/pti/0.10/include] ==> [/netopt/intel/oneapi/pti/0.10/include]
+  collapse include dir [/netopt/intel/oneapi/mkl/2025.0/include] ==> [/netopt/intel/oneapi/mkl/2025.0/include]
+  collapse include dir [/netopt/intel/oneapi/ippcp/2025.0/include] ==> [/netopt/intel/oneapi/ippcp/2025.0/include]
+  collapse include dir [/netopt/intel/oneapi/ipp/2022.0/include] ==> [/netopt/intel/oneapi/ipp/2022.0/include]
+  collapse include dir [/netopt/intel/oneapi/dpl/2022.7/include] ==> [/netopt/intel/oneapi/dpl/2022.7/include]
+  collapse include dir [/netopt/intel/oneapi/dpcpp-ct/2025.0/include] ==> [/netopt/intel/oneapi/dpcpp-ct/2025.0/include]
+  collapse include dir [/netopt/intel/oneapi/dnnl/2025.0/include] ==> [/netopt/intel/oneapi/dnnl/2025.0/include]
+  collapse include dir [/netopt/intel/oneapi/dev-utilities/2025.0/include] ==> [/netopt/intel/oneapi/dev-utilities/2025.0/include]
+  collapse include dir [/netopt/intel/oneapi/dal/2025.0/include] ==> [/netopt/intel/oneapi/dal/2025.0/include]
+  collapse include dir [/netopt/intel/oneapi/ccl/2021.14/include] ==> [/netopt/intel/oneapi/ccl/2021.14/include]
+  collapse include dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include] ==> [/netopt/intel/oneapi/compiler/2025.0/opt/compiler/include]
+  collapse include dir [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include] ==> [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/netopt/intel/oneapi/mpi/2021.14/include;/netopt/intel/oneapi/umf/0.9/include;/netopt/intel/oneapi/tbb/2022.0/include;/netopt/intel/oneapi/pti/0.10/include;/netopt/intel/oneapi/mkl/2025.0/include;/netopt/intel/oneapi/ippcp/2025.0/include;/netopt/intel/oneapi/ipp/2022.0/include;/netopt/intel/oneapi/dpl/2022.7/include;/netopt/intel/oneapi/dpcpp-ct/2025.0/include;/netopt/intel/oneapi/dnnl/2025.0/include;/netopt/intel/oneapi/dev-utilities/2025.0/include;/netopt/intel/oneapi/dal/2025.0/include;/netopt/intel/oneapi/ccl/2021.14/include;/netopt/intel/oneapi/compiler/2025.0/opt/compiler/include;/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dffcd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dffcd.dir/build.make CMakeFiles/cmTC_dffcd.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb']
+  ignore line: [Building C object CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/intel/oneapi/mpi/latest/bin/mpiicx   -v -MD -MT CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [mpiicx for the Intel(R) MPI Library 2021.14 for Linux*]
+  ignore line: [Copyright Intel Corporation.]
+  ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler]
+  ignore line: [Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/netopt/intel/oneapi/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb -v -fcoverage-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-pTJgvb -fclang-abi-compat=17 -resource-dir /netopt/intel/oneapi/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -sys-header-deps -I /netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/umf/0.9/include -I/netopt/intel/oneapi/tbb/2022.0/env/../include -I/netopt/intel/oneapi/pti/0.10/include -I/netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/mkl/2025.0/include -I/netopt/intel/oneapi/ippcp/2025.0/include -I/netopt/intel/oneapi/ipp/2022.0/include -I/netopt/intel/oneapi/dpl/2022.7/include -I/netopt/intel/oneapi/dpcpp-ct/2025.0/include -I/netopt/intel/oneapi/dnnl/2025.0/include -I/netopt/intel/oneapi/dev-utilities/2025.0/include -I/netopt/intel/oneapi/dal/2025.0/include -I/netopt/intel/oneapi/ccl/2021.14/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -ferror-limit 19 -fheinous-gnu-extensions -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/netopt/intel/oneapi/mpi/2021.14/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /netopt/intel/oneapi/mpi/2021.14/include]
+  ignore line: [ /netopt/intel/oneapi/umf/0.9/include]
+  ignore line: [ /netopt/intel/oneapi/tbb/2022.0/env/../include]
+  ignore line: [ /netopt/intel/oneapi/pti/0.10/include]
+  ignore line: [ /netopt/intel/oneapi/mkl/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/ippcp/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/ipp/2022.0/include]
+  ignore line: [ /netopt/intel/oneapi/dpl/2022.7/include]
+  ignore line: [ /netopt/intel/oneapi/dpcpp-ct/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/dnnl/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/dev-utilities/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/dal/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/ccl/2021.14/include]
+  ignore line: [ /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include]
+  ignore line: [ /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_dffcd]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dffcd.dir/link.txt --verbose=1]
+  ignore line: [/opt/intel/oneapi/mpi/latest/bin/mpiicx  -v CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -o cmTC_dffcd ]
+  ignore line: [mpiicx for the Intel(R) MPI Library 2021.14 for Linux*]
+  ignore line: [Copyright Intel Corporation.]
+  ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler]
+  ignore line: [Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_dffcd /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/netopt/intel/oneapi/tcm/1.2/lib -L/netopt/intel/oneapi/umf/0.9/lib -L/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/netopt/intel/oneapi/pti/0.10/lib -L/netopt/intel/oneapi/mpi/2021.14/lib -L/netopt/intel/oneapi/mkl/2025.0/lib -L/netopt/intel/oneapi/ippcp/2025.0/lib/ -L/netopt/intel/oneapi/ipp/2022.0/lib -L/netopt/intel/oneapi/dnnl/2025.0/lib -L/netopt/intel/oneapi/dal/2025.0/lib -L/netopt/intel/oneapi/compiler/2025.0/lib -L/netopt/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -Bstatic -limf -Bdynamic -lm -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -Bdynamic -ldl -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_dffcd] ==> ignore
+    arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
+    arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> dir [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-L/netopt/intel/oneapi/tcm/1.2/lib] ==> dir [/netopt/intel/oneapi/tcm/1.2/lib]
+    arg [-L/netopt/intel/oneapi/umf/0.9/lib] ==> dir [/netopt/intel/oneapi/umf/0.9/lib]
+    arg [-L/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> dir [/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8]
+    arg [-L/netopt/intel/oneapi/pti/0.10/lib] ==> dir [/netopt/intel/oneapi/pti/0.10/lib]
+    arg [-L/netopt/intel/oneapi/mpi/2021.14/lib] ==> dir [/netopt/intel/oneapi/mpi/2021.14/lib]
+    arg [-L/netopt/intel/oneapi/mkl/2025.0/lib] ==> dir [/netopt/intel/oneapi/mkl/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/ippcp/2025.0/lib/] ==> dir [/netopt/intel/oneapi/ippcp/2025.0/lib/]
+    arg [-L/netopt/intel/oneapi/ipp/2022.0/lib] ==> dir [/netopt/intel/oneapi/ipp/2022.0/lib]
+    arg [-L/netopt/intel/oneapi/dnnl/2025.0/lib] ==> dir [/netopt/intel/oneapi/dnnl/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/dal/2025.0/lib] ==> dir [/netopt/intel/oneapi/dal/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/ccl/2021.14/lib/] ==> dir [/netopt/intel/oneapi/ccl/2021.14/lib/]
+    arg [CMakeFiles/cmTC_dffcd.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-Bstatic] ==> search static
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-Bstatic] ==> search static
+    arg [-limf] ==> lib [imf]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lirc] ==> lib [irc]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-ldl] ==> lib [dl]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> search dynamic
+    arg [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o]
+    arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> [/netopt/intel/oneapi/compiler/2025.0/opt/compiler/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/netopt/intel/oneapi/tcm/1.2/lib] ==> [/netopt/intel/oneapi/tcm/1.2/lib]
+  collapse library dir [/netopt/intel/oneapi/umf/0.9/lib] ==> [/netopt/intel/oneapi/umf/0.9/lib]
+  collapse library dir [/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> [/netopt/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8]
+  collapse library dir [/netopt/intel/oneapi/pti/0.10/lib] ==> [/netopt/intel/oneapi/pti/0.10/lib]
+  collapse library dir [/netopt/intel/oneapi/mpi/2021.14/lib] ==> [/netopt/intel/oneapi/mpi/2021.14/lib]
+  collapse library dir [/netopt/intel/oneapi/mkl/2025.0/lib] ==> [/netopt/intel/oneapi/mkl/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/ippcp/2025.0/lib/] ==> [/netopt/intel/oneapi/ippcp/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/ipp/2022.0/lib] ==> [/netopt/intel/oneapi/ipp/2022.0/lib]
+  collapse library dir [/netopt/intel/oneapi/dnnl/2025.0/lib] ==> [/netopt/intel/oneapi/dnnl/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/dal/2025.0/lib] ==> [/netopt/intel/oneapi/dal/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/ccl/2021.14/lib/] ==> [/netopt/intel/oneapi/ccl/2021.14/lib]
+  implicit libs: [svml;irng;imf;m;gcc;gcc_s;irc;dl;gcc;gcc_s;c;gcc;gcc_s;irc_s]
+  implicit objs: [/lib/x86_64-linux-gnu/Scrt1.o;/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o;/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/netopt/intel/oneapi/compiler/2025.0/lib;/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib;/netopt/intel/oneapi/compiler/2025.0/opt/compiler/lib;/lib;/netopt/intel/oneapi/tcm/1.2/lib;/netopt/intel/oneapi/umf/0.9/lib;/netopt/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8;/netopt/intel/oneapi/pti/0.10/lib;/netopt/intel/oneapi/mpi/2021.14/lib;/netopt/intel/oneapi/mkl/2025.0/lib;/netopt/intel/oneapi/ippcp/2025.0/lib;/netopt/intel/oneapi/ipp/2022.0/lib;/netopt/intel/oneapi/dnnl/2025.0/lib;/netopt/intel/oneapi/dal/2025.0/lib;/netopt/intel/oneapi/ccl/2021.14/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2vZcKR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7aeb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7aeb0.dir/build.make CMakeFiles/cmTC_7aeb0.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2vZcKR'
+Building C object CMakeFiles/cmTC_7aeb0.dir/CheckIncludeFile.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx    -MD -MT CMakeFiles/cmTC_7aeb0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_7aeb0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_7aeb0.dir/CheckIncludeFile.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2vZcKR/CheckIncludeFile.c
+Linking C executable cmTC_7aeb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aeb0.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_7aeb0.dir/CheckIncludeFile.c.o -o cmTC_7aeb0 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2vZcKR'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Qfr9jd
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20af0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20af0.dir/build.make CMakeFiles/cmTC_20af0.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Qfr9jd'
+Building C object CMakeFiles/cmTC_20af0.dir/CheckIncludeFile.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx    -MD -MT CMakeFiles/cmTC_20af0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_20af0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_20af0.dir/CheckIncludeFile.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Qfr9jd/CheckIncludeFile.c
+Linking C executable cmTC_20af0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20af0.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_20af0.dir/CheckIncludeFile.c.o -o cmTC_20af0 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Qfr9jd'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-dd7W1D
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6e7f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6e7f0.dir/build.make CMakeFiles/cmTC_6e7f0.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-dd7W1D'
+Building C object CMakeFiles/cmTC_6e7f0.dir/CheckIncludeFile.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx    -MD -MT CMakeFiles/cmTC_6e7f0.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_6e7f0.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_6e7f0.dir/CheckIncludeFile.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-dd7W1D/CheckIncludeFile.c
+Linking C executable cmTC_6e7f0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e7f0.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_6e7f0.dir/CheckIncludeFile.c.o -o cmTC_6e7f0 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-dd7W1D'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Fj7iGO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f54a1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f54a1.dir/build.make CMakeFiles/cmTC_f54a1.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Fj7iGO'
+Building C object CMakeFiles/cmTC_f54a1.dir/HAS_int64_t.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx    -MD -MT CMakeFiles/cmTC_f54a1.dir/HAS_int64_t.c.o -MF CMakeFiles/cmTC_f54a1.dir/HAS_int64_t.c.o.d -o CMakeFiles/cmTC_f54a1.dir/HAS_int64_t.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Fj7iGO/HAS_int64_t.c
+Linking C executable cmTC_f54a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f54a1.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_f54a1.dir/HAS_int64_t.c.o -o cmTC_f54a1 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Fj7iGO'
+
+
+
+Performing C SOURCE FILE Test SUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-AlAgHg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a50c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a50c8.dir/build.make CMakeFiles/cmTC_a50c8.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-AlAgHg'
+Building C object CMakeFiles/cmTC_a50c8.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DSUNDIALS_C_COMPILER_HAS_SNPRINTF_AND_VA_COPY  -std=gnu99 -MD -MT CMakeFiles/cmTC_a50c8.dir/src.c.o -MF CMakeFiles/cmTC_a50c8.dir/src.c.o.d -o CMakeFiles/cmTC_a50c8.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-AlAgHg/src.c
+Linking C executable cmTC_a50c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a50c8.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_a50c8.dir/src.c.o -o cmTC_a50c8 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-AlAgHg'
+
+
+Source file was:
+
+  #include <stdio.h>
+  #include <stdarg.h>
+  int main() {
+    int size = snprintf(NULL, 0, "%s", "snprintf works");
+    va_list args;
+    va_list tmp;
+    va_copy(tmp, args);
+    printf("%d", size);
+    return 0;
+  }
+
+
+Performing C SOURCE FILE Test SUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2qsh9u
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_558b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_558b6.dir/build.make CMakeFiles/cmTC_558b6.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2qsh9u'
+Building C object CMakeFiles/cmTC_558b6.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DSUNDIALS_C_COMPILER_HAS_MATH_PRECISIONS  -std=gnu99 -MD -MT CMakeFiles/cmTC_558b6.dir/src.c.o -MF CMakeFiles/cmTC_558b6.dir/src.c.o.d -o CMakeFiles/cmTC_558b6.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2qsh9u/src.c
+Linking C executable cmTC_558b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_558b6.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_558b6.dir/src.c.o -o cmTC_558b6  -lm 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-2qsh9u'
+
+
+Source file was:
+
+  #include <math.h>
+  int main() {
+    float a, a_result;
+    long double b, b_result;
+
+    a = 1.0F;
+    b = 1.0L;
+
+    a_result = sqrtf(a);
+    a_result = fabsf(a);
+    a_result = expf(a);
+    a_result = ceilf(a);
+    a_result = powf(a, 1.0F);
+
+    b_result = sqrtl(b);
+    b_result = fabsl(b);
+    b_result = expl(b);
+    b_result = ceill(b);
+    b_result = powl(b, 1.0L);
+
+    return 0;
+  }
+
+
+Performing C SOURCE FILE Test SUNDIALS_C_COMPILER_HAS_ISINF_ISNAN succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-ULTf5r
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bd0dd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bd0dd.dir/build.make CMakeFiles/cmTC_bd0dd.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-ULTf5r'
+Building C object CMakeFiles/cmTC_bd0dd.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DSUNDIALS_C_COMPILER_HAS_ISINF_ISNAN  -std=gnu99 -MD -MT CMakeFiles/cmTC_bd0dd.dir/src.c.o -MF CMakeFiles/cmTC_bd0dd.dir/src.c.o.d -o CMakeFiles/cmTC_bd0dd.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-ULTf5r/src.c
+Linking C executable cmTC_bd0dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd0dd.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_bd0dd.dir/src.c.o -o cmTC_bd0dd  -lm 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-ULTf5r'
+
+
+Source file was:
+
+  #include <math.h>
+  int main() {
+    double a = 0.0;
+    int result = isinf(a);
+    result = isnan(a);
+    return result;
+  }
+
+
+Performing C SOURCE FILE Test SUNDIALS_C_COMPILER_HAS_INLINE succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-kpmqk9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8771b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8771b.dir/build.make CMakeFiles/cmTC_8771b.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-kpmqk9'
+Building C object CMakeFiles/cmTC_8771b.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DSUNDIALS_C_COMPILER_HAS_INLINE  -std=gnu99 -MD -MT CMakeFiles/cmTC_8771b.dir/src.c.o -MF CMakeFiles/cmTC_8771b.dir/src.c.o.d -o CMakeFiles/cmTC_8771b.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-kpmqk9/src.c
+Linking C executable cmTC_8771b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8771b.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_8771b.dir/src.c.o -o cmTC_8771b  -lm 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-kpmqk9'
+
+
+Source file was:
+
+  static inline double add1(double a) {
+    return a + 1.0;
+  }
+  int main() {
+    double a = 0.0;
+    return add1(a) < a;
+  }
+
+
+Performing C SOURCE FILE Test COMPILER_HAS_DEPRECATED_MSG succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-5XHKEF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1eb7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a1eb7.dir/build.make CMakeFiles/cmTC_a1eb7.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-5XHKEF'
+Building C object CMakeFiles/cmTC_a1eb7.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DCOMPILER_HAS_DEPRECATED_MSG  -std=gnu99 -MD -MT CMakeFiles/cmTC_a1eb7.dir/src.c.o -MF CMakeFiles/cmTC_a1eb7.dir/src.c.o.d -o CMakeFiles/cmTC_a1eb7.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-5XHKEF/src.c
+/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-5XHKEF/src.c:4:23: warning: 'somefunc' is deprecated: test [-Wdeprecated-declarations]
+    4 |   int main() { return somefunc();}
+      |                       ^
+/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-5XHKEF/src.c:3:19: note: 'somefunc' has been explicitly marked deprecated here
+    3 |   __attribute__ ((__deprecated__(msg))) int somefunc() { return 0; }
+      |                   ^
+1 warning generated.
+Linking C executable cmTC_a1eb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1eb7.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_a1eb7.dir/src.c.o -o cmTC_a1eb7  -lm 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-5XHKEF'
+
+
+Source file was:
+
+  #define msg "test"
+  __attribute__ ((__deprecated__(msg))) int somefunc() { return 0; }
+  int main() { return somefunc();}
+
+Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_VISIBILITY succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Dkj8F9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0b791/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0b791.dir/build.make CMakeFiles/cmTC_0b791.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Dkj8F9'
+Building C object CMakeFiles/cmTC_0b791.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DCOMPILER_HAS_HIDDEN_VISIBILITY  -fvisibility=hidden -std=gnu99 -MD -MT CMakeFiles/cmTC_0b791.dir/src.c.o -MF CMakeFiles/cmTC_0b791.dir/src.c.o.d -o CMakeFiles/cmTC_0b791.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Dkj8F9/src.c
+Linking C executable cmTC_0b791
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b791.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_0b791.dir/src.c.o -o cmTC_0b791  -lm 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-Dkj8F9'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-okaNqB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1aba5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1aba5.dir/build.make CMakeFiles/cmTC_1aba5.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-okaNqB'
+Building C object CMakeFiles/cmTC_1aba5.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DCOMPILER_HAS_HIDDEN_INLINE_VISIBILITY  -fvisibility-inlines-hidden -std=gnu99 -MD -MT CMakeFiles/cmTC_1aba5.dir/src.c.o -MF CMakeFiles/cmTC_1aba5.dir/src.c.o.d -o CMakeFiles/cmTC_1aba5.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-okaNqB/src.c
+Linking C executable cmTC_1aba5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1aba5.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_1aba5.dir/src.c.o -o cmTC_1aba5  -lm 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-okaNqB'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test COMPILER_HAS_DEPRECATED_ATTR succeeded with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-yX3Urs
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7d0cc/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7d0cc.dir/build.make CMakeFiles/cmTC_7d0cc.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-yX3Urs'
+Building C object CMakeFiles/cmTC_7d0cc.dir/src.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx -DCOMPILER_HAS_DEPRECATED_ATTR  -std=gnu99 -MD -MT CMakeFiles/cmTC_7d0cc.dir/src.c.o -MF CMakeFiles/cmTC_7d0cc.dir/src.c.o.d -o CMakeFiles/cmTC_7d0cc.dir/src.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-yX3Urs/src.c
+/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-yX3Urs/src.c:2:25: warning: 'somefunc' is deprecated [-Wdeprecated-declarations]
+    2 |     int main() { return somefunc();}
+      |                         ^
+/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-yX3Urs/src.c:1:16: note: 'somefunc' has been explicitly marked deprecated here
+    1 | __attribute__((__deprecated__)) int somefunc() { return 0; }
+      |                ^
+1 warning generated.
+Linking C executable cmTC_7d0cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d0cc.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx CMakeFiles/cmTC_7d0cc.dir/src.c.o -o cmTC_7d0cc  -lm 
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-yX3Urs'
+
+
+Source file was:
+__attribute__((__deprecated__)) int somefunc() { return 0; }
+    int main() { return somefunc();}
+
+Detecting C OpenMP compiler ABI info compiled with the following output:
+Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61709/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61709.dir/build.make CMakeFiles/cmTC_61709.dir/build
+gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h'
+Building C object CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o
+/opt/intel/oneapi/mpi/latest/bin/mpiicx   -fiopenmp -v -std=gnu99 -MD -MT CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h/OpenMPTryFlag.c
+mpiicx for the Intel(R) MPI Library 2021.14 for Linux*
+Copyright Intel Corporation.
+Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler
+Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/netopt/intel/oneapi/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign,preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h -v -fcoverage-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h -fclang-abi-compat=17 -resource-dir /netopt/intel/oneapi/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -sys-header-deps -I /netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/umf/0.9/include -I/netopt/intel/oneapi/tbb/2022.0/env/../include -I/netopt/intel/oneapi/pti/0.10/include -I/netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/mkl/2025.0/include -I/netopt/intel/oneapi/ippcp/2025.0/include -I/netopt/intel/oneapi/ipp/2022.0/include -I/netopt/intel/oneapi/dpl/2022.7/include -I/netopt/intel/oneapi/dpcpp-ct/2025.0/include -I/netopt/intel/oneapi/dnnl/2025.0/include -I/netopt/intel/oneapi/dev-utilities/2025.0/include -I/netopt/intel/oneapi/dal/2025.0/include -I/netopt/intel/oneapi/ccl/2021.14/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=gnu99 -ferror-limit 19 -fheinous-gnu-extensions -fopenmp-late-outline -fopenmp-threadprivate-legacy -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -mllvm -paropt=31 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -x c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h/OpenMPTryFlag.c
+clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/include"
+ignoring duplicate directory "/netopt/intel/oneapi/mpi/2021.14/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /netopt/intel/oneapi/mpi/2021.14/include
+ /netopt/intel/oneapi/umf/0.9/include
+ /netopt/intel/oneapi/tbb/2022.0/env/../include
+ /netopt/intel/oneapi/pti/0.10/include
+ /netopt/intel/oneapi/mkl/2025.0/include
+ /netopt/intel/oneapi/ippcp/2025.0/include
+ /netopt/intel/oneapi/ipp/2022.0/include
+ /netopt/intel/oneapi/dpl/2022.7/include
+ /netopt/intel/oneapi/dpcpp-ct/2025.0/include
+ /netopt/intel/oneapi/dnnl/2025.0/include
+ /netopt/intel/oneapi/dev-utilities/2025.0/include
+ /netopt/intel/oneapi/dal/2025.0/include
+ /netopt/intel/oneapi/ccl/2021.14/include
+ /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include
+ /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+Linking C executable cmTC_61709
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61709.dir/link.txt --verbose=1
+/opt/intel/oneapi/mpi/latest/bin/mpiicx  -fiopenmp -v CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -o cmTC_61709  -v 
+mpiicx for the Intel(R) MPI Library 2021.14 for Linux*
+Copyright Intel Corporation.
+mpiicx for the Intel(R) MPI Library 2021.14 for Linux*
+Copyright Intel Corporation.
+Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler
+Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10
+Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_61709 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/netopt/intel/oneapi/tcm/1.2/lib -L/netopt/intel/oneapi/umf/0.9/lib -L/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/netopt/intel/oneapi/pti/0.10/lib -L/netopt/intel/oneapi/mpi/2021.14/lib -L/netopt/intel/oneapi/mkl/2025.0/lib -L/netopt/intel/oneapi/ippcp/2025.0/lib/ -L/netopt/intel/oneapi/ipp/2022.0/lib -L/netopt/intel/oneapi/dnnl/2025.0/lib -L/netopt/intel/oneapi/dal/2025.0/lib -L/netopt/intel/oneapi/compiler/2025.0/lib -L/netopt/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -Bstatic -limf -Bdynamic -lm -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -Bdynamic -ldl -liomp5 -L/netopt/intel/oneapi/compiler/2025.0/bin/lib -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+gmake[1]: Leaving directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h'
+
+
+
+Parsed C OpenMP implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_61709/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_61709.dir/build.make CMakeFiles/cmTC_61709.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h']
+  ignore line: [Building C object CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o]
+  ignore line: [/opt/intel/oneapi/mpi/latest/bin/mpiicx   -fiopenmp -v -std=gnu99 -MD -MT CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -MF CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o.d -o CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h/OpenMPTryFlag.c]
+  ignore line: [mpiicx for the Intel(R) MPI Library 2021.14 for Linux*]
+  ignore line: [Copyright Intel Corporation.]
+  ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler]
+  ignore line: [Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/netopt/intel/oneapi/compiler/2025.0/bin/compiler/clang" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name OpenMPTryFlag.c -mrelocation-model static -fveclib=SVML -faltmathlib=SVMLAltMathLibrary -mframe-pointer=none -fapprox-func -funsafe-math-optimizations -fno-signed-zeros -mreassociate -freciprocal-math -fdenormal-fp-math=preserve-sign preserve-sign -ffp-contract=fast -fno-rounding-math -complex-range=promoted -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -mllvm -x86-enable-unaligned-vector-move=true -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h -v -fcoverage-compilation-dir=/home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h -fclang-abi-compat=17 -resource-dir /netopt/intel/oneapi/compiler/2025.0/lib/clang/19 -dependency-file CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o.d -MT CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -sys-header-deps -I /netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/umf/0.9/include -I/netopt/intel/oneapi/tbb/2022.0/env/../include -I/netopt/intel/oneapi/pti/0.10/include -I/netopt/intel/oneapi/mpi/2021.14/include -I/netopt/intel/oneapi/mkl/2025.0/include -I/netopt/intel/oneapi/ippcp/2025.0/include -I/netopt/intel/oneapi/ipp/2022.0/include -I/netopt/intel/oneapi/dpl/2022.7/include -I/netopt/intel/oneapi/dpcpp-ct/2025.0/include -I/netopt/intel/oneapi/dnnl/2025.0/include -I/netopt/intel/oneapi/dev-utilities/2025.0/include -I/netopt/intel/oneapi/dal/2025.0/include -I/netopt/intel/oneapi/ccl/2021.14/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include -internal-isystem /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -std=gnu99 -ferror-limit 19 -fheinous-gnu-extensions -fopenmp-late-outline -fopenmp-threadprivate-legacy -fopenmp -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -vectorize-loops -vectorize-slp -mllvm -disable-hir-generate-mkl-call -mllvm -loopopt=1 -floopopt-pipeline=light -mllvm -intel-abi-compatible=true -mllvm -paropt=31 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -fintel-compatibility -fintel-libirc-allowed -fintel-libimf-allowed -o CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -x c /home/roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/CMakeFiles/CMakeScratch/TryCompile-uLdB0h/OpenMPTryFlag.c]
+  ignore line: [clang -cc1 version 19.0.0git based upon LLVM 19.0.0git default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/12/../../../../x86_64-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [ignoring duplicate directory "/netopt/intel/oneapi/mpi/2021.14/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /netopt/intel/oneapi/mpi/2021.14/include]
+  ignore line: [ /netopt/intel/oneapi/umf/0.9/include]
+  ignore line: [ /netopt/intel/oneapi/tbb/2022.0/env/../include]
+  ignore line: [ /netopt/intel/oneapi/pti/0.10/include]
+  ignore line: [ /netopt/intel/oneapi/mkl/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/ippcp/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/ipp/2022.0/include]
+  ignore line: [ /netopt/intel/oneapi/dpl/2022.7/include]
+  ignore line: [ /netopt/intel/oneapi/dpcpp-ct/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/dnnl/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/dev-utilities/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/dal/2025.0/include]
+  ignore line: [ /netopt/intel/oneapi/ccl/2021.14/include]
+  ignore line: [ /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/include]
+  ignore line: [ /netopt/intel/oneapi/compiler/2025.0/lib/clang/19/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_61709]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61709.dir/link.txt --verbose=1]
+  ignore line: [/opt/intel/oneapi/mpi/latest/bin/mpiicx  -fiopenmp -v CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -o cmTC_61709  -v ]
+  ignore line: [mpiicx for the Intel(R) MPI Library 2021.14 for Linux*]
+  ignore line: [Copyright Intel Corporation.]
+  ignore line: [mpiicx for the Intel(R) MPI Library 2021.14 for Linux*]
+  ignore line: [Copyright Intel Corporation.]
+  ignore line: [Intel(R) oneAPI DPC++/C++ Compiler 2025.0.0 (2025.0.0.20241008)]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /netopt/intel/oneapi/compiler/2025.0/bin/compiler]
+  ignore line: [Configuration file: /netopt/intel/oneapi/compiler/2025.0/bin/compiler/../icx.cfg]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/10]
+  ignore line: [Found candidate GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/12]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld" --hash-style=gnu --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_61709 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/12/crtbeginS.o -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/usr/lib/gcc/x86_64-linux-gnu/12 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-linux-gnu/12/../../.. -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib -L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib -L/lib -L/usr/lib -L/netopt/intel/oneapi/tcm/1.2/lib -L/netopt/intel/oneapi/umf/0.9/lib -L/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8 -L/netopt/intel/oneapi/pti/0.10/lib -L/netopt/intel/oneapi/mpi/2021.14/lib -L/netopt/intel/oneapi/mkl/2025.0/lib -L/netopt/intel/oneapi/ippcp/2025.0/lib/ -L/netopt/intel/oneapi/ipp/2022.0/lib -L/netopt/intel/oneapi/dnnl/2025.0/lib -L/netopt/intel/oneapi/dal/2025.0/lib -L/netopt/intel/oneapi/compiler/2025.0/lib -L/netopt/intel/oneapi/ccl/2021.14/lib/ CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o -Bstatic -lsvml -Bdynamic -Bstatic -lirng -Bdynamic -Bstatic -limf -Bdynamic -lm -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc -Bdynamic -ldl -liomp5 -L/netopt/intel/oneapi/compiler/2025.0/bin/lib -lgcc --as-needed -lgcc_s --no-as-needed -lpthread -lc -lgcc --as-needed -lgcc_s --no-as-needed -Bstatic -lirc_s -Bdynamic /usr/lib/gcc/x86_64-linux-gnu/12/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+    arg [/usr/bin/ld] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_61709] ==> ignore
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> dir [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-L/netopt/intel/oneapi/tcm/1.2/lib] ==> dir [/netopt/intel/oneapi/tcm/1.2/lib]
+    arg [-L/netopt/intel/oneapi/umf/0.9/lib] ==> dir [/netopt/intel/oneapi/umf/0.9/lib]
+    arg [-L/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> dir [/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8]
+    arg [-L/netopt/intel/oneapi/pti/0.10/lib] ==> dir [/netopt/intel/oneapi/pti/0.10/lib]
+    arg [-L/netopt/intel/oneapi/mpi/2021.14/lib] ==> dir [/netopt/intel/oneapi/mpi/2021.14/lib]
+    arg [-L/netopt/intel/oneapi/mkl/2025.0/lib] ==> dir [/netopt/intel/oneapi/mkl/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/ippcp/2025.0/lib/] ==> dir [/netopt/intel/oneapi/ippcp/2025.0/lib/]
+    arg [-L/netopt/intel/oneapi/ipp/2022.0/lib] ==> dir [/netopt/intel/oneapi/ipp/2022.0/lib]
+    arg [-L/netopt/intel/oneapi/dnnl/2025.0/lib] ==> dir [/netopt/intel/oneapi/dnnl/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/dal/2025.0/lib] ==> dir [/netopt/intel/oneapi/dal/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/lib]
+    arg [-L/netopt/intel/oneapi/ccl/2021.14/lib/] ==> dir [/netopt/intel/oneapi/ccl/2021.14/lib/]
+    arg [CMakeFiles/cmTC_61709.dir/OpenMPTryFlag.c.o] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lsvml] ==> lib [svml]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-Bstatic] ==> search static
+    arg [-lirng] ==> lib [irng]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-Bstatic] ==> search static
+    arg [-limf] ==> lib [imf]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lirc] ==> lib [irc]
+    arg [-Bdynamic] ==> search dynamic
+    arg [-ldl] ==> lib [dl]
+    arg [-liomp5] ==> lib [iomp5]
+    arg [-L/netopt/intel/oneapi/compiler/2025.0/bin/lib] ==> dir [/netopt/intel/oneapi/compiler/2025.0/bin/lib]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-Bstatic] ==> search static
+    arg [-lirc_s] ==> lib [irc_s]
+    arg [-Bdynamic] ==> search dynamic
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu] ==> [/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12] ==> [/usr/lib/gcc/x86_64-linux-gnu/12]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/12/../../..] ==> [/usr/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/compiler/../../opt/compiler/lib] ==> [/netopt/intel/oneapi/compiler/2025.0/opt/compiler/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/netopt/intel/oneapi/tcm/1.2/lib] ==> [/netopt/intel/oneapi/tcm/1.2/lib]
+  collapse library dir [/netopt/intel/oneapi/umf/0.9/lib] ==> [/netopt/intel/oneapi/umf/0.9/lib]
+  collapse library dir [/netopt/intel/oneapi/tbb/2022.0/env/../lib/intel64/gcc4.8] ==> [/netopt/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8]
+  collapse library dir [/netopt/intel/oneapi/pti/0.10/lib] ==> [/netopt/intel/oneapi/pti/0.10/lib]
+  collapse library dir [/netopt/intel/oneapi/mpi/2021.14/lib] ==> [/netopt/intel/oneapi/mpi/2021.14/lib]
+  collapse library dir [/netopt/intel/oneapi/mkl/2025.0/lib] ==> [/netopt/intel/oneapi/mkl/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/ippcp/2025.0/lib/] ==> [/netopt/intel/oneapi/ippcp/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/ipp/2022.0/lib] ==> [/netopt/intel/oneapi/ipp/2022.0/lib]
+  collapse library dir [/netopt/intel/oneapi/dnnl/2025.0/lib] ==> [/netopt/intel/oneapi/dnnl/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/dal/2025.0/lib] ==> [/netopt/intel/oneapi/dal/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/lib] ==> [/netopt/intel/oneapi/compiler/2025.0/lib]
+  collapse library dir [/netopt/intel/oneapi/ccl/2021.14/lib/] ==> [/netopt/intel/oneapi/ccl/2021.14/lib]
+  collapse library dir [/netopt/intel/oneapi/compiler/2025.0/bin/lib] ==> [/netopt/intel/oneapi/compiler/2025.0/bin/lib]
+  implicit libs: [svml;irng;imf;m;gcc;gcc_s;irc;dl;iomp5;gcc;gcc_s;pthread;c;gcc;gcc_s;irc_s]
+  implicit objs: []
+  implicit dirs: [/netopt/intel/oneapi/compiler/2025.0/lib;/netopt/intel/oneapi/compiler/2025.0/lib/clang/19/lib/x86_64-unknown-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/12;/usr/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib;/netopt/intel/oneapi/compiler/2025.0/opt/compiler/lib;/lib;/netopt/intel/oneapi/tcm/1.2/lib;/netopt/intel/oneapi/umf/0.9/lib;/netopt/intel/oneapi/tbb/2022.0/lib/intel64/gcc4.8;/netopt/intel/oneapi/pti/0.10/lib;/netopt/intel/oneapi/mpi/2021.14/lib;/netopt/intel/oneapi/mkl/2025.0/lib;/netopt/intel/oneapi/ippcp/2025.0/lib;/netopt/intel/oneapi/ipp/2022.0/lib;/netopt/intel/oneapi/dnnl/2025.0/lib;/netopt/intel/oneapi/dal/2025.0/lib;/netopt/intel/oneapi/ccl/2021.14/lib;/netopt/intel/oneapi/compiler/2025.0/bin/lib]
+  implicit fwks: []
+
+

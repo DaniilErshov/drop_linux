@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/sunlinsol/band/CMakeLists.txt
+  sunlinsol_band.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sunlinsol\band\sunlinsol_band.c(216,16): warning C4244: =: преобразование "sunindextype" в "long", возможна потеря данных
+  sundials_sunlinsolband_obj_static.vcxproj -> D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\band\sundials_sunlinsolband_obj_static.dir\Release\sundials_sunlinsolband_obj_static.lib

@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9487C41-F9F6-38EC-BC23-0C3B29B9D33A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>sundials_idas_obj_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sundials_idas_obj_static.dir\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sundials_idas_obj_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sundials_idas_obj_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_idas_obj_static.dir\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_idas_obj_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sundials_idas_obj_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_idas_obj_static.dir\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_idas_obj_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sundials_idas_obj_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_idas_obj_static.dir\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_idas_obj_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sundials_idas_obj_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;SUNDIALS_STATIC_DEFINE;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/idas/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/src/idas/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\idas\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/idas/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/src/idas/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\idas\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/idas/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/src/idas/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\idas\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/idas/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/src/idas/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\idas\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idaa.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_direct.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_io.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_ic.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idaa_io.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_ls.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_bbdpre.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_nls.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_nls_sim.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_nls_stg.c" />
+    <ClCompile Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\idas\idas_spils.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\ZERO_CHECK.vcxproj">
+      <Project>{2F5D6BA1-F5AF-340E-A2B7-5B2617C09E02}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sundials\sundials_generic_obj_static.vcxproj">
+      <Project>{E63DD7E6-1F73-3511-9857-3DFFF72845D9}</Project>
+      <Name>sundials_generic_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\nvector\serial\sundials_nvecserial_obj_static.vcxproj">
+      <Project>{DEB80F57-4F23-331C-A634-2C82DB46521B}</Project>
+      <Name>sundials_nvecserial_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\band\sundials_sunlinsolband_obj_static.vcxproj">
+      <Project>{07281DA0-0BA0-35BF-9380-2649CB433509}</Project>
+      <Name>sundials_sunlinsolband_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\dense\sundials_sunlinsoldense_obj_static.vcxproj">
+      <Project>{81C62795-9A8A-35EA-A423-1C682089DE72}</Project>
+      <Name>sundials_sunlinsoldense_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\pcg\sundials_sunlinsolpcg_obj_static.vcxproj">
+      <Project>{F52CDE89-4FE2-37DC-9593-367C212F18F9}</Project>
+      <Name>sundials_sunlinsolpcg_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_obj_static.vcxproj">
+      <Project>{01041DF5-78DC-3E0B-820D-051694E4D99F}</Project>
+      <Name>sundials_sunlinsolspbcgs_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_obj_static.vcxproj">
+      <Project>{CDE1F8C3-B5F7-3559-AC33-6874D1828CE7}</Project>
+      <Name>sundials_sunlinsolspfgmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_obj_static.vcxproj">
+      <Project>{AD3CE90E-51C8-3E73-9C8A-CFB5F174F7F3}</Project>
+      <Name>sundials_sunlinsolspgmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_obj_static.vcxproj">
+      <Project>{36CECEC2-8656-3449-B6AD-A6F5CF747F1D}</Project>
+      <Name>sundials_sunlinsolsptfqmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\band\sundials_sunmatrixband_obj_static.vcxproj">
+      <Project>{E90EA9A9-A5DD-3565-879E-9391401F5600}</Project>
+      <Name>sundials_sunmatrixband_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\band\sundials_sunmatrixband_static.vcxproj">
+      <Project>{1AA62688-206E-3D30-AAA8-D77784CB9561}</Project>
+      <Name>sundials_sunmatrixband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\dense\sundials_sunmatrixdense_obj_static.vcxproj">
+      <Project>{A1D25E26-1D49-3B40-8C4D-3D27F0A5BA0E}</Project>
+      <Name>sundials_sunmatrixdense_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\dense\sundials_sunmatrixdense_static.vcxproj">
+      <Project>{00D0A2D1-FB2D-37FD-9CF7-24448A7FE20C}</Project>
+      <Name>sundials_sunmatrixdense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\sparse\sundials_sunmatrixsparse_obj_static.vcxproj">
+      <Project>{00390E1B-F9EA-3F4A-8213-E59D6046E29F}</Project>
+      <Name>sundials_sunmatrixsparse_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmemory\system\sundials_sunmemsys_obj_static.vcxproj">
+      <Project>{97796641-2517-3BD4-B8D4-A89D5DB4F1C5}</Project>
+      <Name>sundials_sunmemsys_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_obj_static.vcxproj">
+      <Project>{F60E5D5B-49A5-3514-9CDB-16BF8977A59A}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_obj_static.vcxproj">
+      <Project>{162E0CB1-E4C3-3238-88E1-FC8468CBB7A5}</Project>
+      <Name>sundials_sunnonlinsolnewton_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

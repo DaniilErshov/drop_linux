@@ -1,0 +1,87 @@
+﻿  Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/cvode/CMakeLists.txt
+  cvode.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(758,29): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(759,29): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1760,42): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1761,42): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1790,33): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1791,33): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1795,29): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1796,29): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1801,29): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode.c(1802,29): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+  cvode_bandpre.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_bandpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_bandpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_bandpre.c(237,18): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_bandpre.c(238,18): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  cvode_bbdpre.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_bbdpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_bbdpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_bbdpre.c(241,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_bbdpre.c(242,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_bbdpre.c(246,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_bbdpre.c(247,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  cvode_diag.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_diag.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_diag.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_diag.c(202,15): warning C4244: =: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_diag.c(203,15): warning C4244: =: преобразование "sunindextype" в "long", возможна потеря данных
+  cvode_direct.c
+  cvode_io.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_io.c(940,31): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_io.c(941,31): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_io.c(968,29): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_io.c(969,29): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  cvode_ls.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_ls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_ls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_ls.c(250,24): warning C4244: функция: преобразование "sunindextype" в "double", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_ls.c(380,24): warning C4244: функция: преобразование "sunindextype" в "double", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_ls.c(653,18): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\cvode\cvode_ls.c(654,18): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  cvode_nls.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_nls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_nls.c")
+  
+  cvode_proj.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_proj.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/cvode/cvode_proj.c")
+  
+  cvode_spils.c
+  Создание кода...
+  sundials_cvode_obj_static.vcxproj -> D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\cvode\sundials_cvode_obj_static.dir\Debug\sundials_cvode_obj_static.lib

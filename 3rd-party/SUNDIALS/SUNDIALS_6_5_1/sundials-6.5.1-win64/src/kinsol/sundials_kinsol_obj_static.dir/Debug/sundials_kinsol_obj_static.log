@@ -1,0 +1,133 @@
+﻿  Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/kinsol/CMakeLists.txt
+  kinsol.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(596,34): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(597,34): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(825,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(826,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(833,34): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(834,34): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(837,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(838,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(846,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(847,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(850,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(851,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(860,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(861,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(864,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(865,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(875,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(876,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(879,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(880,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(896,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(897,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(912,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(913,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(929,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(930,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(947,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(948,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(966,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(967,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(985,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(986,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(989,34): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(990,34): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1007,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1008,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1011,34): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1012,34): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1030,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1031,30): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1034,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1035,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1054,53): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1055,53): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1058,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1059,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1079,57): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1080,57): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1083,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1084,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1105,57): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1106,57): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1109,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1110,45): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1134,59): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1135,59): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1138,36): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1139,36): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1165,61): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1166,61): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1190,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1191,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1197,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1198,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1204,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1205,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1211,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1212,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1218,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1219,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1225,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1226,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1232,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1233,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1264,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1265,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1271,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1272,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1278,43): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1279,43): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1285,43): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1286,43): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1292,43): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1293,43): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1309,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol.c(1310,32): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+  kinsol_bbdpre.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol_bbdpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol_bbdpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_bbdpre.c(236,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_bbdpre.c(237,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_bbdpre.c(241,23): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_bbdpre.c(242,23): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_bbdpre.c(246,23): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_bbdpre.c(247,23): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  kinsol_direct.c
+  kinsol_io.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_io.c(913,34): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_io.c(914,34): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_io.c(930,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_io.c(931,32): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  kinsol_ls.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol_ls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/kinsol/kinsol_ls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_ls.c(419,17): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_ls.c(420,17): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_ls.c(929,23): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\kinsol\kinsol_ls.c(1134,26): warning C4244: функция: преобразование "sunindextype" в "double", возможна потеря данных
+  kinsol_spils.c
+  Создание кода...
+  sundials_kinsol_obj_static.vcxproj -> D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\kinsol\sundials_kinsol_obj_static.dir\Debug\sundials_kinsol_obj_static.lib

@@ -1,0 +1,217 @@
+﻿  Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/arkode/CMakeLists.txt
+  arkode_adapt.c
+  arkode_arkstep_io.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_adapt.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_adapt.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_arkstep_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_arkstep_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(572,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(573,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(578,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(579,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(816,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(817,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(822,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(823,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(915,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(916,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(919,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(920,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(958,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(959,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(964,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep_io.c(965,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_arkstep_nls.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_arkstep_nls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_arkstep_nls.c")
+  
+  arkode_arkstep.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_arkstep.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_arkstep.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(634,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(635,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(641,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(642,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(2012,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(2013,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(2016,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_arkstep.c(2017,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_bandpre.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_bandpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_bandpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_bandpre.c(217,18): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_bandpre.c(218,18): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_bbdpre.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_bbdpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_bbdpre.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_bbdpre.c(233,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_bbdpre.c(234,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_bbdpre.c(238,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_bbdpre.c(239,24): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_butcher_dirk.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_butcher_dirk.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_butcher_dirk.c")
+  
+  arkode_butcher_erk.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_butcher_erk.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_butcher_erk.c")
+  
+  arkode_butcher.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_butcher.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_butcher.c")
+  
+  arkode_erkstep_io.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_erkstep_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_erkstep_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(234,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(235,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(279,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(280,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(296,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(297,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(338,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(339,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(354,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep_io.c(355,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_erkstep.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_erkstep.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_erkstep.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep.c(393,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep.c(394,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep.c(976,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_erkstep.c(977,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_interp.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_interp.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_interp.c")
+  
+  arkode_io.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_io.c")
+  
+  arkode_ls.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_ls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_ls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(253,25): warning C4244: функция: преобразование "sunindextype" в "double", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(471,25): warning C4244: функция: преобразование "sunindextype" в "double", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(615,25): warning C4244: функция: преобразование "sunindextype" в "double", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(938,16): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(939,16): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(1253,25): warning C4244: функция: преобразование "sunindextype" в "double", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(1409,15): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_ls.c(1410,15): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_mri_tables.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mri_tables.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mri_tables.c")
+  
+  arkode_mristep_io.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mristep_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mristep_io.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep_io.c(331,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep_io.c(332,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep_io.c(370,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep_io.c(371,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep_io.c(386,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep_io.c(387,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_mristep_nls.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mristep_nls.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mristep_nls.c")
+  
+  arkode_mristep.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mristep.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_mristep.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep.c(622,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep.c(623,23): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep.c(1774,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode_mristep.c(1775,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  arkode_root.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_root.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode_root.c")
+  
+  arkode.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../sundials-6.5.1/src/arkode/arkode.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1510,30): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1511,30): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1526,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1527,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1546,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1547,28): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1559,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1560,19): warning C4244: -=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1601,21): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1602,21): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1626,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\arkode\arkode.c(1627,19): warning C4244: +=: преобразование "sunindextype" в "long", возможна потеря данных
+  Создание кода...
+  sundials_arkode_obj_static.vcxproj -> D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\arkode\sundials_arkode_obj_static.dir\Debug\sundials_arkode_obj_static.lib

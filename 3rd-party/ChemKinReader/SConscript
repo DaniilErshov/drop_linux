@@ -1,0 +1,5 @@
+import os.path
+
+Import("env")
+
+env.StaticLibrary('ChemKinReader', Glob('src/*.cpp'))

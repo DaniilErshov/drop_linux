@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\json_cut">
+      <UniqueIdentifier>{4f5e09cb-040b-4028-8a76-b830daca9369}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\concentration.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\constants.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\Droplet.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\functions_sundials.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\GasTransport.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\MMCollisionInt.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\polyfit.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\thermodynamic.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\Json_reader_cut\json_reader.cc">
+      <Filter>Исходные файлы\json_cut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\Json_reader_cut\json_util.cc">
+      <Filter>Исходные файлы\json_cut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\Json_reader_cut\json_value.cc">
+      <Filter>Исходные файлы\json_cut</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\auxiliary_projects\Droplet\Json_reader_cut\json_writer.cc">
+      <Filter>Исходные файлы\json_cut</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\concentration.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\constants.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\functions_sundials.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\GasTransport.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\MMCollisionInt.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\polyfit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\thermodynamic.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\auxiliary_projects\Droplet\utilities.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

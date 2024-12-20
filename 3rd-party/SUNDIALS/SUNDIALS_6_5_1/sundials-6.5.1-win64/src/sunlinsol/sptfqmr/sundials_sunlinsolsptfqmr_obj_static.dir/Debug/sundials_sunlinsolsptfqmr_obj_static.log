@@ -1,0 +1,11 @@
+﻿  Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/src/sunlinsol/sptfqmr/CMakeLists.txt
+  sunlinsol_sptfqmr.c
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(26,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../../sundials-6.5.1/src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sundials\sundials_hashmap.h(27,48): warning C4305: инициализация: усечение из "unsigned __int64" в "const unsigned long"
+  (компиляция исходного файла "../../../../sundials-6.5.1/src/sunlinsol/sptfqmr/sunlinsol_sptfqmr.c")
+  
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sunlinsol\sptfqmr\sunlinsol_sptfqmr.c(852,18): warning C4244: =: преобразование "sunindextype" в "long", возможна потеря данных
+D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\src\sunlinsol\sptfqmr\sunlinsol_sptfqmr.c(853,18): warning C4244: =: преобразование "sunindextype" в "long", возможна потеря данных
+  sundials_sunlinsolsptfqmr_obj_static.vcxproj -> D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_obj_static.dir\Debug\sundials_sunlinsolsptfqmr_obj_static.lib

@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5D7C439F-DC9A-3A36-AE34-334923F568F3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include\sundials\sundials_config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include\sundials\sundials_config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include\sundials\sundials_config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1 -BD:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64 --check-stamp-file D:/Storage/Roman/REPO_GIT/3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-win64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePrintHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SUNDIALSConfig.cmake.in;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPost.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsBuildOptionsPre.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsDeprecated.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsExampleOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsIndexSize.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupCompilers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupConfig.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsSetupTPLs.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\SundialsTPLOptions.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddExecutable.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddLibrary.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTest.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsAddTestInstall.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsCMakeMacros.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamples.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsInstallExamplesGinkgo.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\macros\SundialsOption.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsOpenMP.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\cmake\tpl\SundialsPOSIXTimers.cmake;D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include\sundials\sundials_config.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\ZERO_CHECK.vcxproj">
+      <Project>{2F5D6BA1-F5AF-340E-A2B7-5B2617C09E02}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\arkode\sundials_arkode_obj_static.vcxproj">
+      <Project>{6872BE94-9C28-3FD8-B6E0-5CDBD217CC2E}</Project>
+      <Name>sundials_arkode_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\arkode\sundials_arkode_static.vcxproj">
+      <Project>{C6323130-9789-374D-9474-72ADA6D0A230}</Project>
+      <Name>sundials_arkode_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\cvode\sundials_cvode_obj_static.vcxproj">
+      <Project>{55C8BABB-D3C5-374D-86A4-0B23EE411672}</Project>
+      <Name>sundials_cvode_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\cvode\sundials_cvode_static.vcxproj">
+      <Project>{77341D69-CBFC-366A-96AA-2FD392439729}</Project>
+      <Name>sundials_cvode_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\cvodes\sundials_cvodes_obj_static.vcxproj">
+      <Project>{CE8B10BA-AE84-3CD8-A33A-E22D22E92B95}</Project>
+      <Name>sundials_cvodes_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\cvodes\sundials_cvodes_static.vcxproj">
+      <Project>{D309A1D6-2542-3AAE-8919-ED0391A3BABB}</Project>
+      <Name>sundials_cvodes_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sundials\sundials_generic_obj_static.vcxproj">
+      <Project>{E63DD7E6-1F73-3511-9857-3DFFF72845D9}</Project>
+      <Name>sundials_generic_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sundials\sundials_generic_static.vcxproj">
+      <Project>{58E8FCB2-10F0-3DDD-B464-E806840C27A5}</Project>
+      <Name>sundials_generic_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\ida\sundials_ida_obj_static.vcxproj">
+      <Project>{5A967997-96F3-3A46-AB9E-96977AC22CFD}</Project>
+      <Name>sundials_ida_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\ida\sundials_ida_static.vcxproj">
+      <Project>{E1DE62BC-9E2B-3BB3-BE9E-D51859D7C3DF}</Project>
+      <Name>sundials_ida_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\idas\sundials_idas_obj_static.vcxproj">
+      <Project>{D9487C41-F9F6-38EC-BC23-0C3B29B9D33A}</Project>
+      <Name>sundials_idas_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\idas\sundials_idas_static.vcxproj">
+      <Project>{D9C580AC-DA9C-3122-BCA0-0DB9EF44EC95}</Project>
+      <Name>sundials_idas_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\kinsol\sundials_kinsol_obj_static.vcxproj">
+      <Project>{6DF5887E-07DA-31FB-92CA-B1E029643AEE}</Project>
+      <Name>sundials_kinsol_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\kinsol\sundials_kinsol_static.vcxproj">
+      <Project>{35B983DF-3ACF-3541-B9B5-E679930BFD27}</Project>
+      <Name>sundials_kinsol_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\nvector\manyvector\sundials_nvecmanyvector_obj_static.vcxproj">
+      <Project>{BCC4C955-B52A-35B1-B2AB-4EA1CF2023D7}</Project>
+      <Name>sundials_nvecmanyvector_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\nvector\manyvector\sundials_nvecmanyvector_static.vcxproj">
+      <Project>{0E7939A7-6A20-3BBF-B94C-A2EB8C2CC298}</Project>
+      <Name>sundials_nvecmanyvector_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\nvector\openmp\sundials_nvecopenmp_obj_static.vcxproj">
+      <Project>{726FBC05-FB63-3F03-B579-5BC4164B149D}</Project>
+      <Name>sundials_nvecopenmp_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\nvector\openmp\sundials_nvecopenmp_static.vcxproj">
+      <Project>{C2BD1D09-7A2A-3A56-B8AB-7903CF1F75E1}</Project>
+      <Name>sundials_nvecopenmp_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\nvector\serial\sundials_nvecserial_obj_static.vcxproj">
+      <Project>{DEB80F57-4F23-331C-A634-2C82DB46521B}</Project>
+      <Name>sundials_nvecserial_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\nvector\serial\sundials_nvecserial_static.vcxproj">
+      <Project>{9279BFB6-7666-38D3-A74A-FD5DA0CCEB35}</Project>
+      <Name>sundials_nvecserial_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\band\sundials_sunlinsolband_obj_static.vcxproj">
+      <Project>{07281DA0-0BA0-35BF-9380-2649CB433509}</Project>
+      <Name>sundials_sunlinsolband_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\band\sundials_sunlinsolband_static.vcxproj">
+      <Project>{4E7ADBA0-C7C5-3E8B-A4D8-E53CF51A757A}</Project>
+      <Name>sundials_sunlinsolband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\dense\sundials_sunlinsoldense_obj_static.vcxproj">
+      <Project>{81C62795-9A8A-35EA-A423-1C682089DE72}</Project>
+      <Name>sundials_sunlinsoldense_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\dense\sundials_sunlinsoldense_static.vcxproj">
+      <Project>{EA5E1D72-4A38-3E32-8301-E679FFFF2D57}</Project>
+      <Name>sundials_sunlinsoldense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\pcg\sundials_sunlinsolpcg_obj_static.vcxproj">
+      <Project>{F52CDE89-4FE2-37DC-9593-367C212F18F9}</Project>
+      <Name>sundials_sunlinsolpcg_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\pcg\sundials_sunlinsolpcg_static.vcxproj">
+      <Project>{D9C15F02-8312-33D8-945B-165FB31078D5}</Project>
+      <Name>sundials_sunlinsolpcg_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_obj_static.vcxproj">
+      <Project>{01041DF5-78DC-3E0B-820D-051694E4D99F}</Project>
+      <Name>sundials_sunlinsolspbcgs_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spbcgs\sundials_sunlinsolspbcgs_static.vcxproj">
+      <Project>{B7EEBA66-29C5-3E93-A69F-DCF67D10ABF6}</Project>
+      <Name>sundials_sunlinsolspbcgs_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_obj_static.vcxproj">
+      <Project>{CDE1F8C3-B5F7-3559-AC33-6874D1828CE7}</Project>
+      <Name>sundials_sunlinsolspfgmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spfgmr\sundials_sunlinsolspfgmr_static.vcxproj">
+      <Project>{762DE967-448D-38AB-8D91-838472C656B7}</Project>
+      <Name>sundials_sunlinsolspfgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_obj_static.vcxproj">
+      <Project>{AD3CE90E-51C8-3E73-9C8A-CFB5F174F7F3}</Project>
+      <Name>sundials_sunlinsolspgmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\spgmr\sundials_sunlinsolspgmr_static.vcxproj">
+      <Project>{10F62899-B004-3AA0-96B5-43B8BB10A03E}</Project>
+      <Name>sundials_sunlinsolspgmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_obj_static.vcxproj">
+      <Project>{36CECEC2-8656-3449-B6AD-A6F5CF747F1D}</Project>
+      <Name>sundials_sunlinsolsptfqmr_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunlinsol\sptfqmr\sundials_sunlinsolsptfqmr_static.vcxproj">
+      <Project>{E5B69228-89A4-3EF3-9EA2-45A4808471C4}</Project>
+      <Name>sundials_sunlinsolsptfqmr_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\band\sundials_sunmatrixband_obj_static.vcxproj">
+      <Project>{E90EA9A9-A5DD-3565-879E-9391401F5600}</Project>
+      <Name>sundials_sunmatrixband_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\band\sundials_sunmatrixband_static.vcxproj">
+      <Project>{1AA62688-206E-3D30-AAA8-D77784CB9561}</Project>
+      <Name>sundials_sunmatrixband_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\dense\sundials_sunmatrixdense_obj_static.vcxproj">
+      <Project>{A1D25E26-1D49-3B40-8C4D-3D27F0A5BA0E}</Project>
+      <Name>sundials_sunmatrixdense_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\dense\sundials_sunmatrixdense_static.vcxproj">
+      <Project>{00D0A2D1-FB2D-37FD-9CF7-24448A7FE20C}</Project>
+      <Name>sundials_sunmatrixdense_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\sparse\sundials_sunmatrixsparse_obj_static.vcxproj">
+      <Project>{00390E1B-F9EA-3F4A-8213-E59D6046E29F}</Project>
+      <Name>sundials_sunmatrixsparse_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmatrix\sparse\sundials_sunmatrixsparse_static.vcxproj">
+      <Project>{4F27F40F-0A09-3373-BE5F-E5A75B214A10}</Project>
+      <Name>sundials_sunmatrixsparse_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunmemory\system\sundials_sunmemsys_obj_static.vcxproj">
+      <Project>{97796641-2517-3BD4-B8D4-A89D5DB4F1C5}</Project>
+      <Name>sundials_sunmemsys_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_obj_static.vcxproj">
+      <Project>{F60E5D5B-49A5-3514-9CDB-16BF8977A59A}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunnonlinsol\fixedpoint\sundials_sunnonlinsolfixedpoint_static.vcxproj">
+      <Project>{DAF05FCF-D8F8-3FC3-95B4-466F7959885E}</Project>
+      <Name>sundials_sunnonlinsolfixedpoint_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_obj_static.vcxproj">
+      <Project>{162E0CB1-E4C3-3238-88E1-FC8468CBB7A5}</Project>
+      <Name>sundials_sunnonlinsolnewton_obj_static</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Storage\Roman\REPO_GIT\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\src\sunnonlinsol\newton\sundials_sunnonlinsolnewton_static.vcxproj">
+      <Project>{2BABE7CE-BB6D-3B5C-9076-F270FB5662FB}</Project>
+      <Name>sundials_sunnonlinsolnewton_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
