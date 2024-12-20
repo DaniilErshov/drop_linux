@@ -147,7 +147,7 @@ int main()
     cout << cwd << "\n";
 
 
-    string confname = cwd.string() + "config";
+    string confname = cwd.string() + "config_YOO";
     string path_second_start = cwd.string() + "//start_profile";     // Путь к директории (можно указать любой)
 
     Json::Value config; json_parse_file_or_die(confname, &config);

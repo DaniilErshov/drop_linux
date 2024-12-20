@@ -189529,3 +189529,344 @@ r_inter = 0.037499
 p_inter = 1.498300
 
 
+
+t current = 5.081378997e-05
+dt = 6.548927289e-08
+r_inter = 0.037499
+p_inter = 1.498298
+
+
+
+t current = 5.087927924e-05
+dt = 6.548927289e-08
+r_inter = 0.037499
+p_inter = 1.498297
+
+
+
+t current = 5.101025779e-05
+dt = 1.309785458e-07
+r_inter = 0.037499
+p_inter = 1.498294
+
+
+
+t current = 5.111767547e-05
+dt = 1.074176794e-07
+r_inter = 0.037499
+p_inter = 1.498291
+
+
+
+t current = 5.122509315e-05
+dt = 1.074176794e-07
+r_inter = 0.037499
+p_inter = 1.498289
+
+
+
+t current = 5.133251083e-05
+dt = 1.074176794e-07
+r_inter = 0.037499
+p_inter = 1.498287
+
+
+
+t current = 5.143992851e-05
+dt = 1.074176794e-07
+r_inter = 0.037499
+p_inter = 1.498284
+
+
+
+t current = 5.154734619e-05
+dt = 1.074176794e-07
+r_inter = 0.037499
+p_inter = 1.498282
+
+
+
+t current = 5.176218155e-05
+dt = 2.148353587e-07
+r_inter = 0.037499
+p_inter = 1.498277
+
+
+
+t current = 5.19770169e-05
+dt = 2.148353587e-07
+r_inter = 0.037499
+p_inter = 1.498273
+
+
+
+t current = 5.219185226e-05
+dt = 2.148353587e-07
+r_inter = 0.037499
+p_inter = 1.498268
+
+
+
+t current = 5.262152298e-05
+dt = 4.296707175e-07
+r_inter = 0.037499
+p_inter = 1.498259
+
+
+
+t current = 5.30511937e-05
+dt = 4.296707175e-07
+r_inter = 0.037499
+p_inter = 1.498250
+
+
+
+t current = 5.348086442e-05
+dt = 4.296707175e-07
+r_inter = 0.037499
+p_inter = 1.498240
+
+
+
+t current = 5.383653422e-05
+dt = 3.556698036e-07
+r_inter = 0.037499
+p_inter = 1.498233
+
+
+
+t current = 5.374761677e-05
+dt = 1.778349018e-07
+r_inter = 0.037499
+p_inter = 1.498235
+
+
+Fuel=C7H16
+C7H16 found in inp file!
+Restart time is 0.000034
+
+t current = 3.4e-05
+dt = 1.000176504e-17
+r_inter = 0.037499
+p_inter = 1.498708
+
+
+
+t current = 3.4e-05
+dt = 1.000176504e-17
+r_inter = 0.037499
+p_inter = 1.498708
+
+
+
+t current = 3.4e-05
+dt = 1.999675382e-17
+r_inter = 0.037499
+p_inter = 1.498708
+
+
+
+t current = 3.4e-05
+dt = 1.600011356e-16
+r_inter = 0.037499
+p_inter = 1.498708
+
+
+Fuel=NC7H16
+NC7H16 found in inp file!
+Nonlinear iters         = 8
+Nonlinear fn evals      = 9
+Beta condition fails    = 0
+Backtrack operations    = 0
+Nonlinear fn norm       = 2.414843446371066e-11
+Step length             = 7.739823133634467e-11
+Jac fn evals            = 1
+LS Nonlinear fn evals   = 101
+Prec setup evals        = 0
+Prec solves             = 0
+LS iters                = 0
+LS fails                = 0
+Jac-times evals         = 0
+LS iters per NLS iter   = 0
+Jac evals per NLS iter  = 0.125
+Prec evals per NLS iter = 0
+Calculation time is: 3.000000 sec.
+Fuel=NC7H16
+NC7H16 found in inp file!
+Nonlinear iters         = 8
+Nonlinear fn evals      = 9
+Beta condition fails    = 0
+Backtrack operations    = 0
+Nonlinear fn norm       = 2.414843446371066e-11
+Step length             = 7.739823133634467e-11
+Jac fn evals            = 1
+LS Nonlinear fn evals   = 101
+Prec setup evals        = 0
+Prec solves             = 0
+LS iters                = 0
+LS fails                = 0
+Jac-times evals         = 0
+LS iters per NLS iter   = 0
+Jac evals per NLS iter  = 0.125
+Prec evals per NLS iter = 0
+Calculation time is: 4.000000 sec.
+Fuel=NC7H16
+NC7H16 found in inp file!
+Nonlinear iters         = 8
+Nonlinear fn evals      = 9
+Beta condition fails    = 0
+Backtrack operations    = 0
+Nonlinear fn norm       = 2.414843446371066e-11
+Step length             = 7.739823133634467e-11
+Jac fn evals            = 1
+LS Nonlinear fn evals   = 101
+Prec setup evals        = 0
+Prec solves             = 0
+LS iters                = 0
+LS fails                = 0
+Jac-times evals         = 0
+LS iters per NLS iter   = 0
+Jac evals per NLS iter  = 0.125
+Prec evals per NLS iter = 0
+Calculation time is: 4.000000 sec.
+Fuel=NC7H16
+NC7H16 found in inp file!
+Nonlinear iters         = 8
+Nonlinear fn evals      = 9
+Beta condition fails    = 0
+Backtrack operations    = 0
+Nonlinear fn norm       = 2.414843446371066e-11
+Step length             = 7.739823133634467e-11
+Jac fn evals            = 1
+LS Nonlinear fn evals   = 101
+Prec setup evals        = 0
+Prec solves             = 0
+LS iters                = 0
+LS fails                = 0
+Jac-times evals         = 0
+LS iters per NLS iter   = 0
+Jac evals per NLS iter  = 0.125
+Prec evals per NLS iter = 0
+Calculation time is: 3.000000 sec.
+Fuel=C7H16
+C7H16 found in inp file!
+Restart time is 0.000034
+
+t current = 3.4e-05
+dt = 1.000176504e-17
+r_inter = 0.037499
+p_inter = 1.498708
+
+
+Fuel=NC7H16
+NC7H16 found in inp file!
+Nonlinear iters         = 8
+Nonlinear fn evals      = 9
+Beta condition fails    = 0
+Backtrack operations    = 0
+Nonlinear fn norm       = 2.414843446371066e-11
+Step length             = 7.739823133634467e-11
+Jac fn evals            = 1
+LS Nonlinear fn evals   = 101
+Prec setup evals        = 0
+Prec solves             = 0
+LS iters                = 0
+LS fails                = 0
+Jac-times evals         = 0
+LS iters per NLS iter   = 0
+Jac evals per NLS iter  = 0.125
+Prec evals per NLS iter = 0
+Calculation time is: 4.000000 sec.
+Fuel=NC7H16
+NC7H16 found in inp file!
+Nonlinear iters         = 8
+Nonlinear fn evals      = 9
+Beta condition fails    = 0
+Backtrack operations    = 0
+Nonlinear fn norm       = 2.414843446371066e-11
+Step length             = 7.739823133634467e-11
+Jac fn evals            = 1
+LS Nonlinear fn evals   = 101
+Prec setup evals        = 0
+Prec solves             = 0
+LS iters                = 0
+LS fails                = 0
+Jac-times evals         = 0
+LS iters per NLS iter   = 0
+Jac evals per NLS iter  = 0.125
+Prec evals per NLS iter = 0
+Calculation time is: 4.000000 sec.
+Fuel=NC7H16
+NC7H16 found in inp file!
+Nonlinear iters         = 8
+Nonlinear fn evals      = 9
+Beta condition fails    = 0
+Backtrack operations    = 0
+Nonlinear fn norm       = 2.414843446371066e-11
+Step length             = 7.739823133634467e-11
+Jac fn evals            = 1
+LS Nonlinear fn evals   = 101
+Prec setup evals        = 0
+Prec solves             = 0
+LS iters                = 0
+LS fails                = 0
+Jac-times evals         = 0
+LS iters per NLS iter   = 0
+Jac evals per NLS iter  = 0.125
+Prec evals per NLS iter = 0
+
+t current = 1e-14
+dt = 1e-14
+r_inter = 0.037500
+p_inter = 1.500000
+
+
+
+t current = 4.293646333e-18
+dt = 1.852240083e-18
+r_inter = 0.037500
+p_inter = 1.500000
+
+
+
+t current = 1.9111567e-17
+dt = 1.481792067e-17
+r_inter = 0.037500
+p_inter = 1.500000
+
+
+
+t current = 1.376549323e-16
+dt = 1.185433653e-16
+r_inter = 0.037500
+p_inter = 1.500000
+
+
+
+t current = 1.086001855e-15
+dt = 9.483469226e-16
+r_inter = 0.037500
+p_inter = 1.500000
+
+
+
+t current = 8.672777236e-15
+dt = 7.586775381e-15
+r_inter = 0.037500
+p_inter = 1.500000
+
+
+
+t current = 6.936698028e-14
+dt = 6.069420305e-14
+r_inter = 0.037500
+p_inter = 1.500000
+
+
+
+t current = 5.549206047e-13
+dt = 4.855536244e-13
+r_inter = 0.037500
+p_inter = 1.500000
+
+

@@ -797,8 +797,8 @@ int integrate_All_IDA_M(int N_x) {
             }
 
             yval[i_temp] = Cell_Properties_vector[i].T;
-            consval[i_temp] = abs_tol_T;
-            atval[i_temp] = pow(5, 1);
+            consval[i_temp] = 1.0;
+            atval[i_temp] = abs_tol_T;
             id_val[i_temp] = 1.;
 
             i_temp++;
