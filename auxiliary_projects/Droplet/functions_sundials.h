@@ -190,6 +190,7 @@ extern double abs_tol_Y;			    // абсолютная погрешность для концентраций
 extern double Pf_time;
 extern double chem_time;
 
+extern set<string> initital_components;
 double F_right_u(
     double Tprev, double T, double Tnext, double xprev, double x, double xnext,
     double uprev, double u, double unext,

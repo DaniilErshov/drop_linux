@@ -130,6 +130,7 @@
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
       <AdditionalIncludeDirectories>..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;..\..\3rd-party\ChemKinReader\include;..\..\3rd-party\Boost_regex\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

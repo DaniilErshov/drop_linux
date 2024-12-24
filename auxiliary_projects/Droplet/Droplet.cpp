@@ -129,6 +129,7 @@ double abs_tol_Y;               // абсолютная погрешность �
 double Pf_time;
 double chem_time;
 
+set<string> initital_components = { "O2", "N2" };
 int main()
 {
     fs::path cwd = fs::current_path();
@@ -187,6 +188,7 @@ int main()
     WriteLog("Fuel=" + Fuel + "\n");
     if (komponents.find(Fuel) != komponents.end()) {
         WriteLog(Fuel + " found in inp file!\n");
+        initital_components.insert(Fuel);
     }
     else {
         WriteLog(Fuel + " not found in inp file!\n");

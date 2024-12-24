@@ -430,12 +430,12 @@ double  F_rightY_interface( int k_spec, double Vc,
         double YkVk_spec = YkVk[k_spec] + Y_inter[k_spec] * Vc;
         //cout << komponents_str[k_spec] << "\n";
         //cout << "YkVk_spec = " << YkVk_spec / Y_inter[k_spec] << "\n\n";
-        if (func_Pf(t_curr) < 0.99 && abs(Y_inter[k_spec]) < pow(10, -10)) {
-            return pow(10, 8) * Y_inter[k_spec];
+        if (t_curr < chem_time) {
+            if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
+                return pow(10, 8) * Y_inter[k_spec];
+            }
         }
-        else {
-            return  pow(10, 8) * (rho * Y_inter[k_spec] * (u - us) + rho * YkVk_spec);
-        }
+        return  (rho * Y_inter[k_spec] * (u - us) + rho * YkVk_spec);
         
         //double Pf_ = Pf(T_inter);
         //double mol_w = my_mol_weight(komponents[Fuel]);
@@ -1691,6 +1691,11 @@ void set_interface_r_rval( double T_prev, double T_curr, double T_next,
             r_inter, x_vect[i], x_vect[i + 1],
             u_prev, u_curr, u_next, i) / rho_curr;
 
+        if (t_curr < chem_time) {
+            if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
+                dYdt = -pow(10, 3) * Yi[k_spec];
+            }
+        }
         rval[my_i_temp] = ypval[my_i_temp] - dYdt;
         //cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;
         dWdt += ypval[my_i_temp] / my_mol_weight(k_spec);
@@ -1753,7 +1758,11 @@ void set_rval_gas(double T_prev, double T_curr, double T_next,
                 T_prev, T_curr, T_next,
                 x_vect[i - 1], x_vect[i], x_vect[i + 1],
                 u_prev, u_curr, u_next, i) / rho;
-
+            if (t_curr < chem_time) {
+                if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
+                    dYdt = -pow(10, 3) * Yi[k_spec];
+                }
+            }
             rval[my_i_temp] = ypval[my_i_temp] - dYdt;
            // cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;
             dWdt += ypval[my_i_temp] / my_mol_weight(k_spec);
