@@ -1,0 +1,48 @@
+﻿  concentration.cpp
+  constants.cpp
+  Droplet.cpp
+  functions_sundials.cpp
+\auxiliary_projects\Droplet\concentration.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\concentration.cpp: No such file or directory,
+  GasTransport.cpp
+  (компиляция исходного файла "/auxiliary_projects/Droplet/concentration.cpp")
+  
+\auxiliary_projects\Droplet\constants.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\constants.cpp: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/constants.cpp")
+  
+\auxiliary_projects\Droplet\Droplet.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\Droplet.cpp: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/Droplet.cpp")
+  
+\auxiliary_projects\Droplet\functions_sundials.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\functions_sundials.cpp: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/functions_sundials.cpp")
+  
+\auxiliary_projects\Droplet\GasTransport.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\GasTransport.cpp: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/GasTransport.cpp")
+  
+  json_reader.cc
+\auxiliary_projects\Droplet\Json_reader_cut\json_reader.cc(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\Json_reader_cut\json_reader.cc: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/Json_reader_cut/json_reader.cc")
+  
+  json_util.cc
+\auxiliary_projects\Droplet\Json_reader_cut\json_util.cc(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\Json_reader_cut\json_util.cc: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/Json_reader_cut/json_util.cc")
+  
+  json_value.cc
+\auxiliary_projects\Droplet\Json_reader_cut\json_value.cc(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\Json_reader_cut\json_value.cc: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/Json_reader_cut/json_value.cc")
+  
+  json_writer.cc
+\auxiliary_projects\Droplet\Json_reader_cut\json_writer.cc(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\Json_reader_cut\json_writer.cc: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/Json_reader_cut/json_writer.cc")
+  
+  MMCollisionInt.cpp
+\auxiliary_projects\Droplet\MMCollisionInt.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\MMCollisionInt.cpp: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/MMCollisionInt.cpp")
+  
+  polyfit.cpp
+\auxiliary_projects\Droplet\polyfit.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\polyfit.cpp: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/polyfit.cpp")
+  
+  thermodynamic.cpp
+\auxiliary_projects\Droplet\thermodynamic.cpp(1,1): error C1083: Не удается открыть файл источник: ..\..\auxiliary_projects\Droplet\thermodynamic.cpp: No such file or directory,
+  (компиляция исходного файла "/auxiliary_projects/Droplet/thermodynamic.cpp")
+  

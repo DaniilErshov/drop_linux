@@ -7,7 +7,7 @@
 	p_inter: 1.5,					//местонахождение интерфейса от 1 до 2
 	Nx_in_drop: 50,					//кол-во ячеек в капле
 	Nx: 150,						//полное количество ячеек
-	num_threads: 12,					//number of threads OpenMP
+	num_threads: 12,				//number of threads OpenMP
 	fuel: "NC7H16",					//название топлива(в разных кинетиках может быть еще C7H16"
 	max_num_steps: 1e6,
 	tend: 1,						//конечное время расчета [c]
@@ -18,7 +18,7 @@
 	second_start: 0,				//1-запуск не с начала
 	therm: "therm_YOO.dat",
 	tran: "tran_YOO.dat",
-	chem: "heptane_YOO.inp",
+	chem: "heptane_YOO.inp"
 	r_tol: 1e-5,					//относительная погрешность
 	abs_tol_T: 1.0 ,				//абсолютная погрешность для температуры
 	abs_tol_rho: 1e-3,				//абсолютная погрешность для плотности

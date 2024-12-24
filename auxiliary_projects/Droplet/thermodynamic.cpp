@@ -227,7 +227,7 @@ double Pf(double T, double r_interfece) {
 }
 
 double func_Pf(double t_curr_local) {
-    return tanh(1.e7 * t_curr_local);
+    return tanh(Pf_time * t_curr_local);
 }
 double L_d(double T) {
     //double Larr[] = { 2481115.000000, 2470000.000000, 2451000.000000, 2431000.000000, 

@@ -118,56 +118,50 @@ vector<Cell_Properties> Cell_Properties_vector;
 vector<Cell_Properties> Cell_prouds_vector;
 vector<Cell_Properties> Cell_rval_vector;
 vector<double> ydot_reaction;
-
 ofstream IDA_data_file;
 
-double r_tol;			//относительная погрешность
-double abs_tol_T;					//абсолютная погрешность для температуры
-double abs_tol_rho;				//абсолютная погрешность для плотности
-double abs_tol_u;			//абсолютная погрешность для скорости газа
-double abs_tol_u_interf;			//абсолютная погрешность для скорости интерфейса
-double abs_tol_Y;
-
+double r_tol;			        // относительная погрешность
+double abs_tol_T;				// абсолютная погрешность для температуры
+double abs_tol_rho;				// абсолютная погрешность для плотности
+double abs_tol_u;			    // абсолютная погрешность для скорости газа
+double abs_tol_u_interf;		// абсолютная погрешность для скорости интерфейса
+double abs_tol_Y;               // абсолютная погрешность для концентраций
+double Pf_time;
+double chem_time;
 
 int main()
 {
-
-    string path_win = "..\\..\\auxiliary_projects\\Droplet\\Droplet_sample_dir\\";
-    //string path_win = "";
-    fs::path cwd;
-
-#ifdef _WIN32
-// Для Windows
-    cwd = path_win;
-#elif __linux__ || __unix__
-    // Для Linux/Unix
     fs::path cwd = fs::current_path();
-#endif
 
-    cout << cwd << "\n";
-
-
-    string confname = cwd.string() + "config_YOO";
-    string path_second_start = cwd.string() + "//start_profile";     // Путь к директории (можно указать любой)
+    string windows_path = "..\\..\\auxiliary_projects\\Droplet\\Droplet_sample_dir\\";
+    //string confname = "config";
+    string confname = windows_path + "config";
+    //string path_second_start = cwd.string() + "//start_profile";
+    string path_second_start = windows_path + "start_profile";
 
     Json::Value config; json_parse_file_or_die(confname, &config);
-    Tstart = config["T_drop"].asDouble(); Tfinish = config["T_gas"].asDouble();
+    Tstart = config["T_drop"].asDouble(); 
+    Tfinish = config["T_gas"].asDouble();
 
     P = config["P"].asDouble() * P_1_atm;
-    p_inter = config["p_inter"].asDouble(); preinter = config["Nx_in_drop"].asInt();
-   
+    p_inter = config["p_inter"].asDouble();
+    preinter = config["Nx_in_drop"].asInt();
     Nx = config["Nx"].asInt();
     num_threads_global = config["num_threads"].asInt();
-    
     double d_drop = config["d_drop"].asDouble();
     t_end_all = config["tend"].asDouble();
     Fuel = config["fuel"].asString();
+
     need_second_start = config["second_start"].asInt();
 
 
-    const std::string thermfile = cwd.string() + config["therm"].asString();
-    const std::string transfile = cwd.string() + config["tran"].asString();
-    const std::string chemfile = cwd.string() + config["chem"].asString();
+    //const std::string thermfile = config["therm"].asString();
+    //const std::string transfile = config["tran"].asString();
+    //const std::string chemfile = config["chem"].asString();
+
+    const std::string thermfile = windows_path + config["therm"].asString();
+    const std::string transfile = windows_path + config["tran"].asString();
+    const std::string chemfile = windows_path + config["chem"].asString();
 
 
     n_out = config["n_out"].asDouble();
@@ -176,14 +170,15 @@ int main()
     dt_max = config["dt_max"].asDouble();
     MaxNumSteps = config["max_num_steps"].asInt();
 
-    r_tol = config["r_tol"].asDouble();					//относительная погрешность
+    r_tol = config["r_tol"].asDouble();					        //относительная погрешность
     abs_tol_T = config["abs_tol_T"].asDouble();					//абсолютная погрешность для температуры
     abs_tol_rho = config["abs_tol_rho"].asDouble();				//абсолютная погрешность для плотности
-    abs_tol_u = config["abs_tol_u"].asDouble();				//абсолютная погрешность для скорости газа
-    abs_tol_u_interf = config["abs_tol_u_interf"].asDouble();			//абсолютная погрешность для скорости интерфейса
-    abs_tol_Y = config["abs_tol_Y"].asDouble();
-
-
+    abs_tol_u = config["abs_tol_u"].asDouble();				    //абсолютная погрешность для скорости газа
+    abs_tol_u_interf = config["abs_tol_u_interf"].asDouble();	//абсолютная погрешность для скорости интерфейса
+    abs_tol_Y = config["abs_tol_Y"].asDouble();                 // абсолютная погрешность для концентраций
+    Pf_time = config["Pf_time"].asDouble();
+    chem_time = config["chem_time"].asDouble();
+    
     time_t start_time, end_time;
     time(&start_time);
 
@@ -229,8 +224,6 @@ int main()
                 allocate_paralel_memory();
             }
         }
-        //KinSetIc(3 + (Nx - preinter - 2));
-
     }
     else {
         set_size_vectors(Nx, num_gas_species);
@@ -255,8 +248,8 @@ int main()
     write_params("params//koeffs.dat", Nx);
 
 
-    Write_to_file(cwd.string() + "initial//initial_to_IDA", "val", Cell_Properties_vector, Cell_Properties_inter);
-    Write_to_file(cwd.string() + "initial//initial_to_IDA_prouds", "pval", Cell_prouds_vector, Cell_prouds_inter);
+    Write_to_file("initial//initial_to_IDA", "val", Cell_Properties_vector, Cell_Properties_inter);
+    Write_to_file("initial//initial_to_IDA_prouds", "pval", Cell_prouds_vector, Cell_prouds_inter);
     integrate_All_IDA_M(Nx);
 
     time(&end_time);

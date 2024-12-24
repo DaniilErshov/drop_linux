@@ -2,55 +2,14 @@
 D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.h(156,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
   (компиляция исходного файла "../../auxiliary_projects/Droplet/Droplet.cpp")
   
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(173,37): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(220,41): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(237,41): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(264,22): warning C4244: инициализация: преобразование "time_t" в "double", возможна потеря данных
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(215,12): warning C4101: T_center: неиспользованная локальная переменная
-  functions_sundials.cpp
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.h(156,16): warning C4091: typedef : пропускается слева от "Cell_Properties", когда ни одна переменная не объявлена
-  (компиляция исходного файла "../../auxiliary_projects/Droplet/functions_sundials.cpp")
-  
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(19,12): warning C4101: h: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(520,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(496,12): warning C4101: x_start: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(496,31): warning C4101: D: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(496,21): warning C4101: x_finish: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(497,12): warning C4101: rho: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(584,13): warning C4101: jop: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(603,13): warning C4101: jop: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1203,31): warning C4244: аргумент: преобразование "double" в "long", возможна потеря данных
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1210,12): warning C4101: W: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(934,33): warning C4101: di_l: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(934,19): warning C4101: i_vel_interf: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(934,39): warning C4101: di_r: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(934,45): warning C4101: i_inter_T: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(934,9): warning C4101: i_T: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(934,14): warning C4101: i_u: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1210,15): warning C4101: w_dot: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(730,23): warning C4101: retvalr: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1301,33): warning C4101: di_l: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1286,12): warning C4101: M: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1301,19): warning C4101: i_vel_interf: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1301,39): warning C4101: di_r: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1303,26): warning C4101: u_inter_curr: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1303,40): warning C4101: u_inter_next: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1301,45): warning C4101: i_inter_T: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1301,9): warning C4101: i_T: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1301,14): warning C4101: i_u: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1304,12): warning C4101: vel_interf_curr: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1289,12): warning C4101: Cp: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1304,46): warning C4101: vel_interf_next: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1285,12): warning C4101: Temp: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1292,9): warning C4101: j: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1303,12): warning C4101: u_inter_prev: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1304,29): warning C4101: vel_interf_prev: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(1866,16): warning C4101: Sh: неиспользованная локальная переменная
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(2150,19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\functions_sundials.cpp(2036,23): warning C4101: ypval: неиспользованная локальная переменная
+D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(167,37): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(215,41): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(230,41): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(257,22): warning C4244: инициализация: преобразование "time_t" в "double", возможна потеря данных
+D:\Storage\Daniil\gorenie_version\droplet_linux\auxiliary_projects\Droplet\Droplet.cpp(210,12): warning C4101: T_center: неиспользованная локальная переменная
   Создание кода
-  7 of 4667 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+  7 of 4664 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    14 functions had inline decision re-evaluated but remain unchanged
+    25 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   Droplet.vcxproj -> D:\Storage\Daniil\gorenie_version\droplet_linux\VS2022\Droplet\x64\Release\Droplet.exe
