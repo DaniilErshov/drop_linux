@@ -428,6 +428,7 @@ double  F_rightY_interface( int k_spec, double Vc,
         double YkVk_spec = YkVk[k_spec] + Y_inter[k_spec] * Vc;
         //cout << komponents_str[k_spec] << "\n";
         //cout << "YkVk_spec = " << YkVk_spec / Y_inter[k_spec] << "\n\n";
+
         return  (rho * Y_inter[k_spec] * (u - us) + rho * YkVk_spec);
         
         //double Pf_ = Pf(T_inter);
@@ -1686,8 +1687,12 @@ void set_interface_r_rval( double T_prev, double T_curr, double T_next,
             T_prev, T_curr, T_next,
             r_inter, x_vect[i], x_vect[i + 1],
             u_prev, u_curr, u_next, i) / rho_curr;
-
         rval[my_i_temp] = ypval[my_i_temp] - dYdt;
+        if (t_curr < chem_time) {
+            if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
+                rval[my_i_temp] = ypval[my_i_temp] + pow(10, 8) * Yi[k_spec];
+            }
+        }
         //cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;
         dWdt += ypval[my_i_temp] / my_mol_weight(k_spec);
         my_i_temp++;
@@ -1751,6 +1756,11 @@ void set_rval_gas(double T_prev, double T_curr, double T_next,
                 u_prev, u_curr, u_next, i) / rho;
 
             rval[my_i_temp] = ypval[my_i_temp] - dYdt;
+            if (t_curr < chem_time) {
+                if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
+                    rval[my_i_temp] = ypval[my_i_temp] + pow(10, 8) * Yi[k_spec];
+                }
+            }
            // cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;
             dWdt += ypval[my_i_temp] / my_mol_weight(k_spec);
             my_i_temp++;

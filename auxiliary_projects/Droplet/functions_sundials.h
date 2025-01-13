@@ -188,6 +188,7 @@ extern double abs_tol_u_interf;			//абсолютная погрешность для скорости интерфей
 extern double abs_tol_Y;
 extern double Pf_time;
 extern double chem_time;
+extern set<string> initital_components;
 
 double F_right_u(
     double Tprev, double T, double Tnext, double xprev, double x, double xnext,

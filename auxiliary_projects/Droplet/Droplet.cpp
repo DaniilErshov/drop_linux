@@ -129,6 +129,7 @@ double abs_tol_u_interf;			//абсолютная погрешность для 
 double abs_tol_Y;
 double Pf_time;
 double chem_time;
+set<string> initital_components = { "O2", "N2" };
 
 int main()
 {
@@ -136,7 +137,7 @@ int main()
 
     string windows_path = "..\\..\\auxiliary_projects\\Droplet\\Droplet_sample_dir\\";
     //string confname = "config";
-    string confname = windows_path + "config_YOO";
+    string confname = windows_path + "config";
     //string path_second_start = cwd.string() + "//start_profile";
     string path_second_start = windows_path + "start_profile";
 
@@ -188,6 +189,7 @@ int main()
     WriteLog("Fuel=" + Fuel + "\n");
     if (komponents.find(Fuel) != komponents.end()) {
         WriteLog(Fuel + " found in inp file!\n");
+        initital_components.insert(Fuel);
     }
     else {
         WriteLog(Fuel + " not found in inp file!\n");
