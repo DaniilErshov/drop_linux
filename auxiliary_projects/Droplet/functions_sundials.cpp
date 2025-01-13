@@ -57,7 +57,6 @@ void InitialData(double d_drop, int& Nx, vector<double>& x_vect, vector<Cell_Pro
     Yend[komponents["O2"]] = Y_tmp[komponents["O2"]];
     Yend[komponents[Fuel]] = pow(10, -50);
 
-
     double rho0_d = get_rho(Ystart, T_left, 'd');
     double rho0_g = get_rho(Yend, Tright, 'g');
     double R = ri * pow(rho0_d / rho0_g / 0.062 / phi, 1. / 3.);
@@ -397,7 +396,6 @@ double F_rightY( int k_spec,
     //cout << "slag_diff gas = " << slag_diff << "\n";
     double M = get_rho(Yi, T, 'g') * u;
     double dYdr = (h_left / h / (h + h_left) * Yinext[k_spec] + (h - h_left) / h / h_left * Yi[k_spec] - h / h_left / (h + h_left) * Yiprev[k_spec]);
-    
     return -M * (dYdr)  + slag_chem - slag_diff;
 }
 double get_Qg(double Tval, double Tvalr, double TvalrP, double *Yval, double h, double p) {
@@ -430,11 +428,6 @@ double  F_rightY_interface( int k_spec, double Vc,
         double YkVk_spec = YkVk[k_spec] + Y_inter[k_spec] * Vc;
         //cout << komponents_str[k_spec] << "\n";
         //cout << "YkVk_spec = " << YkVk_spec / Y_inter[k_spec] << "\n\n";
-        if (t_curr < chem_time) {
-            if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
-                return pow(10, 8) * Y_inter[k_spec];
-            }
-        }
         return  (rho * Y_inter[k_spec] * (u - us) + rho * YkVk_spec);
         
         //double Pf_ = Pf(T_inter);
@@ -724,6 +717,7 @@ void makeYstart(double koeff_topl, string fuel, double O2_in, double N2_in, doub
 
 int integrate_All_IDA_M(int N_x) {
 
+
     void* mem;
     N_Vector yy, yp, avtol, cons, id;
     realtype rtol, * yval, * ypval, * atval, * consval, * id_val;
@@ -757,6 +751,7 @@ int integrate_All_IDA_M(int N_x) {
     data->my_tcur = t_curr;
     data->t = t_curr;
     Init_Data(data, N_x, NEQ);
+
 
 
 
@@ -946,11 +941,13 @@ int integrate_All_IDA_M(int N_x) {
         vel_inter = Cell_Properties_inter.vel;
         rho_inter = Cell_Properties_inter.rho;
 
+        
         for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
             Yiprev[k_spec] = Cell_Properties_vector[i - 1].Y[k_spec];
             Yi[k_spec] = Cell_Properties_vector[i].Y[k_spec];
             Yinext[k_spec] = Cell_Properties_vector[i + 1].Y[k_spec];
         }
+
         for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
             Y_inter[k_spec] = Cell_Properties_inter.Y[k_spec];
         }
@@ -1208,7 +1205,7 @@ int integrate_All_IDA_M(int N_x) {
     double W, w_dot;
 
     ofstream params;
-    params.open("params//params.dat");
+    params.open("params\\params.dat");
     params << R"(VARIABLES= "t, s", "D^2", "Mdot", "Qd, J/(s*cm<sup>2", "Qg, J/(s*cm<sup>2", "vel, cm/s", "Mass", "p_inter", "P_heptane", "Pf")" << endl;
     params << "TITLE=\"" << "Graphics" << "\"" << endl;
     double r0 = r_inter;
@@ -1331,7 +1328,6 @@ static int func_All_IDA_M(realtype tres, N_Vector yy, N_Vector yp, N_Vector rr, 
     //    //cout << "u_inter = " << u_inter << "\n";
     //    //cout << "rho_inter = " << rho_inter << "\n";
     //}
-
     if (dt > 0) {
         
         char log_message[200];
@@ -1400,7 +1396,7 @@ static int func_All_IDA_M(realtype tres, N_Vector yy, N_Vector yp, N_Vector rr, 
                 //    }
                 //}
                 Get_molar_cons(Xi, Yi, T_curr);
-                if (func_Pf(t_curr) > 0.99 && t_curr > chem_time) {
+                if (t_curr > chem_time) {
                     chem_vel(Sn, Hn, forward_arr, reverse_arr, equilib_arr,
                         T_curr, Xi, ydot, i);
                 }
@@ -1691,11 +1687,6 @@ void set_interface_r_rval( double T_prev, double T_curr, double T_next,
             r_inter, x_vect[i], x_vect[i + 1],
             u_prev, u_curr, u_next, i) / rho_curr;
 
-        if (t_curr < chem_time) {
-            if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
-                dYdt = -pow(10, 3) * Yi[k_spec];
-            }
-        }
         rval[my_i_temp] = ypval[my_i_temp] - dYdt;
         //cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;
         dWdt += ypval[my_i_temp] / my_mol_weight(k_spec);
@@ -1758,11 +1749,7 @@ void set_rval_gas(double T_prev, double T_curr, double T_next,
                 T_prev, T_curr, T_next,
                 x_vect[i - 1], x_vect[i], x_vect[i + 1],
                 u_prev, u_curr, u_next, i) / rho;
-            if (t_curr < chem_time) {
-                if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
-                    dYdt = -pow(10, 3) * Yi[k_spec];
-                }
-            }
+
             rval[my_i_temp] = ypval[my_i_temp] - dYdt;
            // cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;
             dWdt += ypval[my_i_temp] / my_mol_weight(k_spec);

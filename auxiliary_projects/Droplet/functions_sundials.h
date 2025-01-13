@@ -169,7 +169,6 @@ extern Cell_Properties Cell_rval_inter;
 extern vector<Cell_Properties> Cell_Properties_vector;
 extern vector<Cell_Properties> Cell_prouds_vector;
 extern vector<Cell_Properties> Cell_rval_vector;
-
 extern thread_local double Vc_r, Vc_l, rho_r_diff, rho_l_diff;
 typedef struct {
     int my_numjac;
@@ -181,16 +180,15 @@ typedef struct {
     IO::ChemkinReader* chemkinReader;
 } *UserData;
 
-extern double r_tol;					// относительная погрешность
-extern double abs_tol_T;				// абсолютная погрешность для температуры
-extern double abs_tol_rho;				// абсолютная погрешность для плотности
-extern double abs_tol_u;				// абсолютная погрешность для скорости газа
-extern double abs_tol_u_interf;			// абсолютная погрешность для скорости интерфейса
-extern double abs_tol_Y;			    // абсолютная погрешность для концентраций
+extern double r_tol;			//относительная погрешность
+extern double abs_tol_T;					//абсолютная погрешность для температуры
+extern double abs_tol_rho;				//абсолютная погрешность для плотности
+extern double abs_tol_u;			//абсолютная погрешность для скорости газа
+extern double abs_tol_u_interf;			//абсолютная погрешность для скорости интерфейса
+extern double abs_tol_Y;
 extern double Pf_time;
 extern double chem_time;
 
-extern set<string> initital_components;
 double F_right_u(
     double Tprev, double T, double Tnext, double xprev, double x, double xnext,
     double uprev, double u, double unext,

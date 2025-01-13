@@ -129,7 +129,7 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;WIN64;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;..\..\3rd-party\ChemKinReader\include;..\..\3rd-party\Boost_regex\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;..\..\3rd-party\ChemKinReader\include;..\..\3rd-party\Boost_regex\include;..\..\auxiliary_projects\Droplet\Droplet_sample_dir;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>
@@ -147,7 +147,7 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;WIN64;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
-      <AdditionalIncludeDirectories>..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;..\..\3rd-party\ChemKinReader\include;..\..\3rd-party\Boost_regex\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1\include;..\..\3rd-party\SUNDIALS\SUNDIALS_6_5_1\sundials-6.5.1-win64\include;..\..\3rd-party\ChemKinReader\include;..\..\3rd-party\Boost_regex\include;..\..\auxiliary_projects\Droplet\Droplet_sample_dir;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OpenMPSupport>true</OpenMPSupport>
     </ClCompile>
     <Link>

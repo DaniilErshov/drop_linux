@@ -118,30 +118,30 @@ vector<Cell_Properties> Cell_Properties_vector;
 vector<Cell_Properties> Cell_prouds_vector;
 vector<Cell_Properties> Cell_rval_vector;
 vector<double> ydot_reaction;
+
 ofstream IDA_data_file;
 
-double r_tol;			        // относительная погрешность
-double abs_tol_T;				// абсолютная погрешность для температуры
-double abs_tol_rho;				// абсолютная погрешность для плотности
-double abs_tol_u;			    // абсолютная погрешность для скорости газа
-double abs_tol_u_interf;		// абсолютная погрешность для скорости интерфейса
-double abs_tol_Y;               // абсолютная погрешность для концентраций
+double r_tol;			//относительная погрешность
+double abs_tol_T;					//абсолютная погрешность для температуры
+double abs_tol_rho;				//абсолютная погрешность для плотности
+double abs_tol_u;			//абсолютная погрешность для скорости газа
+double abs_tol_u_interf;			//абсолютная погрешность для скорости интерфейса
+double abs_tol_Y;
 double Pf_time;
 double chem_time;
 
-set<string> initital_components = { "O2", "N2" };
 int main()
 {
     fs::path cwd = fs::current_path();
 
     string windows_path = "..\\..\\auxiliary_projects\\Droplet\\Droplet_sample_dir\\";
     //string confname = "config";
-    string confname = windows_path + "config";
+    string confname = windows_path + "config_YOO";
     //string path_second_start = cwd.string() + "//start_profile";
     string path_second_start = windows_path + "start_profile";
 
     Json::Value config; json_parse_file_or_die(confname, &config);
-    Tstart = config["T_drop"].asDouble(); 
+    Tstart = config["T_drop"].asDouble();
     Tfinish = config["T_gas"].asDouble();
 
     P = config["P"].asDouble() * P_1_atm;
@@ -179,7 +179,7 @@ int main()
     abs_tol_Y = config["abs_tol_Y"].asDouble();                 // абсолютная погрешность для концентраций
     Pf_time = config["Pf_time"].asDouble();
     chem_time = config["chem_time"].asDouble();
-    
+
     time_t start_time, end_time;
     time(&start_time);
 
@@ -188,7 +188,6 @@ int main()
     WriteLog("Fuel=" + Fuel + "\n");
     if (komponents.find(Fuel) != komponents.end()) {
         WriteLog(Fuel + " found in inp file!\n");
-        initital_components.insert(Fuel);
     }
     else {
         WriteLog(Fuel + " not found in inp file!\n");
