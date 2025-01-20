@@ -428,13 +428,17 @@ double  F_rightY_interface( int k_spec, double Vc,
         double YkVk_spec = YkVk[k_spec] + Y_inter[k_spec] * Vc;
         //cout << komponents_str[k_spec] << "\n";
         //cout << "YkVk_spec = " << YkVk_spec / Y_inter[k_spec] << "\n\n";
-
-        return  (rho * Y_inter[k_spec] * (u - us) + rho * YkVk_spec);
+        if (t_curr < chem_time) {
+            if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
+                return pow(10, 8) * Y_inter[k_spec];
+            }
+            else {
+                return  (Y_inter[k_spec] * (u - us) + YkVk_spec);
+            }
+        }
+        return  (Y_inter[k_spec] * (u - us) + YkVk_spec);
         
-        //double Pf_ = Pf(T_inter);
-        //double mol_w = my_mol_weight(komponents[Fuel]);
-        //double W = get_W(Y_inter);
-        //return  Y_inter[k_spec] - (1 - Pf_ / P * mol_w / W);
+
     }
 }
 
@@ -460,12 +464,19 @@ double F_rightY_interface_r(int k_spec,
 
     slag_diff = (rhoYkVk_r * pow(x_r, 2) - rhoYkVk_l * pow(x_l, 2)) / (x_r - x_l) / x / x;
     //slag_diff = (rhoYkVk_r  - rhoYkVk_l) / (x_r - x_l);
-    slag_chem = my_mol_weight(k_spec) * ydot[k_spec];
-    //slag_chem = 0;
+    //slag_chem = my_mol_weight(k_spec) * ydot[k_spec];
+    slag_chem = 0;
     //cout << "slag_chem =  " << slag_chem << "\n";
     //cout << "slag_diff inter_r=  " << slag_diff << "\n";
     double M = get_rho(Yi, T, 'g') * u;
     double dYdr = (h_left / h / (h + h_left) * Yinext[k_spec] + (h - h_left) / h / h_left * Yi[k_spec] - h / h_left / (h + h_left) * Y_inter[k_spec]);
+    //double dYdr = (Yi[k_spec] - Y_inter[k_spec]) / (x - xprev);
+    //if (abs(M * (dYdr)) < pow(10, -10)) {
+    //    M = 0;
+    //}
+    //if (abs(slag_diff) < pow(10, -10)) {
+    //    slag_diff = 0;
+    //}
     return -M * (dYdr) + slag_chem - slag_diff;
 
 }
@@ -587,8 +598,8 @@ void find_diff_slag( double Tcurr, double Tnext, double* Yi, double* Yinext,
 void find_diff_slag_interface(double xprev, double x, double Tcurr, double Tnext, double* Yi, double* Yinext,
     double* Xi, double* Xinext, double* Ykvk_side, double* Y_tmp_side, double* X_tmp_side, double* gradX_side, double& rho_side, double& Vc_side, double p) {
 
-    make_averageY(Y_tmp_side, Yi, Yinext);
-    make_averageY(X_tmp_side, Xi, Xinext);
+    make_averageY(Y_tmp_side, Y_inter, Y_inter);
+    make_averageY(X_tmp_side, X_inter, X_inter);
     get_grad_interpolate(gradX, Xi, Xi_2, Xi_3, x - xprev, p);
     Vc_side = 0;
     rho_side = get_rho(Y_tmp_side, (Tcurr + Tnext) / 2., 'g');
@@ -1224,16 +1235,22 @@ int integrate_All_IDA_M(int N_x) {
         double dt_IdA;
         IDAGetCurrentStep(mem, &dt_IdA);
         cout << "dt_IdA = " << dt_IdA << "\n";
-        tout1_global = 5 * dt_IdA;
+        tout1_global = n_out * dt_IdA;
         if (check_retval(&retval, "IDASolve", 1)) return(1);
         MakePropertiesvectors(Cell_Properties_vector, Cell_Properties_inter, yval, Nx);
-        MakePropertiesvectors(Cell_prouds_vector, Cell_prouds_inter, ypval, Nx);
-        if (iout % n_out == 0) {
-            Write_to_file("ida_result//" + to_string(tout * pow(10, 0)) + "_yval", "yval", Cell_Properties_vector, Cell_Properties_inter);
+        MakePropertiesvectors(Cell_prouds_vector, Cell_prouds_inter, ypval, Nx); {
+           /* Write_to_file("ida_result//" + to_string(tout * pow(10, 0)) + "_yval", "yval", Cell_Properties_vector, Cell_Properties_inter);
             Write_drhodt("ida_result//" + to_string(tout * pow(10, 0)) + "drhodt");
-            Write_to_file("ida_result//" + to_string(tout * pow(10, 0)) + "_ypval", "ypval", Cell_prouds_vector, Cell_prouds_inter);
+            Write_to_file("ida_result//" + to_string(tout * pow(10, 0)) + "_ypval", "ypval", Cell_prouds_vector, Cell_prouds_inter);*/
+            std::ostringstream out;
+            int precision = 12;
+            out << std::fixed << std::setprecision(precision) << tout;
+            string tout_string = out.str();
+            Write_to_file("ida_result//" + tout_string + "_yval", "yval", Cell_Properties_vector, Cell_Properties_inter);
+            Write_drhodt("ida_result//" + tout_string + "drhodt");
+            Write_to_file("ida_result//" + tout_string + "_ypval", "ypval", Cell_prouds_vector, Cell_prouds_inter);
         }
-        if (iout % n_out == 0) {
+        {
             double h = x_vect[1] - x_vect[0];
             params << tout << " " << pow(r_inter / r0, 2) << " " << 4 * Pi * pow(r_inter, 2) * Cell_Properties_inter.rho * Cell_Properties_inter.u<<" "
                 << get_Qd(Cell_Properties_vector[preinter - 2].T, Cell_Properties_vector[preinter - 1].T, Cell_Properties_inter.T, Cell_Properties_inter.Y.data(), h, p_inter) <<" "
@@ -1604,7 +1621,7 @@ void set_interface_rval(double T_prev, double T_curr, double T_next,
     double Cp = get_Cp(num_gas_species, Y_inter, T_inter, 'g');
     int my_i_temp;
     my_i_temp = (i - 1) * count_var_in_cell;
-    get_grad_interpolate(gradX, X_inter, Xi_2, Xi_3, x_vect[i] - x_vect[i - 1], p_inter);
+    get_grad_interpolate(gradX, Xi, Xi_2, Xi_3, x_vect[i] - x_vect[i - 1], p_inter);
     set_Dij_res(T_inter);//Cделать Dij thread_local
     double Vc = 0;
     for (int k = 0; k < num_gas_species; k++) {
@@ -1676,7 +1693,7 @@ void set_interface_r_rval( double T_prev, double T_curr, double T_next,
     r_inter = x_vect[preinter] + (p_inter - 1)* h;
     int my_i_temp = i * (count_var_in_cell);
    // cout << i << " i " << endl;
-    find_diff_slag_interface(x_vect[i - 1], x_vect[i], T_inter, T_inter, Y_inter, Y_inter, X_inter, X_inter, YkVk_l, Y_tmp_l, X_tmp_l, gradX_l, rho_l_diff, Vc_l, p_inter);
+    find_diff_slag_interface(x_vect[i - 1], x_vect[i], T_inter, T_inter, Yi, Yinext, Xi, Xinext, YkVk_l, Y_tmp_l, X_tmp_l, gradX_l, rho_l_diff, Vc_l, p_inter);
     find_diff_slag(T_curr, T_next, Yi, Yinext, Xi, Xinext, YkVk_r, Y_tmp_r, X_tmp_r, gradX_r, rho_r_diff, Vc_r, i, 'r');
     double dWdt = 0;
 
@@ -1690,7 +1707,7 @@ void set_interface_r_rval( double T_prev, double T_curr, double T_next,
         rval[my_i_temp] = ypval[my_i_temp] - dYdt;
         if (t_curr < chem_time) {
             if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
-                rval[my_i_temp] = ypval[my_i_temp] + pow(10, 8) * Yi[k_spec];
+                rval[my_i_temp] = ypval[my_i_temp] + pow(10, 10) * Yi[k_spec];
             }
         }
         //cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;
@@ -1758,7 +1775,7 @@ void set_rval_gas(double T_prev, double T_curr, double T_next,
             rval[my_i_temp] = ypval[my_i_temp] - dYdt;
             if (t_curr < chem_time) {
                 if (initital_components.find(komponents_str[k_spec]) == initital_components.end()) {
-                    rval[my_i_temp] = ypval[my_i_temp] + pow(10, 8) * Yi[k_spec];
+                    rval[my_i_temp] = ypval[my_i_temp] + pow(10, 10) * Yi[k_spec];
                 }
             }
            // cout << rval[my_i_temp] << " i_temp " << my_i_temp << endl;

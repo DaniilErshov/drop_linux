@@ -81,8 +81,8 @@ void get_grad_interpolate(double* gradX, double* Xi, double* Xi_2, double* Xi_3,
     double koeff_3 = (p - 3.) / ((4. - p) * h);
     double r_inter  = x_vect[preinter] + (p_inter - 1.) * h;
     for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
-        gradX[k_spec] = koeff_i * Xi[k_spec] + koeff_2 * Xi_2[k_spec] + koeff_3 * Xi_3[k_spec];
-        //gradX[k_spec] = (Xi_2[k_spec] - X_inter[k_spec]) / (x_vect[preinter + 2] - r_inter);
+        gradX[k_spec] = koeff_i * X_inter[k_spec] + koeff_2 * Xi_2[k_spec] + koeff_3 * Xi_3[k_spec];
+        //gradX[k_spec] = (Xi[k_spec] - X_inter[k_spec]) / (x_vect[preinter + 1] - r_inter);
     }
 }
 

@@ -136,10 +136,10 @@ int main()
     fs::path cwd = fs::current_path();
 
     string windows_path = "..\\..\\auxiliary_projects\\Droplet\\Droplet_sample_dir\\";
-    //string confname = "config";
-    string confname = windows_path + "config";
-    //string path_second_start = cwd.string() + "//start_profile";
-    string path_second_start = windows_path + "start_profile";
+    string confname = "config";
+    //string confname = windows_path + "config";
+    string path_second_start = cwd.string() + "//start_profile";
+    //string path_second_start = windows_path + "start_profile";
 
     Json::Value config; json_parse_file_or_die(confname, &config);
     Tstart = config["T_drop"].asDouble();
@@ -157,13 +157,13 @@ int main()
     need_second_start = config["second_start"].asInt();
 
 
-    //const std::string thermfile = config["therm"].asString();
-    //const std::string transfile = config["tran"].asString();
-    //const std::string chemfile = config["chem"].asString();
+    const std::string thermfile = config["therm"].asString();
+    const std::string transfile = config["tran"].asString();
+    const std::string chemfile = config["chem"].asString();
 
-    const std::string thermfile = windows_path + config["therm"].asString();
-    const std::string transfile = windows_path + config["tran"].asString();
-    const std::string chemfile = windows_path + config["chem"].asString();
+    //const std::string thermfile = windows_path + config["therm"].asString();
+    //const std::string transfile = windows_path + config["tran"].asString();
+    //const std::string chemfile = windows_path + config["chem"].asString();
 
 
     n_out = config["n_out"].asDouble();
