@@ -1,7 +1,0 @@
-import os.path
-
-Import("env")
-
-curr_prog = env.Program('#bin/droplet', Glob('*.cpp') + Glob('Json_reader_cut/*.cc'))
-Default(curr_prog)
-Alias('droplet', curr_prog)

@@ -13,9 +13,9 @@
 	tend: 1,						//конечное время расчета [c]
 	t_out: 1e-8,					//внешний шаг IDA
 	dt_max: 1e-5,					//максимальный шаг IDA
-	n_out: 1,						//каждый n_out шаг будет выводиться файл с профилем
-	initial_dt: 1e-14,				//первый шаг IDA
-	second_start: 0,				//1-запуск не с начала
+	n_out: 50,						//каждый n_out шаг будет выводиться файл с профилем
+	initial_dt: 1e-6,				//первый шаг IDA
+	second_start: 1,				//1-запуск не с начала
 	therm: "therm_YOO.dat",
 	tran: "tran_YOO.dat",
 	chem: "heptane_YOO.inp",

@@ -151,7 +151,8 @@ extern vector<double> x_vect;
 extern vector<double> drhodt_vect;
 extern vector<double>  dTdt_vect;
 extern vector<double>  dWdt_vect;
-extern vector<vector<double>> Vk_vect;
+extern vector<vector<double>> Vk_vect;\
+extern vector<vector<double>> ydot_vect;
 extern vector<double> Vk_inter;
 typedef struct Cell_Properties {
     vector <double> Y;
@@ -367,3 +368,7 @@ void second_start(string name_folder);
 
 void write_setka(string name, const vector<double>& x_vect, int N_x_local);
 void write_params(string name, int Nx_local);
+
+void Make_Yval_from_Cell_Properties_Y(vector<Cell_Properties>& my_Cell_Properties_vector,
+    Cell_Properties& my_Cell_Properties_inter, double* Y, int myNx);
+void Write_to_file_YkVk_ydot(string str);

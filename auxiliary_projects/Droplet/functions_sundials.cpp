@@ -1247,7 +1247,7 @@ int integrate_All_IDA_M(int N_x) {
             out << std::fixed << std::setprecision(precision) << tout;
             string tout_string = out.str();
             Write_to_file("ida_result//" + tout_string + "_yval", "yval", Cell_Properties_vector, Cell_Properties_inter);
-            Write_drhodt("ida_result//" + tout_string + "drhodt");
+            //Write_drhodt("ida_result//" + tout_string + "drhodt");
             Write_to_file("ida_result//" + tout_string + "_ypval", "ypval", Cell_prouds_vector, Cell_prouds_inter);
         }
         {
@@ -1700,6 +1700,7 @@ void set_interface_r_rval( double T_prev, double T_curr, double T_next,
     for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
 
         Vk_vect[i][k_spec] = (YkVk_r[k_spec] + Y_tmp_r[k_spec] * Vc_r) ;
+        ydot_vect[i][k_spec] = ydot[k_spec];
         double dYdt = F_rightY_interface_r(k_spec,
             T_prev, T_curr, T_next,
             r_inter, x_vect[i], x_vect[i + 1],
@@ -1766,7 +1767,8 @@ void set_rval_gas(double T_prev, double T_curr, double T_next,
         int my_i_temp = (i) * count_var_in_cell;
 
         for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
-            //Vk_vect[i][k_spec] = (YkVk_r[k_spec] + Y_tmp_r[k_spec] * Vc_r);
+            Vk_vect[i][k_spec] = (YkVk_r[k_spec] + Y_tmp_r[k_spec] * Vc_r);
+            ydot_vect[i][k_spec] = ydot[k_spec];
             double dYdt = F_rightY(k_spec,
                 T_prev, T_curr, T_next,
                 x_vect[i - 1], x_vect[i], x_vect[i + 1],
@@ -2366,7 +2368,7 @@ void set_size_vectors(int& Nx_local, int& num_gas_species_local) {
     drhodt_vect.resize(Nx_local);
     Vk_vect.resize(Nx_local);
     Vk_inter.resize(num_gas_species_local);
-
+    ydot_vect.resize(Nx_local);
     Cell_Properties_vector.resize(Nx_local); Cell_prouds_vector.resize(Nx_local); Cell_rval_vector.resize(Nx_local);
     dTdt_vect.resize(Nx_local); dWdt_vect.resize(Nx_local);
     for (int i = 0; i < Nx_local; i++) {
@@ -2374,6 +2376,7 @@ void set_size_vectors(int& Nx_local, int& num_gas_species_local) {
         Cell_prouds_vector[i].Y.resize(num_gas_species_local);
         Cell_rval_vector[i].Y.resize(num_gas_species_local);
         Vk_vect[i].resize(num_gas_species_local);
+        ydot_vect[i].resize(num_gas_species_local);
     }
     Cell_Properties_inter.Y.resize(num_gas_species_local); Cell_prouds_inter.Y.resize(num_gas_species_local); Cell_rval_inter.Y.resize(num_gas_species_local);
 }
@@ -2493,11 +2496,11 @@ void second_start(string name_folder) {
     set_size_vectors(Nx, num_gas_species);
 
     // Чтение файла построчно
-    set_Cell_properties_full(name_file_yval, quoted_strings,
-        x_vect, Cell_Properties_vector, Cell_Properties_inter);
-
     set_Cell_properties_full(name_file_ypval, quoted_strings,
         x_vect, Cell_prouds_vector, Cell_prouds_inter);
+
+    set_Cell_properties_full(name_file_yval, quoted_strings,
+        x_vect, Cell_Properties_vector, Cell_Properties_inter);
 
     t_curr = read_tcurr(name_file_yval);
 }
@@ -2527,4 +2530,111 @@ double read_tcurr(string input) {
         WriteLog("Restart time is " + to_string(number) + "\n");
         return number;
     }
+}
+
+
+
+void Make_Yval_From_Cell_Properties(vector<Cell_Properties>& my_Cell_Properties_vector,
+    Cell_Properties& my_Cell_Properties_inter,
+    double* Y, int myNx) {
+    //cout << "i = " << i << "\n";
+    for (int i = 1; i < myNx - 1; i++) {
+        if (i < preinter + 1) {
+            Y[(i)*count_var_in_cell - 4] = my_Cell_Properties_vector[i].T;
+            Y[(i)*count_var_in_cell - 3] = my_Cell_Properties_vector[i].u;
+            Y[(i)*count_var_in_cell - 2] = my_Cell_Properties_vector[i].vel;
+            Y[(i)*count_var_in_cell - 1] = my_Cell_Properties_vector[i].rho;
+        }
+        else {
+            Y[(i + 1) * count_var_in_cell - 4] = my_Cell_Properties_vector[i].T;
+            Y[(i + 1) * count_var_in_cell - 3] = my_Cell_Properties_vector[i].u;
+            Y[(i + 1) * count_var_in_cell - 2] = my_Cell_Properties_vector[i].vel;
+            Y[(i + 1) * count_var_in_cell - 1] = my_Cell_Properties_vector[i].rho;
+        }
+    }
+
+
+    Y[(preinter + 1) * count_var_in_cell - 4] = my_Cell_Properties_inter.T;
+    Y[(preinter + 1) * count_var_in_cell - 3] = my_Cell_Properties_inter.u;
+    Y[(preinter + 1) * count_var_in_cell - 2] = my_Cell_Properties_inter.vel;
+    Y[(preinter + 1) * count_var_in_cell - 1] = my_Cell_Properties_inter.rho;
+    Make_Yval_from_Cell_Properties_Y(my_Cell_Properties_vector, my_Cell_Properties_inter, Y, myNx);
+}
+void Make_Yval_from_Cell_Properties_Y(vector<Cell_Properties>& my_Cell_Properties_vector,
+    Cell_Properties& my_Cell_Properties_inter, double* Y, int myNx) {
+    //cout << "i = " << i << "\n";
+    for (int i = 1; i < myNx - 1; i++) {
+        for (int j = 0; j < num_gas_species; j++) {
+            if (i < preinter + 1) {
+                Y[j + (i - 1) * count_var_in_cell] = my_Cell_Properties_vector[i].Y[j];
+
+            }
+            else {
+                Y[j + (i)*count_var_in_cell] = my_Cell_Properties_vector[i].Y[j];
+            }
+        }
+    }
+    for (int j = 0; j < num_gas_species; j++) {
+        Y[j + (preinter)*count_var_in_cell] = my_Cell_Properties_inter.Y[j];
+    }
+}
+
+
+void Write_to_file_YkVk_ydot(string str) {
+    double x_start, x_finish, D;
+    double rho;
+    ofstream fout;
+
+    string path = "";
+    fs::path cwd = fs::current_path();
+    if (str.find("//") != string::npos) {
+        path = str.substr(0, str.find_last_of("//") + 1);
+    }
+    if (!fs::exists(cwd.string() + "//" + path)) {
+        fs::create_directory(path);
+    }
+
+    fout.open(str + ".dat");
+    string title2 = R"(VARIABLES= "r, cm")";
+    //for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
+    //    title2.append(R"(, "Y_)" + komponents_str[k_spec] + R"(")");
+    //}
+
+    for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
+
+        title2.append(R"(, "YkVK_)" + komponents_str[k_spec] + R"(")");
+    }
+
+    for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
+
+        title2.append(R"(, "ydot_)" + komponents_str[k_spec] + R"(")");
+    }
+    fout << "TITLE=\"" << "Graphics" << "\"" << endl;
+    fout << title2 << endl;
+    for (int i = 0; i < Nx; i++) {
+        if (i == preinter + 1) {
+            double h = x_vect[i] - x_vect[i - 1];
+            double ri = x_vect[preinter] + (p_inter - 1.0) * h;
+            fout << ri;
+            for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
+                fout << " " << Vk_inter[k_spec];
+            }
+
+            for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
+                fout << " " << 0;
+            }
+            fout << endl;
+        }
+        fout << x_vect[i];
+        for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
+            fout << " " << Vk_vect[i][k_spec];
+        }
+
+        for (int k_spec = 0; k_spec < num_gas_species; k_spec++) {
+            fout << " " << ydot_vect[i][k_spec];
+        }
+        fout << endl;
+
+    }
+    fout.close();
 }
