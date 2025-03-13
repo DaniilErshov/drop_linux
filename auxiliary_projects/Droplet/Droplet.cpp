@@ -87,6 +87,11 @@ vector<double> x_vect, Y_vect, T_vect, u_vect, vel_vect, rho_vect;
 vector<double> drhodt_vect;
 vector<vector<double>> Vk_vect;
 vector<vector<double>> ydot_vect;
+
+vector<vector<double>> slag_chem_vect;
+vector<vector<double>> MdYdr_vect;
+vector<vector<double>> slag_diff_vect;
+
 vector<double> Vk_inter;
 vector<double> dTdt_vect;
 vector<double> dWdt_vect;
@@ -136,11 +141,11 @@ int main()
 {
     fs::path cwd = fs::current_path();
 
-    string windows_path = "..\\..\\auxiliary_projects\\Droplet\\Droplet_sample_dir\\";
-    //string confname = "config";
-    string confname = windows_path + "config_YOO";
-    //string path_second_start = cwd.string() + "//start_profile";
-    string path_second_start = windows_path + "start_profile";
+    //string windows_path = "..\\..\\auxiliary_projects\\Droplet\\Droplet_sample_dir\\";
+    string confname = "config";
+    //string confname = windows_path + "config_YOO";
+    string path_second_start = cwd.string() + "//start_profile";
+    //string path_second_start = windows_path + "start_profile";
 
     Json::Value config; json_parse_file_or_die(confname, &config);
     Tstart = config["T_drop"].asDouble();
@@ -157,14 +162,14 @@ int main()
 
     need_second_start = config["second_start"].asInt();
 
-/*
+
     const std::string thermfile = config["therm"].asString();
     const std::string transfile = config["tran"].asString();
-    const std::string chemfile = config["chem"].asString()*/;
+    const std::string chemfile = config["chem"].asString();
 
-    const std::string thermfile = windows_path + config["therm"].asString();
-    const std::string transfile = windows_path + config["tran"].asString();
-    const std::string chemfile = windows_path + config["chem"].asString();
+    //const std::string thermfile = windows_path + config["therm"].asString();
+    //const std::string transfile = windows_path + config["tran"].asString();
+    //const std::string chemfile = windows_path + config["chem"].asString();
 
 
     n_out = config["n_out"].asDouble();

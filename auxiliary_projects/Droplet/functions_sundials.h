@@ -190,6 +190,9 @@ extern double abs_tol_Y;
 extern double Pf_time;
 extern double chem_time;
 extern set<string> initital_components;
+extern vector<vector<double>> slag_chem_vect;
+extern vector<vector<double>> MdYdr_vect;
+extern vector<vector<double>> slag_diff_vect;
 
 double F_right_u(
     double Tprev, double T, double Tnext, double xprev, double x, double xnext,
@@ -369,6 +372,12 @@ void second_start(string name_folder);
 void write_setka(string name, const vector<double>& x_vect, int N_x_local);
 void write_params(string name, int Nx_local);
 
+
+
 void Make_Yval_from_Cell_Properties_Y(vector<Cell_Properties>& my_Cell_Properties_vector,
     Cell_Properties& my_Cell_Properties_inter, double* Y, int myNx);
-void Write_to_file_YkVk_ydot(string str);
+void Write_to_file_slagY(string str);
+
+void Make_Yval_From_Cell_Properties(vector<Cell_Properties>& my_Cell_Properties_vector,
+    Cell_Properties& my_Cell_Properties_inter,
+    double* Y, int myNx);

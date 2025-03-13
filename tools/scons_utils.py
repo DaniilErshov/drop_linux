@@ -152,6 +152,7 @@ class PlatformSpecCluster(PlatformSpec):
             self.ccflags += ' -I./3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/include -I./3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/include'
             self.third_party_libs = [
                     '3rd-party/ChemKinReader/ChemKinReader.a',
+		            '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/cvode/libsundials_cvode.a',
                     '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/ida/libsundials_ida.a',
                     '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/kinsol/libsundials_kinsol.a',
                     '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/nvector/openmp/libsundials_nvecopenmp.a']
@@ -255,6 +256,7 @@ class PlatformSpecDeb64(PlatformSpecNotCluster):
             self.ccflags += ' -I./3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1/include -I./3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/include'
             self.third_party_libs = [
                     '3rd-party/ChemKinReader/ChemKinReader.a',
+                    '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/cvode/libsundials_cvode.a'
                     '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/ida/libsundials_ida.a',
                     '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/kinsol/libsundials_kinsol.a',
                     '3rd-party/SUNDIALS/SUNDIALS_6_5_1/sundials-6.5.1-x86_64/src/nvector/serial/libsundials_nvecserial.a']
